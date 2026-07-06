@@ -1,11 +1,11 @@
 {
- "maj": "2026-07-06 12:35:30",
+ "maj": "2026-07-07 00:47:34",
  "statut": "ACTIF",
  "verdict": null,
- "jour_pilote": 0,
+ "jour_pilote": 1,
  "hash_protocole": "9120f52ae117",
  "source_ok": true,
- "message": "Initialisation terminée. Le pilote démarre demain matin.",
+ "message": "",
  "protocole": {
   "version": "V8.0",
   "mode": "PILOTE_0_EURO",
