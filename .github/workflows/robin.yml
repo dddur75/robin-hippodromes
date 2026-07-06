@@ -1,0 +1,76 @@
+name: Robin des Hippodromes V8
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "initialisation | validation | matin | cotes | soir"
+        required: false
+        default: "initialisation"
+  schedule:
+    - cron: "0 7 * * *"        # matin  (gel des probabilités, avant les cotes)
+    - cron: "*/15 8-20 * * *"  # cotes  (snapshots + verrouillage + sélections)
+    - cron: "45 21 * * *"      # soir   (arrivées, paiement papier, métriques)
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: robin
+  cancel-in-progress: false
+
+jobs:
+  robin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dépendances
+        run: pip install -q requests
+
+      - name: Routage de la commande
+        id: route
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            CMD="${{ github.event.inputs.action }}"
+          elif [ "${{ github.event.schedule }}" = "0 7 * * *" ]; then
+            CMD="matin"
+          elif [ "${{ github.event.schedule }}" = "45 21 * * *" ]; then
+            CMD="soir"
+          else
+            CMD="cotes"
+          fi
+          echo "cmd=${CMD:-initialisation}" >> "$GITHUB_OUTPUT"
+          echo "Commande : ${CMD:-initialisation}"
+
+      - name: Exécution de Robin
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BACKFILL_BUDGET_MIN: "240"
+        run: python -m robin.cli ${{ steps.route.outputs.cmd }}
+
+      - name: Enregistrement (commit + push)
+        run: |
+          git config user.name "robin-bot"
+          git config user.email "robin-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Rien à enregistrer."
+            exit 0
+          fi
+          git commit -m "robin: ${{ steps.route.outputs.cmd }} $(date -u +'%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase && sleep 3
+          done
+          git push
