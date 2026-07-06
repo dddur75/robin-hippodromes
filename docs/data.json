@@ -1,0 +1,19 @@
+{
+ "maj": null,
+ "statut": "NON_INITIALISE",
+ "verdict": null,
+ "jour_pilote": 0,
+ "hash_protocole": null,
+ "source_ok": null,
+ "message": "En attente du premier lancement (workflow « initialisation »).",
+ "protocole": {"version": "V8.0", "mode": "PILOTE_0_EURO"},
+ "n_courses_mesurees": 0,
+ "n_selections": 0,
+ "solde": 1000.0,
+ "roi": 0.0,
+ "delta_brier": 0.0,
+ "derive_pp": 0.0,
+ "temoin_roi": 0.0,
+ "n_brier": 0,
+ "selections_recentes": []
+}

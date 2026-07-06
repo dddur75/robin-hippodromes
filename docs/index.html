@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Robin des Hippodromes — pilote V8</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --noir:#111213;        /* noir satin */
+    --noir-2:#191b1d;
+    --blanc:#f2f1ec;       /* blanc satin */
+    --gris:#8d8d86;
+    --jaune:#d9b44a;       /* jaune signal des tableaux d'affichage */
+    --vert:#6fa97a;
+    --rouge:#c96a5b;
+    --trait:#2a2c2e;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--noir);color:var(--blanc);
+    font:15px/1.55 "Archivo",system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding:0 16px 64px;
+  }
+  .cadre{max-width:860px;margin:0 auto}
+
+  /* ---- en-tête + lice ---- */
+  header{padding:28px 0 14px}
+  .titre{font-weight:800;text-transform:uppercase;letter-spacing:.14em;
+    font-size:clamp(19px,4.5vw,26px)}
+  .sous{color:var(--gris);font-size:12.5px;letter-spacing:.05em;margin-top:2px}
+  .lice{height:7px;margin:14px 0 22px;border-radius:0;
+    background:repeating-linear-gradient(90deg,
+      var(--jaune) 0 26px, transparent 26px 40px);
+    opacity:.85}
+
+  .bandeau{display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+    margin-bottom:20px}
+  .badge{font-size:12px;font-weight:800;letter-spacing:.12em;
+    text-transform:uppercase;padding:6px 12px;border:1px solid var(--trait)}
+  .badge.actif{color:var(--noir);background:var(--jaune);border-color:var(--jaune)}
+  .badge.mort{color:var(--blanc);background:var(--rouge);border-color:var(--rouge)}
+  .badge.attente{color:var(--gris)}
+  .bandeau .info{color:var(--gris);font-size:12.5px}
+
+  /* ---- tuiles : cases de tableau d'affichage ---- */
+  .tuiles{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  @media(min-width:640px){.tuiles{grid-template-columns:repeat(4,1fr)}}
+  .tuile{background:var(--noir-2);border:1px solid var(--trait);
+    border-top:5px solid var(--jaune);padding:14px 14px 16px;min-height:104px}
+  .tuile .etiquette{font-size:10.5px;font-weight:800;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--gris)}
+  .tuile .valeur{font-family:"IBM Plex Mono",monospace;font-weight:600;
+    font-size:clamp(22px,5.5vw,30px);margin-top:8px;
+    font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+  .tuile .unite{font-size:12px;color:var(--gris);font-family:"IBM Plex Mono",monospace}
+  .pos{color:var(--vert)} .neg{color:var(--rouge)}
+
+  .temoin{margin:14px 0 30px;color:var(--gris);font-size:12.5px;
+    font-family:"IBM Plex Mono",monospace}
+  .temoin b{color:var(--blanc);font-weight:600}
+
+  .msg{border:1px solid var(--trait);border-left:5px solid var(--jaune);
+    background:var(--noir-2);padding:12px 14px;margin:0 0 26px;font-size:13.5px}
+
+  /* ---- journal ---- */
+  h2{font-size:12px;font-weight:800;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--gris);margin:0 0 10px}
+  table{width:100%;border-collapse:collapse;font-family:"IBM Plex Mono",monospace;
+    font-size:12.5px;font-variant-numeric:tabular-nums}
+  th{color:var(--gris);font-weight:400;text-align:left;padding:6px 8px;
+    border-bottom:1px solid var(--trait);font-size:10.5px;
+    text-transform:uppercase;letter-spacing:.08em}
+  td{padding:7px 8px;border-bottom:1px solid var(--trait)}
+  td.num,th.num{text-align:right}
+  .vide{color:var(--gris);padding:18px 8px;font-size:13px;
+    font-family:"Archivo",sans-serif}
+  @media(max-width:560px){.masquable{display:none}}
+
+  footer{margin-top:34px;color:var(--gris);font-size:11.5px;
+    font-family:"IBM Plex Mono",monospace;display:flex;flex-wrap:wrap;gap:14px}
+  a{color:var(--jaune)}
+</style>
+</head>
+<body>
+<div class="cadre">
+  <header>
+    <div class="titre">Robin des Hippodromes</div>
+    <div class="sous">Pilote V8 · trot attelé · 0 € engagé · le protocole décide, pas l'humeur</div>
+    <div class="lice" aria-hidden="true"></div>
+    <div class="bandeau">
+      <span class="badge attente" id="badge">chargement…</span>
+      <span class="info" id="jour"></span>
+      <span class="info" id="compteurs"></span>
+    </div>
+  </header>
+
+  <div class="msg" id="msg" hidden></div>
+
+  <section class="tuiles" aria-label="Les quatre métriques du pilote">
+    <div class="tuile"><div class="etiquette">Solde fictif</div>
+      <div class="valeur" id="t-solde">—</div><span class="unite">unités / 1 000</span></div>
+    <div class="tuile"><div class="etiquette">ROI papier</div>
+      <div class="valeur" id="t-roi">—</div><span class="unite">au rapport définitif</span></div>
+    <div class="tuile"><div class="etiquette">Delta Brier</div>
+      <div class="valeur" id="t-brier">—</div><span class="unite">&gt; 0 : Robin bat le marché</span></div>
+    <div class="tuile"><div class="etiquette">Dérive verrouillage</div>
+      <div class="valeur" id="t-derive">—</div><span class="unite">points de %, sélections</span></div>
+  </section>
+
+  <p class="temoin" id="temoin"></p>
+
+  <h2>Journal des sélections papier</h2>
+  <table>
+    <thead><tr>
+      <th>Date</th><th>Cheval</th><th class="masquable">Hippodrome</th>
+      <th class="num">Verrou</th><th class="num masquable">Définitif</th>
+      <th>Issue</th><th class="num">P&amp;L</th>
+    </tr></thead>
+    <tbody id="corps"><tr><td colspan="7" class="vide">Chargement du journal…</td></tr></tbody>
+  </table>
+
+  <footer>
+    <span id="hash"></span><span id="maj"></span>
+    <span>Instrument de mesure — pas un service de pronostics.</span>
+  </footer>
+</div>
+
+<script>
+const fr = (x, d=1) => Number(x).toLocaleString("fr-FR",
+  {minimumFractionDigits:d, maximumFractionDigits:d});
+const signe = (el, v) => { el.classList.toggle("pos", v>0); el.classList.toggle("neg", v<0); };
+
+fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
+  const badge = document.getElementById("badge");
+  const libelles = {NON_INITIALISE:"en attente d'initialisation",
+    INITIALISATION:"constitution des bases", ACTIF:"pilote actif",
+    SUSPENDU_SOURCE:"suspendu — source muette",
+    MORT_NO_SIGNAL:"arrêté — no signal", NO_GO_SOURCE:"no-go source",
+    TERMINE:"pilote terminé"};
+  badge.textContent = libelles[d.statut] || d.statut;
+  badge.className = "badge " + (d.statut==="ACTIF" ? "actif" :
+    (d.statut==="MORT_NO_SIGNAL"||d.statut==="NO_GO_SOURCE") ? "mort" : "attente");
+  if (d.verdict) badge.textContent += " · " + d.verdict;
+
+  if (d.jour_pilote > 0) document.getElementById("jour").textContent =
+    "jour " + d.jour_pilote + " / 90";
+  document.getElementById("compteurs").textContent =
+    d.n_courses_mesurees + " courses mesurées · " +
+    d.n_selections + " sélections / 200";
+
+  const msg = document.getElementById("msg");
+  if (d.message) { msg.textContent = d.message; msg.hidden = false; }
+
+  const solde = document.getElementById("t-solde");
+  solde.textContent = fr(d.solde, 0);
+  signe(solde, d.solde - 1000);
+  const roi = document.getElementById("t-roi");
+  roi.textContent = (d.roi>0?"+":"") + fr(d.roi*100) + " %";
+  signe(roi, d.roi);
+  const brier = document.getElementById("t-brier");
+  brier.textContent = (d.delta_brier>0?"+":"") + fr(d.delta_brier, 4);
+  signe(brier, d.delta_brier);
+  const der = document.getElementById("t-derive");
+  der.textContent = (d.derive_pp>0?"+":"") + fr(d.derive_pp, 2);
+  signe(der, d.derive_pp);
+
+  document.getElementById("temoin").innerHTML = "Témoin naïf « toujours le favori » : ROI <b>" +
+    (d.temoin_roi>0?"+":"") + fr(d.temoin_roi*100) + " %</b> — l'analyse doit faire mieux que lui, sinon elle n'apporte rien.";
+
+  const corps = document.getElementById("corps");
+  corps.innerHTML = "";
+  if (!d.selections_recentes || !d.selections_recentes.length) {
+    corps.innerHTML = '<tr><td colspan="7" class="vide">Aucune sélection pour l\'instant — le filtre value est strict, c\'est voulu.</td></tr>';
+  } else {
+    for (const s of d.selections_recentes) {
+      const issue = {GAGNEE:"✅", PERDUE:"✖️", NON_PARTANT:"↩️", NO_DATA:"∅"}[s.statut] || "…";
+      const pnl = Number(s.pnl || 0);
+      corps.insertAdjacentHTML("beforeend",
+        `<tr><td>${(s.date||"").slice(5)}</td><td>${s.cheval||""}</td>` +
+        `<td class="masquable">${s.hippodrome||""}</td>` +
+        `<td class="num">${s.rapport_verrou||""}</td>` +
+        `<td class="num masquable">${s.rapport_definitif||""}</td>` +
+        `<td>${issue}</td>` +
+        `<td class="num ${pnl>0?"pos":pnl<0?"neg":""}">${pnl>0?"+":""}${fr(pnl,0)}</td></tr>`);
+    }
+  }
+
+  if (d.hash_protocole) document.getElementById("hash").textContent =
+    "protocole " + (d.protocole?.version||"") + " · sha " + d.hash_protocole;
+  if (d.maj) document.getElementById("maj").textContent = "maj " + d.maj;
+}).catch(() => {
+  document.getElementById("badge").textContent = "data.json introuvable";
+});
+</script>
+</body>
+</html>
