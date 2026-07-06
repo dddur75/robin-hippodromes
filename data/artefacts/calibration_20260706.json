@@ -1,0 +1,13 @@
+{
+  "type": "calibration_walkforward",
+  "date_execution": "2026-07-06 12:35:30",
+  "dataset_source": "walkforward.csv",
+  "hash_fichier": "f82c5721cf213c68fecedd7fed61fcfba4efcb0beb1d18a62d1a9a1ebf5bfa00",
+  "n_lignes": 18487,
+  "n_courses": 1474,
+  "temperature_retenue": 3.52,
+  "brier_robin": 0.07298,
+  "brier_marche_final": 0.06352,
+  "delta_brier": -0.00946,
+  "limites": "calibration descriptive sur walk-forward ; aucun backtest de ROI possible (rapports probables historiques inexistants) ; ne constitue ni un edge validé ni un feu vert de mise"
+}

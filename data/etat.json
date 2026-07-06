@@ -1,0 +1,16 @@
+{
+  "statut": "ACTIF",
+  "date_debut_pilote": "2026-07-07",
+  "n_selections": 0,
+  "jours_panne": 0,
+  "audit_j30_fait": false,
+  "backfill": {
+    "derniere_date": "2026-07-05",
+    "terminee": true
+  },
+  "calibration": {
+    "temperature": 3.52,
+    "artefact": "calibration_20260706.json"
+  },
+  "verdict": null
+}
