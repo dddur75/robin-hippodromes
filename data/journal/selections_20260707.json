@@ -22,5 +22,17 @@
   "course": "GU D' HERIPRE",
   "heure_depart": "2026-07-07T15:45:00+02:00",
   "horodatage_verrou": "2026-07-07 15:37:31"
+ },
+ {
+  "numero": 13,
+  "cheval": "INCOGNITO",
+  "prob_robin": 0.21968,
+  "rapport_verrou": 15.0,
+  "value": 3.295,
+  "race_id": "20260707-R5C8",
+  "hippodrome": "CABOURG",
+  "course": "CLAIREFONTAINE",
+  "heure_depart": "2026-07-07T22:30:00+02:00",
+  "horodatage_verrou": "2026-07-07 22:27:36"
  }
 ]
