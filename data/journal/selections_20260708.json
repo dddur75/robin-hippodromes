@@ -10,5 +10,17 @@
   "course": "CASINO PARTOUC.",
   "heure_depart": "2026-07-08T18:30:00+02:00",
   "horodatage_verrou": "2026-07-08 18:23:03"
+ },
+ {
+  "numero": 12,
+  "cheval": "LONGWOOD D'HERIPRE",
+  "prob_robin": 0.71056,
+  "rapport_verrou": 3.8,
+  "value": 2.7,
+  "race_id": "20260708-R9C3",
+  "hippodrome": "CAGNES/MER",
+  "course": "D' OSTENDE",
+  "heure_depart": "2026-07-08T20:20:00+02:00",
+  "horodatage_verrou": "2026-07-08 20:02:44"
  }
 ]
