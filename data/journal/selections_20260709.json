@@ -22,5 +22,17 @@
   "course": "G. & A-L. DREUX",
   "heure_depart": "2026-07-09T16:20:00+02:00",
   "horodatage_verrou": "2026-07-09 16:00:55"
+ },
+ {
+  "numero": 7,
+  "cheval": "MARILOU",
+  "prob_robin": 0.29376,
+  "rapport_verrou": 6.4,
+  "value": 1.88,
+  "race_id": "20260709-R1C6",
+  "hippodrome": "ENGHIEN",
+  "course": "SERGE CHAVATTE",
+  "heure_depart": "2026-07-09T18:58:00+02:00",
+  "horodatage_verrou": "2026-07-09 18:43:54"
  }
 ]
