@@ -8,6 +8,10 @@ sans un GO de la validation, plus rien ne tourne après un verdict.
 Correctif V8.0.1 (07/07/2026) : le job du soir est robuste aux retards
 de cron GitHub (après minuit, il audite la journée de courses précédente).
 
+Correctif V8.0.3 (10/07/2026) : le gel du matin devient immuable — si le
+gel du jour existe déjà, la commande `matin` ne fait rien. On peut donc la
+relancer sans risque (manuellement ou par les sessions de l'après-midi).
+
 Correctif V8.0.2 (10/07/2026) : le job du soir devient auto-rattrapant
 et idempotent. Chaque soir, il audite TOUTES les journées gelées non
 encore auditées (4 jours en arrière maximum), dans l'ordre chronologique,
@@ -180,6 +184,10 @@ def cmd_matin():
     if not _gate(etat, "matin"):
         return
     aujourd_hui = g.maintenant().date()
+    if g.fichier_json_jour("gel", aujourd_hui).exists():
+        print("[matin] gel déjà écrit pour aujourd'hui — aucune action "
+              "(les probabilités gelées sont immuables)")
+        return
     client = PmuClient()
     try:
         gel = guetteur.matin(client, aujourd_hui)
