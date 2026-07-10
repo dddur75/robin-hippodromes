@@ -8,9 +8,9 @@ on:
         required: false
         default: "initialisation"
   schedule:
-    - cron: "0 7 * * *"        # matin  (gel des probabilités, avant les cotes)
-    - cron: "*/15 8-20 * * *"  # cotes  (snapshots + verrouillage + sélections)
-    - cron: "45 21 * * *"      # soir   (arrivées, paiement papier, métriques)
+    - cron: "7 7 * * *"          # matin  (gel des probabilités, avant les cotes)
+    - cron: "4,19,34,49 8-20 * * *"  # cotes (snapshots + verrouillage + sélections)
+    - cron: "23 21 * * *"        # soir   (arrivées, paiement papier, métriques)
 
 permissions:
   contents: write
@@ -41,9 +41,9 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             CMD="${{ github.event.inputs.action }}"
-          elif [ "${{ github.event.schedule }}" = "0 7 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "7 7 * * *" ]; then
             CMD="matin"
-          elif [ "${{ github.event.schedule }}" = "45 21 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "23 21 * * *" ]; then
             CMD="soir"
           else
             CMD="cotes"
