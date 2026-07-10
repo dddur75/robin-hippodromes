@@ -6,9 +6,14 @@ Chaque commande est gardée par l'état du protocole : rien ne tourne
 sans un GO de la validation, plus rien ne tourne après un verdict.
 
 Correctif V8.0.1 (07/07/2026) : le job du soir est robuste aux retards
-de cron GitHub — s'il démarre après minuit (heure de Paris), il audite
-la journée de courses précédente au lieu de chercher un gel inexistant.
-Aucune règle de mesure n'est modifiée.
+de cron GitHub (après minuit, il audite la journée de courses précédente).
+
+Correctif V8.0.2 (10/07/2026) : le job du soir devient auto-rattrapant
+et idempotent. Chaque soir, il audite TOUTES les journées gelées non
+encore auditées (4 jours en arrière maximum), dans l'ordre chronologique,
+et pose un marqueur `audite_YYYYMMDD.json` par journée traitée. Relancer
+la commande ne compte jamais deux fois la même course ni la même
+sélection. Aucune règle de mesure n'est modifiée.
 """
 import os
 import sys
@@ -249,82 +254,130 @@ def cmd_cotes():
 
 
 # -------------------------------------------------------------------- soir
+def _marqueur_audit(date_j):
+    return g.JOURNAL / f"audite_{date_j.strftime('%Y%m%d')}.json"
+
+
+def _journees_a_auditer(date_cible):
+    """Journées gelées, non encore auditées, jusqu'à date_cible (4 max)."""
+    dates = []
+    for p in sorted(g.JOURNAL.glob("gel_*.json")):
+        try:
+            d = dt.datetime.strptime(p.stem.split("_")[1], "%Y%m%d").date()
+        except (IndexError, ValueError):
+            continue
+        if d <= date_cible and not _marqueur_audit(d).exists():
+            dates.append(d)
+    return dates[-4:]
+
+
+def _auditer_journee(client, bases, date_j):
+    """Audite une journée gelée : clôtures, mesures, paiements, bases.
+
+    Retourne (courses_ok, no_data, selections_soldees).
+    """
+    gel = g.charger_json(g.fichier_json_jour("gel", date_j), {})
+    verrous = g.charger_json(g.fichier_json_jour("verrous", date_j), {})
+    selections = g.charger_json(g.fichier_json_jour("selections", date_j), [])
+    courses_jour = no_data = 0
+    selections_soldees = []
+    clotures_ok = set()
+    for rid, race in gel.items():
+        cloture = auditeur.cloturer_course(client, date_j, race,
+                                           verrous.get(rid))
+        if cloture is None:
+            no_data += 1
+            continue
+        clotures_ok.add(rid)
+        courses_jour += 1
+        auditeur.ecrire_mesures(date_j, race, verrous.get(rid), cloture)
+        partants_ok = [p for n, p in race["partants"].items()
+                       if int(n) not in cloture["non_partants"]]
+        bases.integrer_resultat(date_j, race["hippodrome"],
+                                race.get("distance"), partants_ok,
+                                cloture["gagnants"])
+        for sel in [s for s in selections if s["race_id"] == rid]:
+            solde = auditeur.payer_selection(sel, race, cloture)
+            ligne = {
+                "date": date_j.isoformat(), "race_id": rid,
+                "hippodrome": sel["hippodrome"], "course": sel["course"],
+                "heure_depart": sel["heure_depart"], "numero": sel["numero"],
+                "cheval": sel["cheval"], "prob_robin": sel["prob_robin"],
+                "rapport_verrou": sel["rapport_verrou"],
+                "horodatage_verrou": sel["horodatage_verrou"],
+                "correction_de": "", **solde,
+            }
+            g.ajouter_selection(ligne)
+            selections_soldees.append(ligne)
+    for sel in [s for s in selections if s["race_id"] not in clotures_ok]:
+        ligne = {
+            "date": date_j.isoformat(), "race_id": sel["race_id"],
+            "hippodrome": sel["hippodrome"], "course": sel["course"],
+            "heure_depart": sel["heure_depart"], "numero": sel["numero"],
+            "cheval": sel["cheval"], "prob_robin": sel["prob_robin"],
+            "rapport_verrou": sel["rapport_verrou"],
+            "horodatage_verrou": sel["horodatage_verrou"],
+            "resultat": "", "rapport_definitif": "", "pnl": 0.0,
+            "statut": "NO_DATA",
+            "commentaire": "arrivée introuvable — mesure annulée",
+            "correction_de": "",
+        }
+        g.ajouter_selection(ligne)
+        selections_soldees.append(ligne)
+    g.sauver_json(_marqueur_audit(date_j), {
+        "horodatage": g.horodatage(), "courses": courses_jour,
+        "no_data": no_data, "selections": len(selections_soldees)})
+    return courses_jour, no_data, selections_soldees
+
+
 def cmd_soir():
     etat = g.charger_etat()
     if not _gate(etat, "soir"):
         return
     maintenant_dt = g.maintenant()
     date_cible = maintenant_dt.date()
-    # Robustesse aux retards de cron GitHub : si le job du soir démarre
-    # après minuit (heure de Paris), la journée de courses à auditer est
-    # celle de la veille. Le job du soir ne tourne jamais légitimement
-    # le matin, la règle « avant midi = veille » est donc sans ambiguïté.
+    # Robustesse aux retards de cron GitHub : après minuit (heure de
+    # Paris), la journée de courses à auditer est celle de la veille.
     if maintenant_dt.hour < 12:
         date_cible = date_cible - dt.timedelta(days=1)
+
+    a_auditer = _journees_a_auditer(date_cible)
+    if not a_auditer:
+        if _marqueur_audit(date_cible).exists():
+            print(f"[soir] journée {date_cible} déjà auditée — aucune action")
+            return
+        a_auditer = [date_cible]   # aucun gel : bilan honnête à 0 course
+
+    client = PmuClient()
+    source_ok = client.choisir_base()
+    courses_jour = no_data = 0
+    selections_soldees = []
+    if source_ok:
+        bases = g.Bases()
+        for date_j in a_auditer:
+            c, nd, sold = _auditer_journee(client, bases, date_j)
+            courses_jour += c
+            no_data += nd
+            selections_soldees.extend(sold)
+        bases.purger_rolling(date_cible)
+        bases.sauver()
+        etat["jours_panne"] = 0
+        if len(a_auditer) > 1:
+            anciennes = ", ".join(d.strftime("%d/%m")
+                                  for d in a_auditer[:-1])
+            messager.info(f"Rattrapage automatique : journée(s) {anciennes} "
+                          f"auditée(s) en plus de celle du jour "
+                          f"(cron en retard, aucune donnée perdue).")
+    else:
+        etat["jours_panne"] += 1
+        if etat["jours_panne"] >= PROTOCOLE["panne_jours_max"]:
+            etat["statut"] = "SUSPENDU_SOURCE"
+
     if etat.get("date_debut_pilote"):
         jour = (date_cible
                 - dt.date.fromisoformat(etat["date_debut_pilote"])).days + 1
     else:
         jour = 0
-    gel = g.charger_json(g.fichier_json_jour("gel", date_cible), {})
-    verrous = g.charger_json(g.fichier_json_jour("verrous", date_cible), {})
-    selections = g.charger_json(g.fichier_json_jour("selections", date_cible), [])
-    client = PmuClient()
-    source_ok = client.choisir_base()
-    bases = g.Bases()
-    courses_jour = no_data = 0
-    selections_soldees = []
-    clotures_ok = set()
-    if source_ok:
-        for rid, race in gel.items():
-            cloture = auditeur.cloturer_course(client, date_cible, race,
-                                               verrous.get(rid))
-            if cloture is None:
-                no_data += 1
-                continue
-            clotures_ok.add(rid)
-            courses_jour += 1
-            auditeur.ecrire_mesures(date_cible, race, verrous.get(rid), cloture)
-            partants_ok = [p for n, p in race["partants"].items()
-                           if int(n) not in cloture["non_partants"]]
-            bases.integrer_resultat(date_cible, race["hippodrome"],
-                                    race.get("distance"), partants_ok,
-                                    cloture["gagnants"])
-            for sel in [s for s in selections if s["race_id"] == rid]:
-                solde = auditeur.payer_selection(sel, race, cloture)
-                ligne = {
-                    "date": date_cible.isoformat(), "race_id": rid,
-                    "hippodrome": sel["hippodrome"], "course": sel["course"],
-                    "heure_depart": sel["heure_depart"], "numero": sel["numero"],
-                    "cheval": sel["cheval"], "prob_robin": sel["prob_robin"],
-                    "rapport_verrou": sel["rapport_verrou"],
-                    "horodatage_verrou": sel["horodatage_verrou"],
-                    "correction_de": "", **solde,
-                }
-                g.ajouter_selection(ligne)
-                selections_soldees.append(ligne)
-        for sel in [s for s in selections if s["race_id"] not in clotures_ok]:
-            ligne = {
-                "date": date_cible.isoformat(), "race_id": sel["race_id"],
-                "hippodrome": sel["hippodrome"], "course": sel["course"],
-                "heure_depart": sel["heure_depart"], "numero": sel["numero"],
-                "cheval": sel["cheval"], "prob_robin": sel["prob_robin"],
-                "rapport_verrou": sel["rapport_verrou"],
-                "horodatage_verrou": sel["horodatage_verrou"],
-                "resultat": "", "rapport_definitif": "", "pnl": 0.0,
-                "statut": "NO_DATA",
-                "commentaire": "arrivée introuvable — mesure annulée",
-                "correction_de": "",
-            }
-            g.ajouter_selection(ligne)
-            selections_soldees.append(ligne)
-        bases.purger_rolling(date_cible)
-        bases.sauver()
-        etat["jours_panne"] = 0
-    else:
-        etat["jours_panne"] += 1
-        if etat["jours_panne"] >= PROTOCOLE["panne_jours_max"]:
-            etat["statut"] = "SUSPENDU_SOURCE"
 
     metriques = auditeur.metriques_cumulees()
     etat["n_selections"] = metriques["n_selections"]
