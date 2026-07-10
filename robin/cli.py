@@ -4,6 +4,11 @@
 Commandes : validation · initialisation · matin · cotes · soir
 Chaque commande est gardée par l'état du protocole : rien ne tourne
 sans un GO de la validation, plus rien ne tourne après un verdict.
+
+Correctif V8.0.1 (07/07/2026) : le job du soir est robuste aux retards
+de cron GitHub — s'il démarre après minuit (heure de Paris), il audite
+la journée de courses précédente au lieu de chercher un gel inexistant.
+Aucune règle de mesure n'est modifiée.
 """
 import os
 import sys
@@ -248,10 +253,22 @@ def cmd_soir():
     etat = g.charger_etat()
     if not _gate(etat, "soir"):
         return
-    aujourd_hui = g.maintenant().date()
-    gel = g.charger_json(g.fichier_json_jour("gel", aujourd_hui), {})
-    verrous = g.charger_json(g.fichier_json_jour("verrous", aujourd_hui), {})
-    selections = g.charger_json(g.fichier_json_jour("selections", aujourd_hui), [])
+    maintenant_dt = g.maintenant()
+    date_cible = maintenant_dt.date()
+    # Robustesse aux retards de cron GitHub : si le job du soir démarre
+    # après minuit (heure de Paris), la journée de courses à auditer est
+    # celle de la veille. Le job du soir ne tourne jamais légitimement
+    # le matin, la règle « avant midi = veille » est donc sans ambiguïté.
+    if maintenant_dt.hour < 12:
+        date_cible = date_cible - dt.timedelta(days=1)
+    if etat.get("date_debut_pilote"):
+        jour = (date_cible
+                - dt.date.fromisoformat(etat["date_debut_pilote"])).days + 1
+    else:
+        jour = 0
+    gel = g.charger_json(g.fichier_json_jour("gel", date_cible), {})
+    verrous = g.charger_json(g.fichier_json_jour("verrous", date_cible), {})
+    selections = g.charger_json(g.fichier_json_jour("selections", date_cible), [])
     client = PmuClient()
     source_ok = client.choisir_base()
     bases = g.Bases()
@@ -260,23 +277,23 @@ def cmd_soir():
     clotures_ok = set()
     if source_ok:
         for rid, race in gel.items():
-            cloture = auditeur.cloturer_course(client, aujourd_hui, race,
+            cloture = auditeur.cloturer_course(client, date_cible, race,
                                                verrous.get(rid))
             if cloture is None:
                 no_data += 1
                 continue
             clotures_ok.add(rid)
             courses_jour += 1
-            auditeur.ecrire_mesures(aujourd_hui, race, verrous.get(rid), cloture)
+            auditeur.ecrire_mesures(date_cible, race, verrous.get(rid), cloture)
             partants_ok = [p for n, p in race["partants"].items()
                            if int(n) not in cloture["non_partants"]]
-            bases.integrer_resultat(aujourd_hui, race["hippodrome"],
+            bases.integrer_resultat(date_cible, race["hippodrome"],
                                     race.get("distance"), partants_ok,
                                     cloture["gagnants"])
             for sel in [s for s in selections if s["race_id"] == rid]:
                 solde = auditeur.payer_selection(sel, race, cloture)
                 ligne = {
-                    "date": aujourd_hui.isoformat(), "race_id": rid,
+                    "date": date_cible.isoformat(), "race_id": rid,
                     "hippodrome": sel["hippodrome"], "course": sel["course"],
                     "heure_depart": sel["heure_depart"], "numero": sel["numero"],
                     "cheval": sel["cheval"], "prob_robin": sel["prob_robin"],
@@ -288,7 +305,7 @@ def cmd_soir():
                 selections_soldees.append(ligne)
         for sel in [s for s in selections if s["race_id"] not in clotures_ok]:
             ligne = {
-                "date": aujourd_hui.isoformat(), "race_id": sel["race_id"],
+                "date": date_cible.isoformat(), "race_id": sel["race_id"],
                 "hippodrome": sel["hippodrome"], "course": sel["course"],
                 "heure_depart": sel["heure_depart"], "numero": sel["numero"],
                 "cheval": sel["cheval"], "prob_robin": sel["prob_robin"],
@@ -301,7 +318,7 @@ def cmd_soir():
             }
             g.ajouter_selection(ligne)
             selections_soldees.append(ligne)
-        bases.purger_rolling(aujourd_hui)
+        bases.purger_rolling(date_cible)
         bases.sauver()
         etat["jours_panne"] = 0
     else:
@@ -314,7 +331,6 @@ def cmd_soir():
 
     message_verdict = auditeur.appliquer_critere_de_mort(etat, metriques)
 
-    jour = g.jour_pilote(etat)
     if (jour >= PROTOCOLE["audit_intermediaire_jours"]
             and not etat.get("audit_j30_fait") and not message_verdict):
         etat["audit_j30_fait"] = True
