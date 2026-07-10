@@ -10,5 +10,29 @@
   "course": "DES TOURNESOLS",
   "heure_depart": "2026-07-10T18:30:00+02:00",
   "horodatage_verrou": "2026-07-10 18:22:26"
+ },
+ {
+  "numero": 6,
+  "cheval": "LUKA MODRIC",
+  "prob_robin": 0.25909,
+  "rapport_verrou": 10.0,
+  "value": 2.591,
+  "race_id": "20260710-R1C2",
+  "hippodrome": "CABOURG",
+  "course": "RACE AND CARE",
+  "heure_depart": "2026-07-10T18:58:00+02:00",
+  "horodatage_verrou": "2026-07-10 18:52:33"
+ },
+ {
+  "numero": 3,
+  "cheval": "NIGHT DES FORGES",
+  "prob_robin": 0.18742,
+  "rapport_verrou": 6.7,
+  "value": 1.256,
+  "race_id": "20260710-R7C2",
+  "hippodrome": "CAGNES/MER",
+  "course": "DU MALVAN",
+  "heure_depart": "2026-07-10T19:00:00+02:00",
+  "horodatage_verrou": "2026-07-10 18:52:35"
  }
 ]
