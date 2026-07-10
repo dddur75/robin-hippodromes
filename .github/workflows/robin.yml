@@ -1,5 +1,11 @@
 name: Robin des Hippodromes V8
 
+# Architecture "sessions" (10/07/2026) : GitHub écrête les plannings à haute
+# fréquence. On ne demande plus que 5 réveils par jour ; chaque session de
+# l'après-midi balaye les cotes toutes les 15 min en interne, committe au
+# fil de l'eau, et s'arrête à heure fixe (UTC). Le gel du matin a deux
+# chances (cron dédié + démarrage de session), protégé par son immuabilité.
+
 on:
   workflow_dispatch:
     inputs:
@@ -8,9 +14,11 @@ on:
         required: false
         default: "initialisation"
   schedule:
-    - cron: "7 7 * * *"          # matin  (gel des probabilités, avant les cotes)
-    - cron: "4,19,34,49 8-20 * * *"  # cotes (snapshots + verrouillage + sélections)
-    - cron: "23 21 * * *"        # soir   (arrivées, paiement papier, métriques)
+    - cron: "7 7 * * *"     # matin : gel des probabilités
+    - cron: "50 7 * * *"    # session cotes 1 -> 13:40 UTC
+    - cron: "45 13 * * *"   # session cotes 2 -> 19:35 UTC
+    - cron: "40 19 * * *"   # session cotes 3 -> 21:10 UTC
+    - cron: "23 21 * * *"   # soir : arrivées, paiement, métriques
 
 permissions:
   contents: write
@@ -23,7 +31,7 @@ concurrency:
 jobs:
   robin:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
         with:
@@ -39,17 +47,23 @@ jobs:
       - name: Routage de la commande
         id: route
         run: |
+          FIN=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             CMD="${{ github.event.inputs.action }}"
           elif [ "${{ github.event.schedule }}" = "7 7 * * *" ]; then
             CMD="matin"
-          elif [ "${{ github.event.schedule }}" = "23 21 * * *" ]; then
-            CMD="soir"
+          elif [ "${{ github.event.schedule }}" = "50 7 * * *" ]; then
+            CMD="session"; FIN="1340"
+          elif [ "${{ github.event.schedule }}" = "45 13 * * *" ]; then
+            CMD="session"; FIN="1935"
+          elif [ "${{ github.event.schedule }}" = "40 19 * * *" ]; then
+            CMD="session"; FIN="2110"
           else
-            CMD="cotes"
+            CMD="soir"
           fi
           echo "cmd=${CMD:-initialisation}" >> "$GITHUB_OUTPUT"
-          echo "Commande : ${CMD:-initialisation}"
+          echo "fin=${FIN}" >> "$GITHUB_OUTPUT"
+          echo "Commande : ${CMD:-initialisation} ${FIN:+(fin de session ${FIN} UTC)}"
 
       - name: Exécution de Robin
         env:
@@ -57,20 +71,32 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BACKFILL_BUDGET_MIN: "240"
-        run: python -m robin.cli ${{ steps.route.outputs.cmd }}
-
-      - name: Enregistrement (commit + push)
         run: |
-          git config user.name "robin-bot"
-          git config user.email "robin-bot@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "Rien à enregistrer."
-            exit 0
+          enregistrer() {
+            git config user.name "robin-bot"
+            git config user.email "robin-bot@users.noreply.github.com"
+            git add -A
+            if git diff --cached --quiet; then return 0; fi
+            git commit -m "robin: $1 $(date -u +'%Y-%m-%d %H:%M')"
+            for i in 1 2 3; do
+              if git push; then return 0; fi
+              git pull --rebase && sleep 3
+            done
+            git push || true
+          }
+          CMD="${{ steps.route.outputs.cmd }}"
+          FIN="${{ steps.route.outputs.fin }}"
+          if [ "$CMD" = "session" ]; then
+            python -m robin.cli matin || true
+            enregistrer "matin (session)"
+            while [ $((10#$(date -u +%H%M))) -lt $((10#$FIN)) ]; do
+              python -m robin.cli cotes || true
+              enregistrer "cotes (session)"
+              sleep 900
+            done
+            python -m robin.cli cotes || true
+            enregistrer "cotes (fin de session)"
+          else
+            python -m robin.cli "$CMD"
+            enregistrer "$CMD"
           fi
-          git commit -m "robin: ${{ steps.route.outputs.cmd }} $(date -u +'%Y-%m-%d %H:%M')"
-          for i in 1 2 3; do
-            if git push; then exit 0; fi
-            git pull --rebase && sleep 3
-          done
-          git push
