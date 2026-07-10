@@ -34,5 +34,29 @@
   "course": "DU MALVAN",
   "heure_depart": "2026-07-10T19:00:00+02:00",
   "horodatage_verrou": "2026-07-10 18:52:35"
+ },
+ {
+  "numero": 8,
+  "cheval": "LARAFALE PASMARICK",
+  "prob_robin": 0.14082,
+  "rapport_verrou": 11.0,
+  "value": 1.549,
+  "race_id": "20260710-R1C3",
+  "hippodrome": "CABOURG",
+  "course": "OUEST FRANCE",
+  "heure_depart": "2026-07-10T19:33:00+02:00",
+  "horodatage_verrou": "2026-07-10 19:22:42"
+ },
+ {
+  "numero": 8,
+  "cheval": "MEMORY STAR ELGE",
+  "prob_robin": 0.51137,
+  "rapport_verrou": 7.7,
+  "value": 3.938,
+  "race_id": "20260710-R7C3",
+  "hippodrome": "CAGNES/MER",
+  "course": "LES VESPINS",
+  "heure_depart": "2026-07-10T19:30:00+02:00",
+  "horodatage_verrou": "2026-07-10 19:22:43"
  }
 ]
