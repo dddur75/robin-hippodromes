@@ -426,34 +426,34 @@
   "verrouillee": true
  },
  "20260710-R7C5": {
-  "horodatage": "2026-07-10 20:07:57",
+  "horodatage": "2026-07-10 20:23:00",
   "rapports": {
    "1": {
-    "rapport": 61.0,
+    "rapport": 41.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 9.9,
+    "rapport": 8.6,
     "non_partant": false
    },
    "3": {
-    "rapport": 7.5,
+    "rapport": 11.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 81.0,
+    "rapport": 74.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 5.1,
+    "rapport": 4.3,
     "non_partant": false
    },
    "6": {
-    "rapport": 9.5,
+    "rapport": 9.8,
     "non_partant": false
    },
    "7": {
-    "rapport": 224.0,
+    "rapport": 28.0,
     "non_partant": false
    },
    "8": {
@@ -461,64 +461,65 @@
     "non_partant": false
    },
    "9": {
-    "rapport": 49.0,
-    "non_partant": false
-   },
-   "10": {
-    "rapport": 11.0,
-    "non_partant": false
-   },
-   "11": {
     "rapport": 48.0,
     "non_partant": false
    },
+   "10": {
+    "rapport": 12.0,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 29.0,
+    "non_partant": false
+   },
    "12": {
-    "rapport": 31.0,
+    "rapport": 30.0,
     "non_partant": false
    },
    "13": {
-    "rapport": 42.0,
+    "rapport": 50.0,
     "non_partant": false
    },
    "14": {
-    "rapport": 3.6,
+    "rapport": 3.7,
     "non_partant": false
    },
    "15": {
-    "rapport": 11.0,
+    "rapport": 16.0,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  },
  "20260710-R1C5": {
-  "horodatage": "2026-07-10 20:07:56",
+  "horodatage": "2026-07-10 20:22:59",
   "rapports": {
    "1": {
-    "rapport": 166.0,
+    "rapport": 156.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 24.0,
+    "rapport": 23.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 10.0,
+    "rapport": 9.1,
     "non_partant": false
    },
    "4": {
-    "rapport": 2.8,
+    "rapport": 2.7,
     "non_partant": false
    },
    "5": {
-    "rapport": 9.5,
+    "rapport": 10.0,
     "non_partant": false
    },
    "6": {
-    "rapport": 7.6,
+    "rapport": 8.4,
     "non_partant": false
    },
    "7": {
-    "rapport": 19.0,
+    "rapport": 21.0,
     "non_partant": false
    },
    "8": {
@@ -530,19 +531,19 @@
     "non_partant": false
    },
    "10": {
-    "rapport": 26.0,
+    "rapport": 28.0,
     "non_partant": false
    },
    "11": {
-    "rapport": 16.0,
+    "rapport": 14.0,
     "non_partant": false
    },
    "12": {
-    "rapport": 169.0,
+    "rapport": 140.0,
     "non_partant": false
    },
    "13": {
-    "rapport": 38.0,
+    "rapport": 41.0,
     "non_partant": false
    },
    "14": {
@@ -554,7 +555,68 @@
     "non_partant": false
    },
    "16": {
-    "rapport": 92.0,
+    "rapport": 91.0,
+    "non_partant": false
+   }
+  }
+ },
+ "20260710-R7C6": {
+  "horodatage": "2026-07-10 20:23:01",
+  "rapports": {
+   "1": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 20.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 20.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 2.9,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 4.1,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 3.7,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "13": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "14": {
+    "rapport": 4.5,
     "non_partant": false
    }
   }
