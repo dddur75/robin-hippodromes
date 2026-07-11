@@ -46,5 +46,17 @@
   "course": "DE WASHINGTON",
   "heure_depart": "2026-07-11T14:33:00+02:00",
   "horodatage_verrou": "2026-07-11 14:26:14"
+ },
+ {
+  "numero": 9,
+  "cheval": "KING BABEL",
+  "prob_robin": 0.18296,
+  "rapport_verrou": 15.0,
+  "value": 2.744,
+  "race_id": "20260711-R1C7",
+  "hippodrome": "ENGHIEN",
+  "course": "DE ROMAINVILLE",
+  "heure_depart": "2026-07-11T15:15:00+02:00",
+  "horodatage_verrou": "2026-07-11 14:56:19"
  }
 ]
