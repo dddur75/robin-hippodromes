@@ -701,10 +701,10 @@
   "verrouillee": true
  },
  "20260711-R7C5": {
-  "horodatage": "2026-07-11 20:25:01",
+  "horodatage": "2026-07-11 20:40:03",
   "rapports": {
    "1": {
-    "rapport": 43.0,
+    "rapport": 54.0,
     "non_partant": false
    },
    "2": {
@@ -712,25 +712,26 @@
     "non_partant": false
    },
    "3": {
-    "rapport": 6.1,
+    "rapport": 6.3,
     "non_partant": false
    },
    "4": {
-    "rapport": 5.6,
+    "rapport": 6.2,
     "non_partant": false
    },
    "5": {
-    "rapport": 11.0,
+    "rapport": 9.9,
     "non_partant": false
    },
    "6": {
-    "rapport": 18.0,
+    "rapport": 20.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 4.0,
+    "rapport": 3.6,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
