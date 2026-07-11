@@ -34,5 +34,17 @@
   "course": "PALAIS CHAILLOT",
   "heure_depart": "2026-07-11T13:23:00+02:00",
   "horodatage_verrou": "2026-07-11 13:11:03"
+ },
+ {
+  "numero": 7,
+  "cheval": "GO ON BOY",
+  "prob_robin": 0.5473,
+  "rapport_verrou": 3.7,
+  "value": 2.025,
+  "race_id": "20260711-R1C6",
+  "hippodrome": "ENGHIEN",
+  "course": "DE WASHINGTON",
+  "heure_depart": "2026-07-11T14:33:00+02:00",
+  "horodatage_verrou": "2026-07-11 14:26:14"
  }
 ]
