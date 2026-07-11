@@ -22,5 +22,17 @@
   "course": "JARDIN PLANTES",
   "heure_depart": "2026-07-11T12:43:00+02:00",
   "horodatage_verrou": "2026-07-11 12:25:55"
+ },
+ {
+  "numero": 9,
+  "cheval": "JUST DE L'OISON",
+  "prob_robin": 0.77368,
+  "rapport_verrou": 6.0,
+  "value": 4.642,
+  "race_id": "20260711-R1C4",
+  "hippodrome": "ENGHIEN",
+  "course": "PALAIS CHAILLOT",
+  "heure_depart": "2026-07-11T13:23:00+02:00",
+  "horodatage_verrou": "2026-07-11 13:11:03"
  }
 ]
