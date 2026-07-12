@@ -1,0 +1,14 @@
+[
+ {
+  "numero": 5,
+  "cheval": "MILANO BOCNEUF",
+  "prob_robin": 0.23593,
+  "rapport_verrou": 5.5,
+  "value": 1.298,
+  "race_id": "20260712-R3C4",
+  "hippodrome": "CHATELAILLON",
+  "course": "GRANDE TERRASSE",
+  "heure_depart": "2026-07-12T11:45:00+02:00",
+  "horodatage_verrou": "2026-07-12 11:30:08"
+ }
+]
