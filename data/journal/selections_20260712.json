@@ -22,5 +22,17 @@
   "course": "HOOKER BERRY",
   "heure_depart": "2026-07-12T12:00:00+02:00",
   "horodatage_verrou": "2026-07-12 11:45:13"
+ },
+ {
+  "numero": 6,
+  "cheval": "LILI DU CHERISAY",
+  "prob_robin": 0.39934,
+  "rapport_verrou": 4.2,
+  "value": 1.677,
+  "race_id": "20260712-R3C5",
+  "hippodrome": "CHATELAILLON",
+  "course": "BISTROT GENETTE",
+  "heure_depart": "2026-07-12T12:15:00+02:00",
+  "horodatage_verrou": "2026-07-12 12:00:15"
  }
 ]
