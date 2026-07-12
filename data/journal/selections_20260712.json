@@ -34,5 +34,17 @@
   "course": "BISTROT GENETTE",
   "heure_depart": "2026-07-12T12:15:00+02:00",
   "horodatage_verrou": "2026-07-12 12:00:15"
+ },
+ {
+  "numero": 14,
+  "cheval": "KELRAPIDE DU LUPIN",
+  "prob_robin": 0.75265,
+  "rapport_verrou": 2.0,
+  "value": 1.505,
+  "race_id": "20260712-R3C6",
+  "hippodrome": "CHATELAILLON",
+  "course": "CARREFOUR",
+  "heure_depart": "2026-07-12T12:45:00+02:00",
+  "horodatage_verrou": "2026-07-12 12:30:22"
  }
 ]
