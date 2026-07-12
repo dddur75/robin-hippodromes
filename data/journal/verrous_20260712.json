@@ -904,22 +904,22 @@
   "verrouillee": true
  },
  "20260712-R5C7": {
-  "horodatage": "2026-07-12 18:58:45",
+  "horodatage": "2026-07-12 19:13:47",
   "rapports": {
    "1": {
-    "rapport": 26.0,
+    "rapport": 40.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 3.5,
+    "rapport": 4.3,
     "non_partant": false
    },
    "3": {
-    "rapport": 12.0,
+    "rapport": 7.9,
     "non_partant": false
    },
    "4": {
-    "rapport": 15.0,
+    "rapport": 18.0,
     "non_partant": false
    },
    "5": {
@@ -927,19 +927,19 @@
     "non_partant": true
    },
    "6": {
-    "rapport": 9.5,
+    "rapport": 10.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 1.9,
+    "rapport": 1.7,
     "non_partant": false
    },
    "8": {
-    "rapport": 33.0,
+    "rapport": 42.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 19.0,
+    "rapport": 22.0,
     "non_partant": false
    }
   }
