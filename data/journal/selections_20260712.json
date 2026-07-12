@@ -10,5 +10,17 @@
   "course": "GRANDE TERRASSE",
   "heure_depart": "2026-07-12T11:45:00+02:00",
   "horodatage_verrou": "2026-07-12 11:30:08"
+ },
+ {
+  "numero": 7,
+  "cheval": "MALICE BERRY",
+  "prob_robin": 0.16998,
+  "rapport_verrou": 7.5,
+  "value": 1.275,
+  "race_id": "20260712-R9C7",
+  "hippodrome": "LIGNIERES",
+  "course": "HOOKER BERRY",
+  "heure_depart": "2026-07-12T12:00:00+02:00",
+  "horodatage_verrou": "2026-07-12 11:45:13"
  }
 ]
