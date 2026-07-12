@@ -46,5 +46,17 @@
   "course": "CARREFOUR",
   "heure_depart": "2026-07-12T12:45:00+02:00",
   "horodatage_verrou": "2026-07-12 12:30:22"
+ },
+ {
+  "numero": 8,
+  "cheval": "IBIZA BELLA",
+  "prob_robin": 0.39058,
+  "rapport_verrou": 4.3,
+  "value": 1.679,
+  "race_id": "20260712-R3C8",
+  "hippodrome": "CHATELAILLON",
+  "course": "HYUNDAI BARBIER",
+  "heure_depart": "2026-07-12T13:45:00+02:00",
+  "horodatage_verrou": "2026-07-12 13:30:33"
  }
 ]
