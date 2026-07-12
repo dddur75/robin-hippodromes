@@ -286,22 +286,22 @@
   "verrouillee": true
  },
  "20260712-R3C8": {
-  "horodatage": "2026-07-12 13:00:28",
+  "horodatage": "2026-07-12 13:15:30",
   "rapports": {
    "1": {
-    "rapport": 16.0,
+    "rapport": 15.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 90.0,
+    "rapport": 73.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 9.4,
+    "rapport": 9.1,
     "non_partant": false
    },
    "4": {
-    "rapport": 1.3,
+    "rapport": 1.4,
     "non_partant": false
    },
    "5": {
@@ -317,7 +317,7 @@
     "non_partant": false
    },
    "8": {
-    "rapport": 5.8,
+    "rapport": 5.3,
     "non_partant": false
    }
   }
