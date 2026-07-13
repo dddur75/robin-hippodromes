@@ -10,5 +10,17 @@
   "course": "GUY CANTIN",
   "heure_depart": "2026-07-13T13:00:00+02:00",
   "horodatage_verrou": "2026-07-13 12:43:30"
+ },
+ {
+  "numero": 8,
+  "cheval": "IMPLORA MAUZUN",
+  "prob_robin": 0.22822,
+  "rapport_verrou": 8.9,
+  "value": 2.031,
+  "race_id": "20260713-R5C1",
+  "hippodrome": "CAGNES/MER",
+  "course": "MICALLEF",
+  "heure_depart": "2026-07-13T19:03:00+02:00",
+  "horodatage_verrou": "2026-07-13 18:44:39"
  }
 ]
