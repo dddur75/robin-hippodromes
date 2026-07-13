@@ -34,5 +34,17 @@
   "course": "DE LIEGE",
   "heure_depart": "2026-07-13T19:35:00+02:00",
   "horodatage_verrou": "2026-07-13 19:29:47"
+ },
+ {
+  "numero": 3,
+  "cheval": "LONDON RECALL",
+  "prob_robin": 0.51043,
+  "rapport_verrou": 2.5,
+  "value": 1.276,
+  "race_id": "20260713-R5C3",
+  "hippodrome": "CAGNES/MER",
+  "course": "DE GAND",
+  "heure_depart": "2026-07-13T20:07:00+02:00",
+  "horodatage_verrou": "2026-07-13 19:59:53"
  }
 ]
