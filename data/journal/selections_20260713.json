@@ -1,0 +1,14 @@
+[
+ {
+  "numero": 2,
+  "cheval": "LOVELY MILL",
+  "prob_robin": 0.31764,
+  "rapport_verrou": 6.0,
+  "value": 1.906,
+  "race_id": "20260713-R3C8",
+  "hippodrome": "LE MANS",
+  "course": "GUY CANTIN",
+  "heure_depart": "2026-07-13T13:00:00+02:00",
+  "horodatage_verrou": "2026-07-13 12:43:30"
+ }
+]
