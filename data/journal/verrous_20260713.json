@@ -104,14 +104,14 @@
   "verrouillee": true
  },
  "20260713-R7C2": {
-  "horodatage": "2026-07-13 13:58:33",
+  "horodatage": "2026-07-13 14:13:35",
   "rapports": {
    "1": {
-    "rapport": 1.4,
+    "rapport": 1.6,
     "non_partant": false
    },
    "2": {
-    "rapport": 28.0,
+    "rapport": 4.5,
     "non_partant": false
    },
    "3": {
@@ -123,7 +123,7 @@
     "non_partant": false
    },
    "5": {
-    "rapport": 2.8,
+    "rapport": 5.6,
     "non_partant": false
    },
    "6": {
@@ -131,7 +131,7 @@
     "non_partant": false
    },
    "7": {
-    "rapport": null,
+    "rapport": 6.4,
     "non_partant": false
    },
    "8": {
@@ -147,13 +147,14 @@
     "non_partant": true
    },
    "11": {
-    "rapport": 11.0,
+    "rapport": 47.0,
     "non_partant": false
    },
    "12": {
     "rapport": null,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
