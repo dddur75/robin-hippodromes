@@ -102,5 +102,58 @@
    }
   },
   "verrouillee": true
+ },
+ "20260713-R7C2": {
+  "horodatage": "2026-07-13 13:58:33",
+  "rapports": {
+   "1": {
+    "rapport": 1.4,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 28.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 2.8,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": null,
+    "non_partant": true
+   },
+   "11": {
+    "rapport": 11.0,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": null,
+    "non_partant": false
+   }
+  }
  }
 }
