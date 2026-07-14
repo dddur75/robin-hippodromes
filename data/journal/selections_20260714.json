@@ -1,0 +1,14 @@
+[
+ {
+  "numero": 10,
+  "cheval": "KELLY DU LUPIN",
+  "prob_robin": 0.47494,
+  "rapport_verrou": 3.1,
+  "value": 1.472,
+  "race_id": "20260714-R2C6",
+  "hippodrome": "LANGON-LIBOURNE",
+  "course": "CHATEAU LEHOUL",
+  "heure_depart": "2026-07-14T11:45:00+02:00",
+  "horodatage_verrou": "2026-07-14 11:30:00"
+ }
+]
