@@ -10,5 +10,17 @@
   "course": "CHATEAU LEHOUL",
   "heure_depart": "2026-07-14T11:45:00+02:00",
   "horodatage_verrou": "2026-07-14 11:30:00"
+ },
+ {
+  "numero": 13,
+  "cheval": "IDYLLE EVER",
+  "prob_robin": 0.30699,
+  "rapport_verrou": 6.3,
+  "value": 1.934,
+  "race_id": "20260714-R6C7",
+  "hippodrome": "JULLIANGES",
+  "course": "DE JULLIANGES",
+  "heure_depart": "2026-07-14T12:30:00+02:00",
+  "horodatage_verrou": "2026-07-14 12:15:09"
  }
 ]
