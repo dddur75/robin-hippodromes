@@ -46,5 +46,17 @@
   "course": "BOUTONS D'OR",
   "heure_depart": "2026-07-14T18:47:00+02:00",
   "horodatage_verrou": "2026-07-14 18:41:49"
+ },
+ {
+  "numero": 12,
+  "cheval": "NEPTUNA",
+  "prob_robin": 0.7843,
+  "rapport_verrou": 2.3,
+  "value": 1.804,
+  "race_id": "20260714-R5C7",
+  "hippodrome": "CABOURG",
+  "course": "DES BLEUETS",
+  "heure_depart": "2026-07-14T19:53:00+02:00",
+  "horodatage_verrou": "2026-07-14 19:41:57"
  }
 ]
