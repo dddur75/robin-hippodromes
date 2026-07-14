@@ -34,5 +34,17 @@
   "course": "DYNAVENA",
   "heure_depart": "2026-07-14T12:51:00+02:00",
   "horodatage_verrou": "2026-07-14 12:45:14"
+ },
+ {
+  "numero": 1,
+  "cheval": "MAMBO DU MIREL",
+  "prob_robin": 0.29147,
+  "rapport_verrou": 5.8,
+  "value": 1.691,
+  "race_id": "20260714-R5C5",
+  "hippodrome": "CABOURG",
+  "course": "BOUTONS D'OR",
+  "heure_depart": "2026-07-14T18:47:00+02:00",
+  "horodatage_verrou": "2026-07-14 18:41:49"
  }
 ]
