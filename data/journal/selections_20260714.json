@@ -22,5 +22,17 @@
   "course": "DE JULLIANGES",
   "heure_depart": "2026-07-14T12:30:00+02:00",
   "horodatage_verrou": "2026-07-14 12:15:09"
+ },
+ {
+  "numero": 8,
+  "cheval": "JERENAL D'HAMELINE",
+  "prob_robin": 0.60354,
+  "rapport_verrou": 6.4,
+  "value": 3.863,
+  "race_id": "20260714-R2C8",
+  "hippodrome": "LANGON-LIBOURNE",
+  "course": "DYNAVENA",
+  "heure_depart": "2026-07-14T12:51:00+02:00",
+  "horodatage_verrou": "2026-07-14 12:45:14"
  }
 ]
