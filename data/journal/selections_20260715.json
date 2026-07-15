@@ -46,5 +46,17 @@
   "course": "DU CAMEMBERT",
   "heure_depart": "2026-07-15T16:03:00+02:00",
   "horodatage_verrou": "2026-07-15 15:49:07"
+ },
+ {
+  "numero": 12,
+  "cheval": "IRIS DES ROSEAUX",
+  "prob_robin": 0.54667,
+  "rapport_verrou": 2.3,
+  "value": 1.257,
+  "race_id": "20260715-R1C7",
+  "hippodrome": "LISIEUX",
+  "course": "AU GRD. CHAPEAU",
+  "heure_depart": "2026-07-15T17:48:00+02:00",
+  "horodatage_verrou": "2026-07-15 17:42:02"
  }
 ]
