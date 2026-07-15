@@ -870,26 +870,26 @@
   "verrouillee": true
  },
  "20260715-R10C6": {
-  "horodatage": "2026-07-15 20:42:47",
+  "horodatage": "2026-07-15 20:57:51",
   "rapports": {
    "1": {
     "rapport": null,
     "non_partant": false
    },
    "2": {
-    "rapport": null,
+    "rapport": 17.0,
     "non_partant": false
    },
    "3": {
-    "rapport": null,
+    "rapport": 26.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 14.0,
+    "rapport": 26.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 2.9,
+    "rapport": 6.5,
     "non_partant": false
    },
    "6": {
@@ -897,19 +897,19 @@
     "non_partant": false
    },
    "7": {
-    "rapport": 14.0,
+    "rapport": 4.3,
     "non_partant": false
    },
    "8": {
-    "rapport": null,
+    "rapport": 17.0,
     "non_partant": false
    },
    "9": {
-    "rapport": null,
+    "rapport": 13.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 14.0,
+    "rapport": 4.3,
     "non_partant": false
    },
    "11": {
@@ -917,25 +917,26 @@
     "non_partant": false
    },
    "12": {
-    "rapport": 7.3,
+    "rapport": 17.0,
     "non_partant": false
    },
    "13": {
-    "rapport": 14.0,
+    "rapport": 10.0,
     "non_partant": false
    },
    "14": {
-    "rapport": 2.4,
+    "rapport": 7.4,
     "non_partant": false
    },
    "15": {
     "rapport": null,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  },
  "20260715-R9C5": {
-  "horodatage": "2026-07-15 20:42:46",
+  "horodatage": "2026-07-15 20:57:50",
   "rapports": {
    "1": {
     "rapport": null,
@@ -954,15 +955,15 @@
     "non_partant": false
    },
    "5": {
-    "rapport": 1.4,
+    "rapport": 1.7,
     "non_partant": false
    },
    "6": {
-    "rapport": 2.0,
+    "rapport": 2.4,
     "non_partant": false
    },
    "7": {
-    "rapport": null,
+    "rapport": 4.9,
     "non_partant": false
    },
    "8": {
