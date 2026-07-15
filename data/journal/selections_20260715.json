@@ -10,5 +10,17 @@
   "course": "EQUIP HORSE",
   "heure_depart": "2026-07-15T14:18:00+02:00",
   "horodatage_verrou": "2026-07-15 14:03:50"
+ },
+ {
+  "numero": 6,
+  "cheval": "MALICE DELADOU",
+  "prob_robin": 0.3402,
+  "rapport_verrou": 10.0,
+  "value": 3.402,
+  "race_id": "20260715-R1C2",
+  "hippodrome": "LISIEUX",
+  "course": "DE SAINT DESIR",
+  "heure_depart": "2026-07-15T14:53:00+02:00",
+  "horodatage_verrou": "2026-07-15 14:33:55"
  }
 ]
