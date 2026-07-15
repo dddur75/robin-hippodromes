@@ -22,5 +22,17 @@
   "course": "DE SAINT DESIR",
   "heure_depart": "2026-07-15T14:53:00+02:00",
   "horodatage_verrou": "2026-07-15 14:33:55"
+ },
+ {
+  "numero": 3,
+  "cheval": "LASKOVA",
+  "prob_robin": 0.27264,
+  "rapport_verrou": 7.8,
+  "value": 2.127,
+  "race_id": "20260715-R1C3",
+  "hippodrome": "LISIEUX",
+  "course": "DE REUX",
+  "heure_depart": "2026-07-15T15:28:00+02:00",
+  "horodatage_verrou": "2026-07-15 15:19:02"
  }
 ]
