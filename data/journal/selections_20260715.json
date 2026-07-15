@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 5,
+  "cheval": "NOLDO D'ECHAL",
+  "prob_robin": 0.41287,
+  "rapport_verrou": 4.3,
+  "value": 1.775,
+  "race_id": "20260715-R1C1",
+  "hippodrome": "LISIEUX",
+  "course": "EQUIP HORSE",
+  "heure_depart": "2026-07-15T14:18:00+02:00",
+  "horodatage_verrou": "2026-07-15 14:03:50"
+ }
+]
