@@ -46,5 +46,17 @@
   "course": "MONT-ST-MICHEL",
   "heure_depart": "2026-07-16T14:17:00+02:00",
   "horodatage_verrou": "2026-07-16 14:05:37"
+ },
+ {
+  "numero": 4,
+  "cheval": "KHALIFE DU CHENE",
+  "prob_robin": 0.27704,
+  "rapport_verrou": 10.0,
+  "value": 2.77,
+  "race_id": "20260716-R2C7",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "course": "DU COUESNON",
+  "heure_depart": "2026-07-16T14:52:00+02:00",
+  "horodatage_verrou": "2026-07-16 14:35:44"
  }
 ]
