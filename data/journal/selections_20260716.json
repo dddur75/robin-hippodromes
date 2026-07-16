@@ -22,5 +22,17 @@
   "course": "RACE AND CARE",
   "heure_depart": "2026-07-16T13:10:00+02:00",
   "horodatage_verrou": "2026-07-16 12:50:20"
+ },
+ {
+  "numero": 12,
+  "cheval": "MIZAR DU FEUILLIEN",
+  "prob_robin": 0.20903,
+  "rapport_verrou": 10.0,
+  "value": 2.09,
+  "race_id": "20260716-R2C5",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "course": "AS. PASSERELLE",
+  "heure_depart": "2026-07-16T13:42:00+02:00",
+  "horodatage_verrou": "2026-07-16 13:35:29"
  }
 ]
