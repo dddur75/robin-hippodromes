@@ -10,5 +10,17 @@
   "course": "DE LA SEE",
   "heure_depart": "2026-07-16T12:06:00+02:00",
   "horodatage_verrou": "2026-07-16 11:50:10"
+ },
+ {
+  "numero": 1,
+  "cheval": "MELODIE RAPID",
+  "prob_robin": 0.61897,
+  "rapport_verrou": 2.3,
+  "value": 1.424,
+  "race_id": "20260716-R2C4",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "course": "RACE AND CARE",
+  "heure_depart": "2026-07-16T13:10:00+02:00",
+  "horodatage_verrou": "2026-07-16 12:50:20"
  }
 ]
