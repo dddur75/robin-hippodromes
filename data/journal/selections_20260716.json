@@ -34,5 +34,17 @@
   "course": "AS. PASSERELLE",
   "heure_depart": "2026-07-16T13:42:00+02:00",
   "horodatage_verrou": "2026-07-16 13:35:29"
+ },
+ {
+  "numero": 14,
+  "cheval": "KATIA DE MUZE",
+  "prob_robin": 0.28384,
+  "rapport_verrou": 4.3,
+  "value": 1.221,
+  "race_id": "20260716-R2C6",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "course": "MONT-ST-MICHEL",
+  "heure_depart": "2026-07-16T14:17:00+02:00",
+  "horodatage_verrou": "2026-07-16 14:05:37"
  }
 ]
