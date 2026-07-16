@@ -1,0 +1,14 @@
+[
+ {
+  "numero": 8,
+  "cheval": "NINA DE BAFFAIS",
+  "prob_robin": 0.36229,
+  "rapport_verrou": 5.7,
+  "value": 2.065,
+  "race_id": "20260716-R2C2",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "course": "DE LA SEE",
+  "heure_depart": "2026-07-16T12:06:00+02:00",
+  "horodatage_verrou": "2026-07-16 11:50:10"
+ }
+]

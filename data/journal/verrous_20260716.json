@@ -1,0 +1,56 @@
+{
+ "20260716-R2C2": {
+  "horodatage": "2026-07-16 11:50:10",
+  "rapports": {
+   "1": {
+    "rapport": 59.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 23.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 12.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 27.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 14.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 13.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 5.4,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 5.7,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 44.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 12.0,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 2.6,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": null,
+    "non_partant": true
+   }
+  },
+  "verrouillee": true
+ }
+}
