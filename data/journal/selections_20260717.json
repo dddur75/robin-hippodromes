@@ -10,5 +10,17 @@
   "course": "CIE. FIDUCIAIRE",
   "heure_depart": "2026-07-17T13:43:00+02:00",
   "horodatage_verrou": "2026-07-17 13:30:46"
+ },
+ {
+  "numero": 7,
+  "cheval": "MODIGLIANI",
+  "prob_robin": 0.24788,
+  "rapport_verrou": 15.0,
+  "value": 3.718,
+  "race_id": "20260717-R4C3",
+  "hippodrome": "FEURS",
+  "course": "CHIAVERINA",
+  "heure_depart": "2026-07-17T14:53:00+02:00",
+  "horodatage_verrou": "2026-07-17 14:45:58"
  }
 ]
