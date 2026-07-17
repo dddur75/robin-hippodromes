@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 8,
+  "cheval": "NAUSICAA DES MERS",
+  "prob_robin": 0.41465,
+  "rapport_verrou": 7.1,
+  "value": 2.944,
+  "race_id": "20260717-R4C1",
+  "hippodrome": "FEURS",
+  "course": "CIE. FIDUCIAIRE",
+  "heure_depart": "2026-07-17T13:43:00+02:00",
+  "horodatage_verrou": "2026-07-17 13:30:46"
+ }
+]
