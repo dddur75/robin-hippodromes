@@ -34,5 +34,17 @@
   "course": "MEILLEURTAUX",
   "heure_depart": "2026-07-17T16:03:00+02:00",
   "horodatage_verrou": "2026-07-17 15:46:04"
+ },
+ {
+  "numero": 11,
+  "cheval": "IVANOVITCH EST LA",
+  "prob_robin": 0.18623,
+  "rapport_verrou": 15.0,
+  "value": 2.793,
+  "race_id": "20260717-R4C7",
+  "hippodrome": "FEURS",
+  "course": "BETF",
+  "heure_depart": "2026-07-17T17:13:00+02:00",
+  "horodatage_verrou": "2026-07-17 17:02:02"
  }
 ]
