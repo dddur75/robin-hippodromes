@@ -700,30 +700,30 @@
   "verrouillee": true
  },
  "20260717-R1C6": {
-  "horodatage": "2026-07-17 20:32:40",
+  "horodatage": "2026-07-17 20:47:42",
   "rapports": {
    "1": {
-    "rapport": 2.2,
+    "rapport": 1.7,
     "non_partant": false
    },
    "2": {
-    "rapport": 45.0,
+    "rapport": 60.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 7.2,
+    "rapport": 8.8,
     "non_partant": false
    },
    "4": {
-    "rapport": 11.0,
+    "rapport": 15.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 6.4,
+    "rapport": 8.5,
     "non_partant": false
    },
    "6": {
-    "rapport": 7.5,
+    "rapport": 7.4,
     "non_partant": false
    },
    "7": {
@@ -731,23 +731,84 @@
     "non_partant": true
    },
    "8": {
-    "rapport": 23.0,
+    "rapport": 30.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 15.0,
+    "rapport": 19.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 66.0,
+    "rapport": 51.0,
     "non_partant": false
    },
    "11": {
-    "rapport": 28.0,
+    "rapport": 37.0,
     "non_partant": false
    },
    "12": {
-    "rapport": 38.0,
+    "rapport": 51.0,
+    "non_partant": false
+   }
+  }
+ },
+ "20260717-R6C5": {
+  "horodatage": "2026-07-17 20:47:43",
+  "rapports": {
+   "1": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 1.1,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "13": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "14": {
+    "rapport": null,
     "non_partant": false
    }
   }
