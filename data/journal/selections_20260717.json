@@ -22,5 +22,17 @@
   "course": "CHIAVERINA",
   "heure_depart": "2026-07-17T14:53:00+02:00",
   "horodatage_verrou": "2026-07-17 14:45:58"
+ },
+ {
+  "numero": 2,
+  "cheval": "LANCIA DE LOU",
+  "prob_robin": 0.25333,
+  "rapport_verrou": 5.8,
+  "value": 1.469,
+  "race_id": "20260717-R4C5",
+  "hippodrome": "FEURS",
+  "course": "MEILLEURTAUX",
+  "heure_depart": "2026-07-17T16:03:00+02:00",
+  "horodatage_verrou": "2026-07-17 15:46:04"
  }
 ]
