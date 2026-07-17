@@ -46,5 +46,17 @@
   "course": "BETF",
   "heure_depart": "2026-07-17T17:13:00+02:00",
   "horodatage_verrou": "2026-07-17 17:02:02"
+ },
+ {
+  "numero": 3,
+  "cheval": "NEIVA",
+  "prob_robin": 0.63093,
+  "rapport_verrou": 6.4,
+  "value": 4.038,
+  "race_id": "20260717-R6C1",
+  "hippodrome": "CAGNES/MER",
+  "course": "FONTAINE TREVI",
+  "heure_depart": "2026-07-17T19:20:00+02:00",
+  "horodatage_verrou": "2026-07-17 19:02:19"
  }
 ]
