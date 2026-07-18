@@ -10,5 +10,17 @@
   "course": "PTE. DES LILAS",
   "heure_depart": "2026-07-18T13:23:00+02:00",
   "horodatage_verrou": "2026-07-18 13:11:54"
+ },
+ {
+  "numero": 13,
+  "cheval": "NI OUI NI NON",
+  "prob_robin": 0.13301,
+  "rapport_verrou": 10.0,
+  "value": 1.33,
+  "race_id": "20260718-R1C2",
+  "hippodrome": "ENGHIEN",
+  "course": "DE NOTRE DAME",
+  "heure_depart": "2026-07-18T13:58:00+02:00",
+  "horodatage_verrou": "2026-07-18 13:41:58"
  }
 ]
