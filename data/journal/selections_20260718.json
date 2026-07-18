@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 9,
+  "cheval": "OUIJA BELLA",
+  "prob_robin": 0.18351,
+  "rapport_verrou": 14.0,
+  "value": 2.569,
+  "race_id": "20260718-R1C1",
+  "hippodrome": "ENGHIEN",
+  "course": "PTE. DES LILAS",
+  "heure_depart": "2026-07-18T13:23:00+02:00",
+  "horodatage_verrou": "2026-07-18 13:11:54"
+ }
+]
