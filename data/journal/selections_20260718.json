@@ -34,5 +34,17 @@
   "course": "PTE. MONTMARTRE",
   "heure_depart": "2026-07-18T15:15:00+02:00",
   "horodatage_verrou": "2026-07-18 14:57:03"
+ },
+ {
+  "numero": 8,
+  "cheval": "NELSON DE CHANLECY",
+  "prob_robin": 0.29009,
+  "rapport_verrou": 11.0,
+  "value": 3.191,
+  "race_id": "20260718-R1C5",
+  "hippodrome": "ENGHIEN",
+  "course": "H. CRAVOISIER",
+  "heure_depart": "2026-07-18T15:53:00+02:00",
+  "horodatage_verrou": "2026-07-18 15:42:10"
  }
 ]
