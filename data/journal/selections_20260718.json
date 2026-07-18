@@ -46,5 +46,17 @@
   "course": "H. CRAVOISIER",
   "heure_depart": "2026-07-18T15:53:00+02:00",
   "horodatage_verrou": "2026-07-18 15:42:10"
+ },
+ {
+  "numero": 1,
+  "cheval": "INDIGO DU PERCHE",
+  "prob_robin": 0.17874,
+  "rapport_verrou": 15.0,
+  "value": 2.681,
+  "race_id": "20260718-R1C7",
+  "hippodrome": "ENGHIEN",
+  "course": "PALAIS BOURBON",
+  "heure_depart": "2026-07-18T17:07:00+02:00",
+  "horodatage_verrou": "2026-07-18 16:54:24"
  }
 ]
