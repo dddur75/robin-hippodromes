@@ -22,5 +22,17 @@
   "course": "DE NOTRE DAME",
   "heure_depart": "2026-07-18T13:58:00+02:00",
   "horodatage_verrou": "2026-07-18 13:41:58"
+ },
+ {
+  "numero": 5,
+  "cheval": "JALIMEDE",
+  "prob_robin": 0.33894,
+  "rapport_verrou": 7.8,
+  "value": 2.644,
+  "race_id": "20260718-R1C4",
+  "hippodrome": "ENGHIEN",
+  "course": "PTE. MONTMARTRE",
+  "heure_depart": "2026-07-18T15:15:00+02:00",
+  "horodatage_verrou": "2026-07-18 14:57:03"
  }
 ]
