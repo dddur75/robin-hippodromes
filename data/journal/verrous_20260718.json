@@ -1,13 +1,13 @@
 {
  "20260718-R1C1": {
-  "horodatage": "2026-07-18 12:41:49",
+  "horodatage": "2026-07-18 12:56:51",
   "rapports": {
    "1": {
-    "rapport": 14.0,
+    "rapport": 15.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 8.6,
+    "rapport": 9.2,
     "non_partant": false
    },
    "3": {
@@ -15,23 +15,23 @@
     "non_partant": false
    },
    "4": {
-    "rapport": 30.0,
+    "rapport": 32.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 19.0,
+    "rapport": 21.0,
     "non_partant": false
    },
    "6": {
-    "rapport": 4.2,
+    "rapport": 4.1,
     "non_partant": false
    },
    "7": {
-    "rapport": 10.0,
+    "rapport": 9.2,
     "non_partant": false
    },
    "8": {
-    "rapport": 37.0,
+    "rapport": 40.0,
     "non_partant": false
    },
    "9": {
@@ -39,7 +39,7 @@
     "non_partant": false
    },
    "10": {
-    "rapport": 37.0,
+    "rapport": 43.0,
     "non_partant": false
    }
   }
