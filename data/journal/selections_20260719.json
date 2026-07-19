@@ -22,5 +22,17 @@
   "course": "AS DORE",
   "heure_depart": "2026-07-19T15:00:00+02:00",
   "horodatage_verrou": "2026-07-19 14:46:14"
+ },
+ {
+  "numero": 9,
+  "cheval": "MAJESTE DE TILLARD",
+  "prob_robin": 0.77501,
+  "rapport_verrou": 2.4,
+  "value": 1.86,
+  "race_id": "20260719-R11C4",
+  "hippodrome": "CLAIREFONTAINE",
+  "course": "V.BREVOL (GR.B)",
+  "heure_depart": "2026-07-19T16:00:00+02:00",
+  "horodatage_verrou": "2026-07-19 15:46:25"
  }
 ]
