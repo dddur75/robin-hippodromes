@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 8,
+  "cheval": "NIKITA PHEDO",
+  "prob_robin": 0.11162,
+  "rapport_verrou": 13.0,
+  "value": 1.451,
+  "race_id": "20260719-R11C1",
+  "hippodrome": "CLAIREFONTAINE",
+  "course": "DERBY DU DOLLAR",
+  "heure_depart": "2026-07-19T14:30:00+02:00",
+  "horodatage_verrou": "2026-07-19 14:16:08"
+ }
+]
