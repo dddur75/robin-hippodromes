@@ -34,5 +34,29 @@
   "course": "V.BREVOL (GR.B)",
   "heure_depart": "2026-07-19T16:00:00+02:00",
   "horodatage_verrou": "2026-07-19 15:46:25"
+ },
+ {
+  "numero": 3,
+  "cheval": "HEYDAY",
+  "prob_robin": 0.48308,
+  "rapport_verrou": 3.2,
+  "value": 1.546,
+  "race_id": "20260719-R5C1",
+  "hippodrome": "HYERES",
+  "course": "HIPPO HYERES",
+  "heure_depart": "2026-07-19T16:42:00+02:00",
+  "horodatage_verrou": "2026-07-19 16:41:30"
+ },
+ {
+  "numero": 10,
+  "cheval": "ORLANDO YOUNG",
+  "prob_robin": 0.12354,
+  "rapport_verrou": 14.0,
+  "value": 1.73,
+  "race_id": "20260719-R10C6",
+  "hippodrome": "LA CLAYETTE",
+  "course": "CONSEIL DEPART.",
+  "heure_depart": "2026-07-19T17:00:00+02:00",
+  "horodatage_verrou": "2026-07-19 16:41:31"
  }
 ]
