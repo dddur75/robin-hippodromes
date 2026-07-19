@@ -62,7 +62,7 @@
   "verrouillee": true
  },
  "20260719-R11C2": {
-  "horodatage": "2026-07-19 14:16:09",
+  "horodatage": "2026-07-19 14:31:12",
   "rapports": {
    "1": {
     "rapport": null,
@@ -81,7 +81,7 @@
     "non_partant": false
    },
    "5": {
-    "rapport": 6.4,
+    "rapport": 2.6,
     "non_partant": false
    },
    "6": {
@@ -105,11 +105,11 @@
     "non_partant": false
    },
    "11": {
-    "rapport": 3.2,
+    "rapport": 4.0,
     "non_partant": false
    },
    "12": {
-    "rapport": 6.4,
+    "rapport": 12.0,
     "non_partant": false
    },
    "13": {
@@ -125,7 +125,7 @@
     "non_partant": false
    },
    "16": {
-    "rapport": 1.8,
+    "rapport": 2.1,
     "non_partant": false
    }
   }
