@@ -1,6 +1,6 @@
 {
  "20260719-R11C1": {
-  "horodatage": "2026-07-19 13:46:04",
+  "horodatage": "2026-07-19 14:01:06",
   "rapports": {
    "1": {
     "rapport": null,
@@ -27,27 +27,27 @@
     "non_partant": false
    },
    "7": {
-    "rapport": null,
+    "rapport": 5.4,
     "non_partant": false
    },
    "8": {
-    "rapport": 2.5,
+    "rapport": 13.0,
     "non_partant": false
    },
    "9": {
-    "rapport": null,
+    "rapport": 5.4,
     "non_partant": false
    },
    "10": {
-    "rapport": null,
+    "rapport": 5.4,
     "non_partant": false
    },
    "11": {
-    "rapport": 2.5,
+    "rapport": 4.5,
     "non_partant": false
    },
    "12": {
-    "rapport": null,
+    "rapport": 27.0,
     "non_partant": false
    },
    "13": {
@@ -55,7 +55,7 @@
     "non_partant": false
    },
    "14": {
-    "rapport": 2.5,
+    "rapport": 3.6,
     "non_partant": false
    }
   }
