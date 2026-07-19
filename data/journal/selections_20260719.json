@@ -10,5 +10,17 @@
   "course": "DERBY DU DOLLAR",
   "heure_depart": "2026-07-19T14:30:00+02:00",
   "horodatage_verrou": "2026-07-19 14:16:08"
+ },
+ {
+  "numero": 12,
+  "cheval": "LILI D'EVAILLES",
+  "prob_robin": 0.11681,
+  "rapport_verrou": 11.0,
+  "value": 1.285,
+  "race_id": "20260719-R11C2",
+  "hippodrome": "CLAIREFONTAINE",
+  "course": "AS DORE",
+  "heure_depart": "2026-07-19T15:00:00+02:00",
+  "horodatage_verrou": "2026-07-19 14:46:14"
  }
 ]
