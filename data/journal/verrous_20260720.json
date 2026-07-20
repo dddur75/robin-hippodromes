@@ -403,14 +403,14 @@
   "verrouillee": true
  },
  "20260720-R5C3": {
-  "horodatage": "2026-07-20 19:33:21",
+  "horodatage": "2026-07-20 19:48:23",
   "rapports": {
    "1": {
     "rapport": 34.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 62.0,
+    "rapport": 61.0,
     "non_partant": false
    },
    "3": {
@@ -418,37 +418,38 @@
     "non_partant": true
    },
    "4": {
-    "rapport": 5.8,
+    "rapport": 5.3,
     "non_partant": false
    },
    "5": {
-    "rapport": 3.0,
+    "rapport": 3.2,
     "non_partant": false
    },
    "6": {
-    "rapport": 11.0,
+    "rapport": 8.8,
     "non_partant": false
    },
    "7": {
-    "rapport": 2.8,
+    "rapport": 3.1,
     "non_partant": false
    },
    "8": {
-    "rapport": 20.0,
+    "rapport": 23.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 21.0,
+    "rapport": 19.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 27.0,
+    "rapport": 18.0,
     "non_partant": false
    },
    "11": {
     "rapport": 22.0,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
