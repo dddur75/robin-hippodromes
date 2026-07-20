@@ -46,5 +46,17 @@
   "course": "DE LA CAPELLE",
   "heure_depart": "2026-07-20T18:05:00+02:00",
   "horodatage_verrou": "2026-07-20 17:48:01"
+ },
+ {
+  "numero": 3,
+  "cheval": "KOMPANY VINCENT",
+  "prob_robin": 0.31649,
+  "rapport_verrou": 9.1,
+  "value": 2.88,
+  "race_id": "20260720-R5C1",
+  "hippodrome": "CAGNES/MER",
+  "course": "DE ROME",
+  "heure_depart": "2026-07-20T19:04:00+02:00",
+  "horodatage_verrou": "2026-07-20 18:48:13"
  }
 ]
