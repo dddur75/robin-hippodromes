@@ -34,5 +34,17 @@
   "course": "P'TITES CANAIL.",
   "heure_depart": "2026-07-20T15:45:00+02:00",
   "horodatage_verrou": "2026-07-20 15:32:05"
+ },
+ {
+  "numero": 2,
+  "cheval": "JAGUAR DE LAUMAC",
+  "prob_robin": 0.20146,
+  "rapport_verrou": 7.7,
+  "value": 1.551,
+  "race_id": "20260720-R4C7",
+  "hippodrome": "LA CAPELLE",
+  "course": "DE LA CAPELLE",
+  "heure_depart": "2026-07-20T18:05:00+02:00",
+  "horodatage_verrou": "2026-07-20 17:48:01"
  }
 ]

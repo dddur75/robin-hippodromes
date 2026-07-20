@@ -207,14 +207,14 @@
   }
  },
  "20260720-R4C7": {
-  "horodatage": "2026-07-20 17:32:58",
+  "horodatage": "2026-07-20 17:48:01",
   "rapports": {
    "1": {
-    "rapport": 107.0,
+    "rapport": 113.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 7.3,
+    "rapport": 7.7,
     "non_partant": false
    },
    "3": {
@@ -222,7 +222,7 @@
     "non_partant": false
    },
    "4": {
-    "rapport": 44.0,
+    "rapport": 47.0,
     "non_partant": false
    },
    "5": {
@@ -230,11 +230,11 @@
     "non_partant": false
    },
    "6": {
-    "rapport": 6.3,
+    "rapport": 5.9,
     "non_partant": false
    },
    "7": {
-    "rapport": 10.0,
+    "rapport": 11.0,
     "non_partant": false
    },
    "8": {
@@ -246,9 +246,10 @@
     "non_partant": false
    },
    "10": {
-    "rapport": 60.0,
+    "rapport": 66.0,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
