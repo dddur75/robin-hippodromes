@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 3,
+  "cheval": "JANGO ANGELE",
+  "prob_robin": 0.3556,
+  "rapport_verrou": 7.2,
+  "value": 2.56,
+  "race_id": "20260720-R4C1",
+  "hippodrome": "LA CAPELLE",
+  "course": "LES BOUT'CHOUX",
+  "heure_depart": "2026-07-20T14:35:00+02:00",
+  "horodatage_verrou": "2026-07-20 14:16:50"
+ }
+]
