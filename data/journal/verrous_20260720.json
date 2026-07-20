@@ -36,5 +36,50 @@
    }
   },
   "verrouillee": true
+ },
+ "20260720-R4C2": {
+  "horodatage": "2026-07-20 14:31:53",
+  "rapports": {
+   "1": {
+    "rapport": 10.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 11.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 18.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 26.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 8.1,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 2.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 16.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 5.7,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 57.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 69.0,
+    "non_partant": false
+   }
+  }
  }
 }
