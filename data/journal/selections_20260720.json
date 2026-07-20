@@ -22,5 +22,17 @@
   "course": "P'TITS LOUPS",
   "heure_depart": "2026-07-20T15:10:00+02:00",
   "horodatage_verrou": "2026-07-20 15:01:59"
+ },
+ {
+  "numero": 5,
+  "cheval": "LEAD ME ON",
+  "prob_robin": 0.34964,
+  "rapport_verrou": 6.8,
+  "value": 2.378,
+  "race_id": "20260720-R4C3",
+  "hippodrome": "LA CAPELLE",
+  "course": "P'TITES CANAIL.",
+  "heure_depart": "2026-07-20T15:45:00+02:00",
+  "horodatage_verrou": "2026-07-20 15:32:05"
  }
 ]
