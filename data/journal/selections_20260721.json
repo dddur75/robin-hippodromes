@@ -1,0 +1,14 @@
+[
+ {
+  "numero": 1,
+  "cheval": "NILY UP STAR",
+  "prob_robin": 0.31754,
+  "rapport_verrou": 8.0,
+  "value": 2.54,
+  "race_id": "20260721-R2C2",
+  "hippodrome": "SAINT GALMIER",
+  "course": "PUNCHY",
+  "heure_depart": "2026-07-21T12:24:00+02:00",
+  "horodatage_verrou": "2026-07-21 12:08:45"
+ }
+]
