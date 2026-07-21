@@ -10,5 +10,17 @@
   "course": "PUNCHY",
   "heure_depart": "2026-07-21T12:24:00+02:00",
   "horodatage_verrou": "2026-07-21 12:08:45"
+ },
+ {
+  "numero": 9,
+  "cheval": "KAP PAASLOO",
+  "prob_robin": 0.23959,
+  "rapport_verrou": 7.3,
+  "value": 1.749,
+  "race_id": "20260721-R2C3",
+  "hippodrome": "SAINT GALMIER",
+  "course": "L' AMIRAL MAUZ.",
+  "heure_depart": "2026-07-21T12:56:00+02:00",
+  "horodatage_verrou": "2026-07-21 12:38:49"
  }
 ]
