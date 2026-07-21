@@ -34,5 +34,17 @@
   "course": "ASSE",
   "heure_depart": "2026-07-21T13:28:00+02:00",
   "horodatage_verrou": "2026-07-21 13:08:54"
+ },
+ {
+  "numero": 7,
+  "cheval": "MAMY BLUE TIT",
+  "prob_robin": 0.19421,
+  "rapport_verrou": 13.0,
+  "value": 2.525,
+  "race_id": "20260721-R2C6",
+  "hippodrome": "SAINT GALMIER",
+  "course": "GEBRAZAC",
+  "heure_depart": "2026-07-21T14:35:00+02:00",
+  "horodatage_verrou": "2026-07-21 14:24:01"
  }
 ]
