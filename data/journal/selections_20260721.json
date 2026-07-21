@@ -46,5 +46,17 @@
   "course": "GEBRAZAC",
   "heure_depart": "2026-07-21T14:35:00+02:00",
   "horodatage_verrou": "2026-07-21 14:24:01"
+ },
+ {
+  "numero": 7,
+  "cheval": "MILAZZO",
+  "prob_robin": 0.19465,
+  "rapport_verrou": 11.0,
+  "value": 2.141,
+  "race_id": "20260721-R2C7",
+  "hippodrome": "SAINT GALMIER",
+  "course": "HARMONY DU RAB.",
+  "heure_depart": "2026-07-21T15:10:00+02:00",
+  "horodatage_verrou": "2026-07-21 14:54:06"
  }
 ]
