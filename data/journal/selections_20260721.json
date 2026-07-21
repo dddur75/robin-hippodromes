@@ -22,5 +22,17 @@
   "course": "L' AMIRAL MAUZ.",
   "heure_depart": "2026-07-21T12:56:00+02:00",
   "horodatage_verrou": "2026-07-21 12:38:49"
+ },
+ {
+  "numero": 15,
+  "cheval": "LIBRE D'EMOTION",
+  "prob_robin": 0.1235,
+  "rapport_verrou": 13.0,
+  "value": 1.605,
+  "race_id": "20260721-R2C4",
+  "hippodrome": "SAINT GALMIER",
+  "course": "ASSE",
+  "heure_depart": "2026-07-21T13:28:00+02:00",
+  "horodatage_verrou": "2026-07-21 13:08:54"
  }
 ]
