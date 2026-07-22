@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 6,
+  "cheval": "ORIZON",
+  "prob_robin": 0.59438,
+  "rapport_verrou": 2.4,
+  "value": 1.427,
+  "race_id": "20260722-R1C1",
+  "hippodrome": "ENGHIEN",
+  "course": "PORTE DE CHOISY",
+  "heure_depart": "2026-07-22T14:18:00+02:00",
+  "horodatage_verrou": "2026-07-22 14:08:13"
+ }
+]
