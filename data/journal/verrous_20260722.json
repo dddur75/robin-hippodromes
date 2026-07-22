@@ -543,14 +543,14 @@
   "verrouillee": true
  },
  "20260722-R8C5": {
-  "horodatage": "2026-07-22 20:54:02",
+  "horodatage": "2026-07-22 21:09:04",
   "rapports": {
    "1": {
     "rapport": null,
     "non_partant": true
    },
    "2": {
-    "rapport": null,
+    "rapport": 2.8,
     "non_partant": false
    },
    "3": {
@@ -562,7 +562,7 @@
     "non_partant": true
    },
    "5": {
-    "rapport": 1.7,
+    "rapport": 16.0,
     "non_partant": false
    },
    "6": {
@@ -570,37 +570,38 @@
     "non_partant": false
    },
    "7": {
-    "rapport": null,
+    "rapport": 48.0,
     "non_partant": false
    },
    "8": {
-    "rapport": null,
+    "rapport": 26.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 3.4,
+    "rapport": 8.0,
     "non_partant": false
    },
    "10": {
-    "rapport": null,
+    "rapport": 34.0,
     "non_partant": false
    },
    "11": {
-    "rapport": 3.4,
+    "rapport": 7.5,
     "non_partant": false
    },
    "12": {
-    "rapport": null,
+    "rapport": 2.5,
     "non_partant": false
    },
    "13": {
-    "rapport": null,
+    "rapport": 120.0,
     "non_partant": false
    },
    "14": {
     "rapport": null,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
