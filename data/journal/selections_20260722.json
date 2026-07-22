@@ -22,5 +22,17 @@
   "course": "DE CLIGNANCOURT",
   "heure_depart": "2026-07-22T14:53:00+02:00",
   "horodatage_verrou": "2026-07-22 14:38:18"
+ },
+ {
+  "numero": 8,
+  "cheval": "MOON DES ARRIS",
+  "prob_robin": 0.10877,
+  "rapport_verrou": 14.0,
+  "value": 1.523,
+  "race_id": "20260722-R1C3",
+  "hippodrome": "ENGHIEN",
+  "course": "LA PORTE DIDOT",
+  "heure_depart": "2026-07-22T15:28:00+02:00",
+  "horodatage_verrou": "2026-07-22 15:08:22"
  }
 ]
