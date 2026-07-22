@@ -1,0 +1,43 @@
+{
+ "20260722-R1C1": {
+  "horodatage": "2026-07-22 13:38:08",
+  "rapports": {
+   "1": {
+    "rapport": 5.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 6.3,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 23.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 6.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 10.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 2.3,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 25.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 57.0,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 45.0,
+    "non_partant": false
+   }
+  }
+ }
+}
