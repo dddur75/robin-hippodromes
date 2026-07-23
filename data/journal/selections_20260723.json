@@ -10,5 +10,17 @@
   "course": "YVES MALLET",
   "heure_depart": "2026-07-23T14:15:00+02:00",
   "horodatage_verrou": "2026-07-23 14:06:54"
+ },
+ {
+  "numero": 2,
+  "cheval": "LORETTE UP STAR",
+  "prob_robin": 0.13153,
+  "rapport_verrou": 12.0,
+  "value": 1.578,
+  "race_id": "20260723-R4C2",
+  "hippodrome": "MAUQUENCHY",
+  "course": "ICI NORMANDIE",
+  "heure_depart": "2026-07-23T14:45:00+02:00",
+  "horodatage_verrou": "2026-07-23 14:37:00"
  }
 ]
