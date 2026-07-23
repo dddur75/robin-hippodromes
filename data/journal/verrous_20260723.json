@@ -1,6 +1,6 @@
 {
  "20260723-R4C1": {
-  "horodatage": "2026-07-23 13:36:49",
+  "horodatage": "2026-07-23 13:51:52",
   "rapports": {
    "1": {
     "rapport": 20.0,
@@ -11,43 +11,43 @@
     "non_partant": false
    },
    "3": {
-    "rapport": 20.0,
+    "rapport": 22.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 72.0,
+    "rapport": 71.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 20.0,
+    "rapport": 18.0,
     "non_partant": false
    },
    "6": {
-    "rapport": 3.2,
+    "rapport": 3.1,
     "non_partant": false
    },
    "7": {
-    "rapport": 6.0,
+    "rapport": 5.8,
     "non_partant": false
    },
    "8": {
-    "rapport": 15.0,
+    "rapport": 16.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 74.0,
+    "rapport": 84.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 23.0,
+    "rapport": 25.0,
     "non_partant": false
    },
    "11": {
-    "rapport": 26.0,
+    "rapport": 27.0,
     "non_partant": false
    },
    "12": {
-    "rapport": 90.0,
+    "rapport": 95.0,
     "non_partant": false
    }
   }
