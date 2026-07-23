@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 2,
+  "cheval": "NEW LOOK DU GERS",
+  "prob_robin": 0.64813,
+  "rapport_verrou": 3.0,
+  "value": 1.944,
+  "race_id": "20260723-R4C1",
+  "hippodrome": "MAUQUENCHY",
+  "course": "YVES MALLET",
+  "heure_depart": "2026-07-23T14:15:00+02:00",
+  "horodatage_verrou": "2026-07-23 14:06:54"
+ }
+]
