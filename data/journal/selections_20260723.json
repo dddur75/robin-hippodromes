@@ -22,5 +22,17 @@
   "course": "ICI NORMANDIE",
   "heure_depart": "2026-07-23T14:45:00+02:00",
   "horodatage_verrou": "2026-07-23 14:37:00"
+ },
+ {
+  "numero": 8,
+  "cheval": "MOON ROCQ PIERJI",
+  "prob_robin": 0.54472,
+  "rapport_verrou": 3.1,
+  "value": 1.689,
+  "race_id": "20260723-R4C3",
+  "hippodrome": "MAUQUENCHY",
+  "course": "B. DELAMARRE",
+  "heure_depart": "2026-07-23T15:15:00+02:00",
+  "horodatage_verrou": "2026-07-23 15:07:06"
  }
 ]
