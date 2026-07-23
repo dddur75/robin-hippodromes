@@ -46,5 +46,17 @@
   "course": "ICI PICARDIE",
   "heure_depart": "2026-07-23T15:45:00+02:00",
   "horodatage_verrou": "2026-07-23 15:37:11"
+ },
+ {
+  "numero": 9,
+  "cheval": "JEWEL TOUCH",
+  "prob_robin": 0.12522,
+  "rapport_verrou": 11.0,
+  "value": 1.377,
+  "race_id": "20260723-R5C1",
+  "hippodrome": "PORNICHET",
+  "course": "CAS. PARTOUCHE",
+  "heure_depart": "2026-07-23T18:40:00+02:00",
+  "horodatage_verrou": "2026-07-23 18:29:51"
  }
 ]
