@@ -34,5 +34,17 @@
   "course": "B. DELAMARRE",
   "heure_depart": "2026-07-23T15:15:00+02:00",
   "horodatage_verrou": "2026-07-23 15:07:06"
+ },
+ {
+  "numero": 10,
+  "cheval": "MILLENIUM JOSSELYN",
+  "prob_robin": 0.65101,
+  "rapport_verrou": 6.1,
+  "value": 3.971,
+  "race_id": "20260723-R4C4",
+  "hippodrome": "MAUQUENCHY",
+  "course": "ICI PICARDIE",
+  "heure_depart": "2026-07-23T15:45:00+02:00",
+  "horodatage_verrou": "2026-07-23 15:37:11"
  }
 ]
