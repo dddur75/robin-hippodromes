@@ -46,5 +46,17 @@
   "course": "MICHEL D'ORNANO",
   "heure_depart": "2026-07-24T18:23:00+02:00",
   "horodatage_verrou": "2026-07-24 18:17:19"
+ },
+ {
+  "numero": 6,
+  "cheval": "NINO DE BOMO",
+  "prob_robin": 0.16793,
+  "rapport_verrou": 11.0,
+  "value": 1.847,
+  "race_id": "20260724-R6C2",
+  "hippodrome": "LES SABLES D OLONNE",
+  "course": "MARATIER (G.A)",
+  "heure_depart": "2026-07-24T19:15:00+02:00",
+  "horodatage_verrou": "2026-07-24 19:02:34"
  }
 ]
