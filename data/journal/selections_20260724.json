@@ -1,0 +1,14 @@
+[
+ {
+  "numero": 2,
+  "cheval": "MYRTILLE DE SEE",
+  "prob_robin": 0.24553,
+  "rapport_verrou": 8.3,
+  "value": 2.038,
+  "race_id": "20260724-R2C3",
+  "hippodrome": "LA CAPELLE",
+  "course": "CREATIF'ARTS",
+  "heure_depart": "2026-07-24T12:18:00+02:00",
+  "horodatage_verrou": "2026-07-24 12:00:18"
+ }
+]

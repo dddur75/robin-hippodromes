@@ -1,0 +1,52 @@
+{
+ "20260724-R2C3": {
+  "horodatage": "2026-07-24 12:00:18",
+  "rapports": {
+   "1": {
+    "rapport": 12.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 8.3,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 30.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 4.7,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 4.3,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 35.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 6.3,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 27.0,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 47.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 5.8,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 13.0,
+    "non_partant": false
+   }
+  },
+  "verrouillee": true
+ }
+}
