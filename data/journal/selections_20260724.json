@@ -34,5 +34,17 @@
   "course": "BOLD EAGLE",
   "heure_depart": "2026-07-24T15:10:00+02:00",
   "horodatage_verrou": "2026-07-24 15:00:43"
+ },
+ {
+  "numero": 4,
+  "cheval": "LE LAUREAT DU PARC",
+  "prob_robin": 0.46316,
+  "rapport_verrou": 8.4,
+  "value": 3.891,
+  "race_id": "20260724-R1C1",
+  "hippodrome": "CABOURG",
+  "course": "MICHEL D'ORNANO",
+  "heure_depart": "2026-07-24T18:23:00+02:00",
+  "horodatage_verrou": "2026-07-24 18:17:19"
  }
 ]
