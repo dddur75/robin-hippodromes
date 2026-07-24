@@ -22,5 +22,17 @@
   "course": "HORSY DREAM",
   "heure_depart": "2026-07-24T14:00:00+02:00",
   "horodatage_verrou": "2026-07-24 13:45:30"
+ },
+ {
+  "numero": 3,
+  "cheval": "JERIKA DE KERYANN",
+  "prob_robin": 0.16793,
+  "rapport_verrou": 14.0,
+  "value": 2.351,
+  "race_id": "20260724-R2C8",
+  "hippodrome": "LA CAPELLE",
+  "course": "BOLD EAGLE",
+  "heure_depart": "2026-07-24T15:10:00+02:00",
+  "horodatage_verrou": "2026-07-24 15:00:43"
  }
 ]
