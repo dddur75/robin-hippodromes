@@ -10,5 +10,17 @@
   "course": "CREATIF'ARTS",
   "heure_depart": "2026-07-24T12:18:00+02:00",
   "horodatage_verrou": "2026-07-24 12:00:18"
+ },
+ {
+  "numero": 14,
+  "cheval": "KORONA DU CHIFFRES",
+  "prob_robin": 0.23589,
+  "rapport_verrou": 14.0,
+  "value": 3.302,
+  "race_id": "20260724-R2C6",
+  "hippodrome": "LA CAPELLE",
+  "course": "HORSY DREAM",
+  "heure_depart": "2026-07-24T14:00:00+02:00",
+  "horodatage_verrou": "2026-07-24 13:45:30"
  }
 ]
