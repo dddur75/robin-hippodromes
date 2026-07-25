@@ -22,5 +22,17 @@
   "course": "DU ROULE",
   "heure_depart": "2026-07-25T13:58:00+02:00",
   "horodatage_verrou": "2026-07-25 13:52:04"
+ },
+ {
+  "numero": 5,
+  "cheval": "MISTER YELLOW",
+  "prob_robin": 0.15339,
+  "rapport_verrou": 12.0,
+  "value": 1.841,
+  "race_id": "20260725-R1C3",
+  "hippodrome": "ENGHIEN",
+  "course": "DE CHARONNE",
+  "heure_depart": "2026-07-25T14:33:00+02:00",
+  "horodatage_verrou": "2026-07-25 14:22:09"
  }
 ]
