@@ -1,0 +1,51 @@
+{
+ "20260725-R1C1": {
+  "horodatage": "2026-07-25 12:51:54",
+  "rapports": {
+   "1": {
+    "rapport": 14.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 7.2,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 4.5,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 17.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 35.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 14.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 14.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 2.5,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 29.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 18.0,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 30.0,
+    "non_partant": false
+   }
+  }
+ }
+}
