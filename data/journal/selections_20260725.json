@@ -10,5 +10,17 @@
   "course": "CELLE-ST-CLOUD",
   "heure_depart": "2026-07-25T13:23:00+02:00",
   "horodatage_verrou": "2026-07-25 13:06:57"
+ },
+ {
+  "numero": 12,
+  "cheval": "NAVY SEAL",
+  "prob_robin": 0.15488,
+  "rapport_verrou": 13.0,
+  "value": 2.013,
+  "race_id": "20260725-R1C2",
+  "hippodrome": "ENGHIEN",
+  "course": "DU ROULE",
+  "heure_depart": "2026-07-25T13:58:00+02:00",
+  "horodatage_verrou": "2026-07-25 13:52:04"
  }
 ]
