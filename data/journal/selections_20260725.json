@@ -34,5 +34,17 @@
   "course": "DE CHARONNE",
   "heure_depart": "2026-07-25T14:33:00+02:00",
   "horodatage_verrou": "2026-07-25 14:22:09"
+ },
+ {
+  "numero": 5,
+  "cheval": "MILTON DU NOYER",
+  "prob_robin": 0.61629,
+  "rapport_verrou": 3.1,
+  "value": 1.91,
+  "race_id": "20260725-R1C7",
+  "hippodrome": "ENGHIEN",
+  "course": "FAUB. MONTMART.",
+  "heure_depart": "2026-07-25T16:53:00+02:00",
+  "horodatage_verrou": "2026-07-25 16:49:42"
  }
 ]
