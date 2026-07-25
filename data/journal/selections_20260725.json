@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 7,
+  "cheval": "LIGNE BLANCHE",
+  "prob_robin": 0.13266,
+  "rapport_verrou": 14.0,
+  "value": 1.857,
+  "race_id": "20260725-R1C1",
+  "hippodrome": "ENGHIEN",
+  "course": "CELLE-ST-CLOUD",
+  "heure_depart": "2026-07-25T13:23:00+02:00",
+  "horodatage_verrou": "2026-07-25 13:06:57"
+ }
+]
