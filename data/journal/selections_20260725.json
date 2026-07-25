@@ -46,5 +46,17 @@
   "course": "FAUB. MONTMART.",
   "heure_depart": "2026-07-25T16:53:00+02:00",
   "horodatage_verrou": "2026-07-25 16:49:42"
+ },
+ {
+  "numero": 4,
+  "cheval": "JOELLA BELLA",
+  "prob_robin": 0.53101,
+  "rapport_verrou": 2.4,
+  "value": 1.274,
+  "race_id": "20260725-R4C1",
+  "hippodrome": "LE MANS",
+  "course": "J-CL. RIVAULT",
+  "heure_depart": "2026-07-25T17:10:00+02:00",
+  "horodatage_verrou": "2026-07-25 17:04:45"
  }
 ]
