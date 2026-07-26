@@ -34,5 +34,17 @@
   "course": "DE SOUILLAC",
   "heure_depart": "2026-07-26T14:25:00+02:00",
   "horodatage_verrou": "2026-07-26 14:17:09"
+ },
+ {
+  "numero": 1,
+  "cheval": "NOIRAUD DES GLENAN",
+  "prob_robin": 0.25202,
+  "rapport_verrou": 6.8,
+  "value": 1.714,
+  "race_id": "20260726-R4C1",
+  "hippodrome": "AIX LES BAINS",
+  "course": "ODS RADIO",
+  "heure_depart": "2026-07-26T14:40:00+02:00",
+  "horodatage_verrou": "2026-07-26 14:32:14"
  }
 ]
