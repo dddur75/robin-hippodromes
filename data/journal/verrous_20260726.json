@@ -80,22 +80,22 @@
   "verrouillee": true
  },
  "20260726-R3C5": {
-  "horodatage": "2026-07-26 13:16:57",
+  "horodatage": "2026-07-26 13:32:00",
   "rapports": {
    "1": {
     "rapport": 51.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 94.0,
+    "rapport": 96.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 7.4,
+    "rapport": 7.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 27.0,
+    "rapport": 28.0,
     "non_partant": false
    },
    "5": {
@@ -103,33 +103,34 @@
     "non_partant": false
    },
    "6": {
-    "rapport": 80.0,
+    "rapport": 71.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 22.0,
+    "rapport": 19.0,
     "non_partant": false
    },
    "8": {
-    "rapport": 22.0,
+    "rapport": 24.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 5.7,
+    "rapport": 4.6,
     "non_partant": false
    },
    "10": {
-    "rapport": 16.0,
+    "rapport": 18.0,
     "non_partant": false
    },
    "11": {
-    "rapport": 10.0,
+    "rapport": 11.0,
     "non_partant": false
    },
    "12": {
-    "rapport": 2.0,
+    "rapport": 2.2,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
