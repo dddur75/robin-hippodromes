@@ -439,5 +439,132 @@
     "non_partant": false
    }
   }
+ },
+ "20260726-R4C6": {
+  "horodatage": "2026-07-26 16:51:19",
+  "rapports": {
+   "1": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 34.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 17.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 22.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 22.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 5.7,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 9.8,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 2.8,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 3.4,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "13": {
+    "rapport": 13.0,
+    "non_partant": false
+   }
+  }
+ },
+ "20260726-R8C6": {
+  "horodatage": "2026-07-26 16:51:19",
+  "rapports": {
+   "1": {
+    "rapport": 62.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 36.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 79.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 37.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 11.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 24.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 58.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 17.0,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 24.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 62.0,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 37.0,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": 1.4,
+    "non_partant": false
+   },
+   "13": {
+    "rapport": 16.0,
+    "non_partant": false
+   },
+   "14": {
+    "rapport": 72.0,
+    "non_partant": false
+   },
+   "15": {
+    "rapport": 124.0,
+    "non_partant": false
+   },
+   "16": {
+    "rapport": 97.0,
+    "non_partant": false
+   }
+  },
+  "verrouillee": true
  }
 }
