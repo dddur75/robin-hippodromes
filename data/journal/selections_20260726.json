@@ -1,0 +1,14 @@
+[
+ {
+  "numero": 4,
+  "cheval": "ORYZA",
+  "prob_robin": 0.12794,
+  "rapport_verrou": 13.0,
+  "value": 1.663,
+  "race_id": "20260726-R3C2",
+  "hippodrome": "ENGHIEN",
+  "course": "DE BEZONS",
+  "heure_depart": "2026-07-26T12:02:00+02:00",
+  "horodatage_verrou": "2026-07-26 11:46:47"
+ }
+]
