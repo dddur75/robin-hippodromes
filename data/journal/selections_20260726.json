@@ -22,5 +22,17 @@
   "course": "PORTE POUCHET",
   "heure_depart": "2026-07-26T13:05:00+02:00",
   "horodatage_verrou": "2026-07-26 12:46:52"
+ },
+ {
+  "numero": 8,
+  "cheval": "KULTA",
+  "prob_robin": 0.34029,
+  "rapport_verrou": 15.0,
+  "value": 5.104,
+  "race_id": "20260726-R3C6",
+  "hippodrome": "ENGHIEN",
+  "course": "DE SOUILLAC",
+  "heure_depart": "2026-07-26T14:25:00+02:00",
+  "horodatage_verrou": "2026-07-26 14:17:09"
  }
 ]
