@@ -10,5 +10,17 @@
   "course": "DE BEZONS",
   "heure_depart": "2026-07-26T12:02:00+02:00",
   "horodatage_verrou": "2026-07-26 11:46:47"
+ },
+ {
+  "numero": 7,
+  "cheval": "NOCTAMBULE PIYA",
+  "prob_robin": 0.25182,
+  "rapport_verrou": 11.0,
+  "value": 2.77,
+  "race_id": "20260726-R3C4",
+  "hippodrome": "ENGHIEN",
+  "course": "PORTE POUCHET",
+  "heure_depart": "2026-07-26T13:05:00+02:00",
+  "horodatage_verrou": "2026-07-26 12:46:52"
  }
 ]
