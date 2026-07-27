@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 7,
+  "cheval": "MESANGE DE VAL",
+  "prob_robin": 0.25138,
+  "rapport_verrou": 5.8,
+  "value": 1.458,
+  "race_id": "20260727-R4C1",
+  "hippodrome": "CHATELAILLON",
+  "course": "VOLVO",
+  "heure_depart": "2026-07-27T14:00:00+02:00",
+  "horodatage_verrou": "2026-07-27 13:42:07"
+ }
+]
