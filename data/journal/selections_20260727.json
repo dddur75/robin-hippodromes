@@ -34,5 +34,17 @@
   "course": "BAR LA RENOMMEE",
   "heure_depart": "2026-07-27T15:45:00+02:00",
   "horodatage_verrou": "2026-07-27 15:27:23"
+ },
+ {
+  "numero": 6,
+  "cheval": "KINGSLAYER PELLINI",
+  "prob_robin": 0.68052,
+  "rapport_verrou": 4.3,
+  "value": 2.926,
+  "race_id": "20260727-R5C1",
+  "hippodrome": "CAGNES/MER",
+  "course": "A. ROUCAYROL",
+  "heure_depart": "2026-07-27T18:47:00+02:00",
+  "horodatage_verrou": "2026-07-27 18:33:20"
  }
 ]
