@@ -10,5 +10,17 @@
   "course": "VOLVO",
   "heure_depart": "2026-07-27T14:00:00+02:00",
   "horodatage_verrou": "2026-07-27 13:42:07"
+ },
+ {
+  "numero": 4,
+  "cheval": "NORMAN PIERJI",
+  "prob_robin": 0.85356,
+  "rapport_verrou": 9.0,
+  "value": 7.682,
+  "race_id": "20260727-R4C3",
+  "hippodrome": "CHATELAILLON",
+  "course": "BOUCHERS REG.",
+  "heure_depart": "2026-07-27T15:10:00+02:00",
+  "horodatage_verrou": "2026-07-27 14:57:19"
  }
 ]
