@@ -477,42 +477,108 @@
   "verrouillee": true
  },
  "20260727-R5C6": {
-  "horodatage": "2026-07-27 21:03:46",
+  "horodatage": "2026-07-27 21:18:49",
   "rapports": {
    "1": {
-    "rapport": 25.0,
+    "rapport": 23.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 28.0,
+    "rapport": 33.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 13.0,
+    "rapport": 10.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 29.0,
+    "rapport": 20.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 18.0,
+    "rapport": 10.0,
     "non_partant": false
    },
    "6": {
-    "rapport": 9.4,
+    "rapport": 10.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 18.0,
+    "rapport": 16.0,
     "non_partant": false
    },
    "8": {
-    "rapport": 5.7,
+    "rapport": 4.8,
     "non_partant": false
    },
    "9": {
-    "rapport": 1.6,
+    "rapport": 2.0,
+    "non_partant": false
+   }
+  },
+  "verrouillee": true
+ },
+ "20260727-R5C7": {
+  "horodatage": "2026-07-27 21:18:50",
+  "rapports": {
+   "1": {
+    "rapport": 49.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 11.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 2.9,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 61.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 34.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 19.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 6.5,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 14.0,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 24.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 23.0,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 13.0,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": 15.0,
+    "non_partant": false
+   },
+   "13": {
+    "rapport": 16.0,
+    "non_partant": false
+   },
+   "14": {
+    "rapport": 16.0,
+    "non_partant": false
+   },
+   "15": {
+    "rapport": 15.0,
     "non_partant": false
    }
   }
