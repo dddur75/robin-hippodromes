@@ -80,30 +80,30 @@
   "verrouillee": true
  },
  "20260727-R4C3": {
-  "horodatage": "2026-07-27 14:27:14",
+  "horodatage": "2026-07-27 14:42:17",
   "rapports": {
    "1": {
-    "rapport": 75.0,
+    "rapport": 532.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 11.0,
+    "rapport": 73.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 26.0,
+    "rapport": 187.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 1.5,
+    "rapport": 10.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 13.0,
+    "rapport": 98.0,
     "non_partant": false
    },
    "6": {
-    "rapport": 3.3,
+    "rapport": 1.1,
     "non_partant": false
    }
   }
