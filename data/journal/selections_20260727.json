@@ -22,5 +22,17 @@
   "course": "BOUCHERS REG.",
   "heure_depart": "2026-07-27T15:10:00+02:00",
   "horodatage_verrou": "2026-07-27 14:57:19"
+ },
+ {
+  "numero": 1,
+  "cheval": "KELLY DU LUPIN",
+  "prob_robin": 0.68581,
+  "rapport_verrou": 3.8,
+  "value": 2.606,
+  "race_id": "20260727-R4C4",
+  "hippodrome": "CHATELAILLON",
+  "course": "BAR LA RENOMMEE",
+  "heure_depart": "2026-07-27T15:45:00+02:00",
+  "horodatage_verrou": "2026-07-27 15:27:23"
  }
 ]
