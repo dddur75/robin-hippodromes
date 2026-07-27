@@ -46,5 +46,17 @@
   "course": "A. ROUCAYROL",
   "heure_depart": "2026-07-27T18:47:00+02:00",
   "horodatage_verrou": "2026-07-27 18:33:20"
+ },
+ {
+  "numero": 1,
+  "cheval": "KEITHOS DU RHIN",
+  "prob_robin": 0.11659,
+  "rapport_verrou": 12.0,
+  "value": 1.399,
+  "race_id": "20260727-R5C2",
+  "hippodrome": "CAGNES/MER",
+  "course": "DU CAP HORN",
+  "heure_depart": "2026-07-27T19:21:00+02:00",
+  "horodatage_verrou": "2026-07-27 19:03:25"
  }
 ]
