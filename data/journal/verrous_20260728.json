@@ -1,6 +1,6 @@
 {
  "20260728-R2C7": {
-  "horodatage": "2026-07-28 12:45:21",
+  "horodatage": "2026-07-28 13:00:23",
   "rapports": {
    "1": {
     "rapport": null,
@@ -42,6 +42,7 @@
     "rapport": null,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
