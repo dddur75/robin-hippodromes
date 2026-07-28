@@ -46,5 +46,17 @@
   "course": "DES LUPINS",
   "heure_depart": "2026-07-28T19:37:00+02:00",
   "horodatage_verrou": "2026-07-28 19:24:24"
+ },
+ {
+  "numero": 4,
+  "cheval": "IMAGINE GIRL",
+  "prob_robin": 0.78128,
+  "rapport_verrou": 2.2,
+  "value": 1.719,
+  "race_id": "20260728-R4C8",
+  "hippodrome": "MESLAY DU MAINE",
+  "course": "VINS ET BIERES",
+  "heure_depart": "2026-07-28T20:26:00+02:00",
+  "horodatage_verrou": "2026-07-28 20:09:33"
  }
 ]
