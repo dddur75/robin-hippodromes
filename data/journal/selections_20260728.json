@@ -22,5 +22,17 @@
   "course": "CHATAIGNIERS",
   "heure_depart": "2026-07-28T19:04:00+02:00",
   "horodatage_verrou": "2026-07-28 18:54:14"
+ },
+ {
+  "numero": 2,
+  "cheval": "KERMES",
+  "prob_robin": 0.12624,
+  "rapport_verrou": 13.0,
+  "value": 1.641,
+  "race_id": "20260728-R4C6",
+  "hippodrome": "MESLAY DU MAINE",
+  "course": "GROUPAMA",
+  "heure_depart": "2026-07-28T19:20:00+02:00",
+  "horodatage_verrou": "2026-07-28 19:09:18"
  }
 ]
