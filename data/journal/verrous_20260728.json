@@ -88,10 +88,10 @@
   "verrouillee": true
  },
  "20260728-R8C2": {
-  "horodatage": "2026-07-28 14:15:31",
+  "horodatage": "2026-07-28 14:30:33",
   "rapports": {
    "1": {
-    "rapport": 2.2,
+    "rapport": 2.9,
     "non_partant": false
    },
    "2": {
@@ -107,15 +107,15 @@
     "non_partant": false
    },
    "5": {
-    "rapport": 5.5,
+    "rapport": 7.3,
     "non_partant": false
    },
    "6": {
-    "rapport": 3.9,
+    "rapport": 4.5,
     "non_partant": false
    },
    "7": {
-    "rapport": 3.9,
+    "rapport": 2.1,
     "non_partant": false
    },
    "8": {
