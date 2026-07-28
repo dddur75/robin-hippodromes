@@ -34,5 +34,17 @@
   "course": "GROUPAMA",
   "heure_depart": "2026-07-28T19:20:00+02:00",
   "horodatage_verrou": "2026-07-28 19:09:18"
+ },
+ {
+  "numero": 2,
+  "cheval": "MINIMUM",
+  "prob_robin": 0.60469,
+  "rapport_verrou": 5.3,
+  "value": 3.205,
+  "race_id": "20260728-R6C2",
+  "hippodrome": "CABOURG",
+  "course": "DES LUPINS",
+  "heure_depart": "2026-07-28T19:37:00+02:00",
+  "horodatage_verrou": "2026-07-28 19:24:24"
  }
 ]
