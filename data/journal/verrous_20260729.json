@@ -1184,5 +1184,35 @@
     "non_partant": false
    }
   }
+ },
+ "20260729-R1C8": {
+  "horodatage": "2026-07-29 22:34:58",
+  "rapports": {
+   "1": {
+    "rapport": 4.6,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 4.7,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 22.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 3.2,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 21.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 2.9,
+    "non_partant": false
+   }
+  },
+  "verrouillee": true
  }
 }
