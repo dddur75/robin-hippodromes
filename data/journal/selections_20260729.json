@@ -46,5 +46,17 @@
   "course": "FOR'ECO",
   "heure_depart": "2026-07-29T16:08:00+02:00",
   "horodatage_verrou": "2026-07-29 15:50:00"
+ },
+ {
+  "numero": 13,
+  "cheval": "KITTS ET NEVIS",
+  "prob_robin": 0.58836,
+  "rapport_verrou": 5.8,
+  "value": 3.412,
+  "race_id": "20260729-R5C4",
+  "hippodrome": "AMIENS",
+  "course": "GUIZANCOURT",
+  "heure_depart": "2026-07-29T17:40:00+02:00",
+  "horodatage_verrou": "2026-07-29 17:34:21"
  }
 ]
