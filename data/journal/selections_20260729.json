@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 7,
+  "cheval": "I LOVE GABINLEA",
+  "prob_robin": 0.69535,
+  "rapport_verrou": 10.0,
+  "value": 6.954,
+  "race_id": "20260729-R4C1",
+  "hippodrome": "CHATELAILLON",
+  "course": "MULTI SERV IMMO",
+  "heure_depart": "2026-07-29T14:25:00+02:00",
+  "horodatage_verrou": "2026-07-29 14:19:42"
+ }
+]
