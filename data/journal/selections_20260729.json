@@ -34,5 +34,17 @@
   "course": "JEU COLISEUM",
   "heure_depart": "2026-07-29T15:50:00+02:00",
   "horodatage_verrou": "2026-07-29 15:34:58"
+ },
+ {
+  "numero": 4,
+  "cheval": "KELRAPIDE DU LUPIN",
+  "prob_robin": 0.22937,
+  "rapport_verrou": 5.4,
+  "value": 1.239,
+  "race_id": "20260729-R4C4",
+  "hippodrome": "CHATELAILLON",
+  "course": "FOR'ECO",
+  "heure_depart": "2026-07-29T16:08:00+02:00",
+  "horodatage_verrou": "2026-07-29 15:50:00"
  }
 ]
