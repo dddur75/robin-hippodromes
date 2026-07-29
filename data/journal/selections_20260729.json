@@ -10,5 +10,17 @@
   "course": "MULTI SERV IMMO",
   "heure_depart": "2026-07-29T14:25:00+02:00",
   "horodatage_verrou": "2026-07-29 14:19:42"
+ },
+ {
+  "numero": 5,
+  "cheval": "MOSPEL DU VERGER",
+  "prob_robin": 0.37199,
+  "rapport_verrou": 11.0,
+  "value": 4.092,
+  "race_id": "20260729-R4C3",
+  "hippodrome": "CHATELAILLON",
+  "course": "V & B LANGON",
+  "heure_depart": "2026-07-29T15:33:00+02:00",
+  "horodatage_verrou": "2026-07-29 15:19:54"
  }
 ]
