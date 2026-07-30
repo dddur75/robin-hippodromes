@@ -22,5 +22,17 @@
   "course": "VIEV. SOGEDIB",
   "heure_depart": "2026-07-30T14:00:00+02:00",
   "horodatage_verrou": "2026-07-30 13:50:25"
+ },
+ {
+  "numero": 3,
+  "cheval": "MANUREVA NAY",
+  "prob_robin": 0.18821,
+  "rapport_verrou": 7.3,
+  "value": 1.374,
+  "race_id": "20260730-R4C3",
+  "hippodrome": "LA CAPELLE",
+  "course": "DELICE LA BIERE",
+  "heure_depart": "2026-07-30T14:35:00+02:00",
+  "horodatage_verrou": "2026-07-30 14:20:30"
  }
 ]
