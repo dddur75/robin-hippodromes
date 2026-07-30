@@ -10,5 +10,17 @@
   "course": "CINQUANT'UN",
   "heure_depart": "2026-07-30T13:26:00+02:00",
   "horodatage_verrou": "2026-07-30 13:20:19"
+ },
+ {
+  "numero": 12,
+  "cheval": "NATO JOSSELYN",
+  "prob_robin": 0.20026,
+  "rapport_verrou": 9.9,
+  "value": 1.983,
+  "race_id": "20260730-R4C2",
+  "hippodrome": "LA CAPELLE",
+  "course": "VIEV. SOGEDIB",
+  "heure_depart": "2026-07-30T14:00:00+02:00",
+  "horodatage_verrou": "2026-07-30 13:50:25"
  }
 ]
