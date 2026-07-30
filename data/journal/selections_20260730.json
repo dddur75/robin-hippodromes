@@ -46,5 +46,17 @@
   "course": "DES SAISONNIERS",
   "heure_depart": "2026-07-30T18:16:00+02:00",
   "horodatage_verrou": "2026-07-30 18:05:15"
+ },
+ {
+  "numero": 9,
+  "cheval": "JUPITER FRANCE",
+  "prob_robin": 0.13968,
+  "rapport_verrou": 11.0,
+  "value": 1.536,
+  "race_id": "20260730-R6C2",
+  "hippodrome": "PORNICHET",
+  "course": "FETE DES CSES",
+  "heure_depart": "2026-07-30T18:48:00+02:00",
+  "horodatage_verrou": "2026-07-30 18:35:23"
  }
 ]
