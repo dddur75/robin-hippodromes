@@ -34,5 +34,17 @@
   "course": "DELICE LA BIERE",
   "heure_depart": "2026-07-30T14:35:00+02:00",
   "horodatage_verrou": "2026-07-30 14:20:30"
+ },
+ {
+  "numero": 9,
+  "cheval": "IMPERIAL MABON",
+  "prob_robin": 0.23715,
+  "rapport_verrou": 7.9,
+  "value": 1.873,
+  "race_id": "20260730-R6C1",
+  "hippodrome": "PORNICHET",
+  "course": "DES SAISONNIERS",
+  "heure_depart": "2026-07-30T18:16:00+02:00",
+  "horodatage_verrou": "2026-07-30 18:05:15"
  }
 ]
