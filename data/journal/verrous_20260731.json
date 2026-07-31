@@ -459,10 +459,10 @@
   "verrouillee": true
  },
  "20260731-R5C8": {
-  "horodatage": "2026-07-31 20:04:30",
+  "horodatage": "2026-07-31 20:19:33",
   "rapports": {
    "1": {
-    "rapport": 16.0,
+    "rapport": 15.0,
     "non_partant": false
    },
    "2": {
@@ -470,60 +470,61 @@
     "non_partant": false
    },
    "3": {
-    "rapport": 9.0,
+    "rapport": 8.7,
     "non_partant": false
    },
    "4": {
-    "rapport": 21.0,
-    "non_partant": false
-   },
-   "5": {
-    "rapport": 34.0,
-    "non_partant": false
-   },
-   "6": {
-    "rapport": 4.3,
-    "non_partant": false
-   },
-   "7": {
-    "rapport": 65.0,
-    "non_partant": false
-   },
-   "8": {
-    "rapport": 21.0,
-    "non_partant": false
-   },
-   "9": {
-    "rapport": 75.0,
-    "non_partant": false
-   },
-   "10": {
-    "rapport": 36.0,
-    "non_partant": false
-   },
-   "11": {
     "rapport": 22.0,
     "non_partant": false
    },
+   "5": {
+    "rapport": 36.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 4.1,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 59.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 22.0,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 74.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 37.0,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 23.0,
+    "non_partant": false
+   },
    "12": {
-    "rapport": 26.0,
+    "rapport": 25.0,
     "non_partant": false
    },
    "13": {
-    "rapport": 50.0,
+    "rapport": 49.0,
     "non_partant": false
    },
    "14": {
-    "rapport": 70.0,
+    "rapport": 73.0,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  },
  "20260731-R1C5": {
-  "horodatage": "2026-07-31 20:04:29",
+  "horodatage": "2026-07-31 20:19:32",
   "rapports": {
    "1": {
-    "rapport": 84.0,
+    "rapport": 80.0,
     "non_partant": false
    },
    "2": {
@@ -531,7 +532,7 @@
     "non_partant": false
    },
    "3": {
-    "rapport": 17.0,
+    "rapport": 16.0,
     "non_partant": false
    },
    "4": {
@@ -539,15 +540,15 @@
     "non_partant": false
    },
    "5": {
-    "rapport": 30.0,
+    "rapport": 29.0,
     "non_partant": false
    },
    "6": {
-    "rapport": 8.9,
+    "rapport": 9.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 16.0,
+    "rapport": 17.0,
     "non_partant": false
    },
    "8": {
@@ -555,11 +556,11 @@
     "non_partant": false
    },
    "9": {
-    "rapport": 7.6,
+    "rapport": 7.5,
     "non_partant": false
    },
    "10": {
-    "rapport": 60.0,
+    "rapport": 59.0,
     "non_partant": false
    },
    "11": {
