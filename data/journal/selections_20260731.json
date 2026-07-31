@@ -10,5 +10,17 @@
   "course": "JEAN BALLIERE",
   "heure_depart": "2026-07-31T18:23:00+02:00",
   "horodatage_verrou": "2026-07-31 18:04:02"
+ },
+ {
+  "numero": 13,
+  "cheval": "IBRA DE LOU",
+  "prob_robin": 0.09381,
+  "rapport_verrou": 14.0,
+  "value": 1.313,
+  "race_id": "20260731-R5C5",
+  "hippodrome": "HYERES",
+  "course": "BORMES LES MIM.",
+  "heure_depart": "2026-07-31T18:40:00+02:00",
+  "horodatage_verrou": "2026-07-31 18:34:10"
  }
 ]
