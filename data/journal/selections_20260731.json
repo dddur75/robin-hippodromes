@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 7,
+  "cheval": "LUPIN D'OLMEN",
+  "prob_robin": 0.75412,
+  "rapport_verrou": 2.0,
+  "value": 1.508,
+  "race_id": "20260731-R1C1",
+  "hippodrome": "CABOURG",
+  "course": "JEAN BALLIERE",
+  "heure_depart": "2026-07-31T18:23:00+02:00",
+  "horodatage_verrou": "2026-07-31 18:04:02"
+ }
+]
