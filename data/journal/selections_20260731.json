@@ -22,5 +22,17 @@
   "course": "BORMES LES MIM.",
   "heure_depart": "2026-07-31T18:40:00+02:00",
   "horodatage_verrou": "2026-07-31 18:34:10"
+ },
+ {
+  "numero": 13,
+  "cheval": "KALINE D'ERPION",
+  "prob_robin": 0.18189,
+  "rapport_verrou": 10.0,
+  "value": 1.819,
+  "race_id": "20260731-R1C2",
+  "hippodrome": "CABOURG",
+  "course": "DES ARNOSERIS",
+  "heure_depart": "2026-07-31T18:58:00+02:00",
+  "horodatage_verrou": "2026-07-31 18:49:14"
  }
 ]
