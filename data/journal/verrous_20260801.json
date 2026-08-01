@@ -558,5 +558,111 @@
    }
   },
   "verrouillee": true
+ },
+ "20260801-R5C5": {
+  "horodatage": "2026-08-01 20:17:51",
+  "rapports": {
+   "1": {
+    "rapport": 28.0,
+    "non_partant": true
+   },
+   "2": {
+    "rapport": 68.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 63.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 40.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 82.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 24.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 7.6,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 9.7,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 8.9,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 18.0,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 30.0,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": 23.0,
+    "non_partant": false
+   },
+   "13": {
+    "rapport": 1.7,
+    "non_partant": false
+   }
+  }
+ },
+ "20260801-R9C4": {
+  "horodatage": "2026-08-01 20:17:52",
+  "rapports": {
+   "1": {
+    "rapport": 8.8,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 29.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 3.2,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 7.2,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 14.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 7.3,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 12.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 43.0,
+    "non_partant": true
+   },
+   "9": {
+    "rapport": 8.2,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 9.3,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 19.0,
+    "non_partant": false
+   }
+  }
  }
 }
