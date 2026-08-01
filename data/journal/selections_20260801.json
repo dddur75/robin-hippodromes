@@ -10,5 +10,17 @@
   "course": "D'UZES",
   "heure_depart": "2026-08-01T12:34:00+02:00",
   "horodatage_verrou": "2026-08-01 12:14:49"
+ },
+ {
+  "numero": 10,
+  "cheval": "L'AS DES CARAIBES",
+  "prob_robin": 0.21786,
+  "rapport_verrou": 6.1,
+  "value": 1.329,
+  "race_id": "20260801-R3C5",
+  "hippodrome": "ENGHIEN",
+  "course": "DE L'HERAULT",
+  "heure_depart": "2026-08-01T13:38:00+02:00",
+  "horodatage_verrou": "2026-08-01 13:29:57"
  }
 ]
