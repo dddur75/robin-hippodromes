@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 2,
+  "cheval": "MIKA DE LA VALLEE",
+  "prob_robin": 0.3034,
+  "rapport_verrou": 7.7,
+  "value": 2.336,
+  "race_id": "20260801-R3C3",
+  "hippodrome": "ENGHIEN",
+  "course": "D'UZES",
+  "heure_depart": "2026-08-01T12:34:00+02:00",
+  "horodatage_verrou": "2026-08-01 12:14:49"
+ }
+]
