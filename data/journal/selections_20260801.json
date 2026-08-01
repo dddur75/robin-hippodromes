@@ -22,5 +22,17 @@
   "course": "DE L'HERAULT",
   "heure_depart": "2026-08-01T13:38:00+02:00",
   "horodatage_verrou": "2026-08-01 13:29:57"
+ },
+ {
+  "numero": 4,
+  "cheval": "US DARBY",
+  "prob_robin": 0.18407,
+  "rapport_verrou": 12.0,
+  "value": 2.209,
+  "race_id": "20260801-R3C6",
+  "hippodrome": "ENGHIEN",
+  "course": "DE BERLIN",
+  "heure_depart": "2026-08-01T14:15:00+02:00",
+  "horodatage_verrou": "2026-08-01 14:00:03"
  }
 ]
