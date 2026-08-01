@@ -34,5 +34,17 @@
   "course": "DE BERLIN",
   "heure_depart": "2026-08-01T14:15:00+02:00",
   "horodatage_verrou": "2026-08-01 14:00:03"
+ },
+ {
+  "numero": 4,
+  "cheval": "KYSKO DE FAEL",
+  "prob_robin": 0.27084,
+  "rapport_verrou": 7.2,
+  "value": 1.95,
+  "race_id": "20260801-R3C7",
+  "hippodrome": "ENGHIEN",
+  "course": "DE BALIZAC",
+  "heure_depart": "2026-08-01T14:50:00+02:00",
+  "horodatage_verrou": "2026-08-01 14:30:08"
  }
 ]
