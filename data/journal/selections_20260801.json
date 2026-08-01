@@ -46,5 +46,17 @@
   "course": "DE BALIZAC",
   "heure_depart": "2026-08-01T14:50:00+02:00",
   "horodatage_verrou": "2026-08-01 14:30:08"
+ },
+ {
+  "numero": 8,
+  "cheval": "IMPERIAL BEJI",
+  "prob_robin": 0.52402,
+  "rapport_verrou": 3.0,
+  "value": 1.572,
+  "race_id": "20260801-R5C1",
+  "hippodrome": "VICHY",
+  "course": "CLAUDE BAYARD",
+  "heure_depart": "2026-08-01T18:45:00+02:00",
+  "horodatage_verrou": "2026-08-01 18:32:28"
  }
 ]
