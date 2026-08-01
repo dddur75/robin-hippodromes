@@ -1,0 +1,47 @@
+{
+ "20260801-R3C3": {
+  "horodatage": "2026-08-01 11:59:47",
+  "rapports": {
+   "1": {
+    "rapport": 20.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 9.1,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 1.6,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 13.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 21.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 14.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 40.0,
+    "non_partant": true
+   },
+   "8": {
+    "rapport": 20.0,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 26.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 8.2,
+    "non_partant": false
+   }
+  }
+ }
+}
