@@ -668,14 +668,14 @@
   "verrouillee": true
  },
  "20260801-R5C6": {
-  "horodatage": "2026-08-01 20:47:58",
+  "horodatage": "2026-08-01 21:03:01",
   "rapports": {
    "1": {
     "rapport": 21.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 5.7,
+    "rapport": 6.0,
     "non_partant": false
    },
    "3": {
@@ -683,11 +683,11 @@
     "non_partant": false
    },
    "4": {
-    "rapport": 5.2,
+    "rapport": 5.4,
     "non_partant": false
    },
    "5": {
-    "rapport": 6.5,
+    "rapport": 6.3,
     "non_partant": false
    },
    "6": {
@@ -695,40 +695,41 @@
     "non_partant": false
    },
    "7": {
-    "rapport": 73.0,
+    "rapport": 63.0,
     "non_partant": false
    },
    "8": {
-    "rapport": 9.4,
+    "rapport": 9.5,
     "non_partant": false
    },
    "9": {
-    "rapport": 34.0,
+    "rapport": 36.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 33.0,
+    "rapport": 27.0,
     "non_partant": false
    },
    "11": {
     "rapport": 12.0,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  },
  "20260801-R9C5": {
-  "horodatage": "2026-08-01 20:47:59",
+  "horodatage": "2026-08-01 21:03:02",
   "rapports": {
    "1": {
-    "rapport": null,
+    "rapport": 15.0,
     "non_partant": false
    },
    "2": {
-    "rapport": null,
+    "rapport": 15.0,
     "non_partant": false
    },
    "3": {
-    "rapport": null,
+    "rapport": 15.0,
     "non_partant": false
    },
    "4": {
@@ -740,29 +741,30 @@
     "non_partant": false
    },
    "6": {
-    "rapport": null,
+    "rapport": 11.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 3.4,
+    "rapport": 2.8,
     "non_partant": false
    },
    "8": {
-    "rapport": null,
+    "rapport": 7.9,
     "non_partant": false
    },
    "9": {
-    "rapport": null,
+    "rapport": 39.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 3.4,
+    "rapport": 7.9,
     "non_partant": false
    },
    "11": {
-    "rapport": 1.7,
+    "rapport": 3.8,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
