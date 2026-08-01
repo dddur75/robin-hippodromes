@@ -232,5 +232,66 @@
    }
   },
   "verrouillee": true
+ },
+ "20260801-R5C1": {
+  "horodatage": "2026-08-01 18:02:23",
+  "rapports": {
+   "1": {
+    "rapport": 45.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 35.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 31.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 10.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 13.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 18.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 6.1,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 3.1,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 26.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 7.0,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 7.5,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": 29.0,
+    "non_partant": false
+   },
+   "13": {
+    "rapport": 48.0,
+    "non_partant": false
+   },
+   "14": {
+    "rapport": 49.0,
+    "non_partant": false
+   }
+  }
  }
 }
