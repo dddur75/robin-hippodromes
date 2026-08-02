@@ -108,51 +108,52 @@
   "verrouillee": true
  },
  "20260802-R3C3": {
-  "horodatage": "2026-08-02 12:00:07",
+  "horodatage": "2026-08-02 12:15:10",
   "rapports": {
    "1": {
-    "rapport": 29.0,
+    "rapport": 35.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 20.0,
+    "rapport": 21.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 18.0,
+    "rapport": 26.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 2.4,
+    "rapport": 2.1,
     "non_partant": false
    },
    "5": {
+    "rapport": 12.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 7.8,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 5.9,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 8.9,
+    "non_partant": false
+   },
+   "9": {
     "rapport": 10.0,
     "non_partant": false
-   },
-   "6": {
-    "rapport": 8.6,
-    "non_partant": false
-   },
-   "7": {
-    "rapport": 5.1,
-    "non_partant": false
-   },
-   "8": {
-    "rapport": 9.4,
-    "non_partant": false
-   },
-   "9": {
-    "rapport": 9.1,
-    "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  },
  "20260802-R9C8": {
-  "horodatage": "2026-08-02 12:00:08",
+  "horodatage": "2026-08-02 12:15:11",
   "rapports": {
    "1": {
-    "rapport": 2.5,
+    "rapport": 5.9,
     "non_partant": false
    },
    "2": {
@@ -160,37 +161,38 @@
     "non_partant": false
    },
    "3": {
-    "rapport": 7.7,
+    "rapport": 15.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 7.7,
+    "rapport": 22.0,
     "non_partant": false
    },
    "5": {
-    "rapport": null,
+    "rapport": 7.1,
     "non_partant": false
    },
    "6": {
-    "rapport": 3.8,
+    "rapport": 6.4,
     "non_partant": false
    },
    "7": {
-    "rapport": 7.7,
+    "rapport": 6.1,
     "non_partant": false
    },
    "8": {
-    "rapport": null,
+    "rapport": 5.4,
     "non_partant": false
    },
    "9": {
-    "rapport": null,
+    "rapport": 22.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 7.7,
+    "rapport": 5.0,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }

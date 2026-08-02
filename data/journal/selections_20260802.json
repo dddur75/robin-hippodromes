@@ -22,5 +22,29 @@
   "course": "CASINO GRD CER.",
   "heure_depart": "2026-08-02T12:00:00+02:00",
   "horodatage_verrou": "2026-08-02 11:45:05"
+ },
+ {
+  "numero": 8,
+  "cheval": "MAYWENN DU GUERET",
+  "prob_robin": 0.16652,
+  "rapport_verrou": 8.9,
+  "value": 1.482,
+  "race_id": "20260802-R3C3",
+  "hippodrome": "ENGHIEN",
+  "course": "DE MORANGIS",
+  "heure_depart": "2026-08-02T12:34:00+02:00",
+  "horodatage_verrou": "2026-08-02 12:15:10"
+ },
+ {
+  "numero": 7,
+  "cheval": "JYSKO DE GODREL",
+  "prob_robin": 0.66219,
+  "rapport_verrou": 6.1,
+  "value": 4.039,
+  "race_id": "20260802-R9C8",
+  "hippodrome": "AIX LES BAINS",
+  "course": "INTERMARCHE",
+  "heure_depart": "2026-08-02T12:35:00+02:00",
+  "horodatage_verrou": "2026-08-02 12:15:11"
  }
 ]
