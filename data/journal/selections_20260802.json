@@ -1,0 +1,26 @@
+[
+ {
+  "numero": 8,
+  "cheval": "NOUMEA COCONUT",
+  "prob_robin": 0.553,
+  "rapport_verrou": 6.0,
+  "value": 3.318,
+  "race_id": "20260802-R3C2",
+  "hippodrome": "ENGHIEN",
+  "course": "BALLON D'ALSACE",
+  "heure_depart": "2026-08-02T12:02:00+02:00",
+  "horodatage_verrou": "2026-08-02 11:45:04"
+ },
+ {
+  "numero": 13,
+  "cheval": "IMPULSE JULRY",
+  "prob_robin": 0.16224,
+  "rapport_verrou": 9.1,
+  "value": 1.476,
+  "race_id": "20260802-R9C7",
+  "hippodrome": "AIX LES BAINS",
+  "course": "CASINO GRD CER.",
+  "heure_depart": "2026-08-02T12:00:00+02:00",
+  "horodatage_verrou": "2026-08-02 11:45:05"
+ }
+]
