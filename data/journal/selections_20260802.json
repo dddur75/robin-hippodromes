@@ -46,5 +46,17 @@
   "course": "INTERMARCHE",
   "heure_depart": "2026-08-02T12:35:00+02:00",
   "horodatage_verrou": "2026-08-02 12:15:11"
+ },
+ {
+  "numero": 7,
+  "cheval": "LISBETH DRY",
+  "prob_robin": 0.4623,
+  "rapport_verrou": 4.9,
+  "value": 2.265,
+  "race_id": "20260802-R3C5",
+  "hippodrome": "ENGHIEN",
+  "course": "FORGES-LES-EAUX",
+  "heure_depart": "2026-08-02T13:38:00+02:00",
+  "horodatage_verrou": "2026-08-02 13:30:23"
  }
 ]

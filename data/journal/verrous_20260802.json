@@ -254,7 +254,7 @@
   "verrouillee": true
  },
  "20260802-R3C5": {
-  "horodatage": "2026-08-02 13:15:21",
+  "horodatage": "2026-08-02 13:30:23",
   "rapports": {
    "1": {
     "rapport": 13.0,
@@ -265,51 +265,97 @@
     "non_partant": false
    },
    "3": {
-    "rapport": 38.0,
+    "rapport": 46.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 8.4,
+    "rapport": 9.6,
     "non_partant": false
    },
    "5": {
-    "rapport": 24.0,
+    "rapport": 26.0,
     "non_partant": false
    },
    "6": {
-    "rapport": 18.0,
+    "rapport": 26.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 5.1,
+    "rapport": 4.9,
     "non_partant": false
    },
    "8": {
-    "rapport": 7.6,
+    "rapport": 7.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 19.0,
+    "rapport": 14.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 45.0,
+    "rapport": 41.0,
     "non_partant": false
    },
    "11": {
-    "rapport": 6.5,
+    "rapport": 7.9,
     "non_partant": false
    },
    "12": {
-    "rapport": 51.0,
+    "rapport": 38.0,
     "non_partant": false
    },
    "13": {
-    "rapport": 36.0,
+    "rapport": 27.0,
     "non_partant": false
    },
    "14": {
-    "rapport": 4.8,
+    "rapport": 4.6,
+    "non_partant": false
+   }
+  },
+  "verrouillee": true
+ },
+ "20260802-R3C6": {
+  "horodatage": "2026-08-02 13:30:24",
+  "rapports": {
+   "1": {
+    "rapport": 16.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 9.8,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 13.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 66.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 6.7,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 42.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 42.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 42.0,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 10.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 1.6,
     "non_partant": false
    }
   }
