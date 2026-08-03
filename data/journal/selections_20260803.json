@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 13,
+  "cheval": "KAPI D'ARPENT",
+  "prob_robin": 0.59049,
+  "rapport_verrou": 2.1,
+  "value": 1.24,
+  "race_id": "20260803-R3C4",
+  "hippodrome": "CHATELAILLON",
+  "course": "HIPP. ROCHE/YON",
+  "heure_depart": "2026-08-03T13:28:00+02:00",
+  "horodatage_verrou": "2026-08-03 13:14:18"
+ }
+]
