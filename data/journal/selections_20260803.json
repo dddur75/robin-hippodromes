@@ -46,5 +46,17 @@
   "course": "HYPER U LA ROC.",
   "heure_depart": "2026-08-03T15:45:00+02:00",
   "horodatage_verrou": "2026-08-03 15:29:35"
+ },
+ {
+  "numero": 6,
+  "cheval": "JAVANAIS DELO",
+  "prob_robin": 0.78719,
+  "rapport_verrou": 5.7,
+  "value": 4.487,
+  "race_id": "20260803-R5C1",
+  "hippodrome": "CAGNES/MER",
+  "course": "R. JAFFRELOT",
+  "heure_depart": "2026-08-03T19:03:00+02:00",
+  "horodatage_verrou": "2026-08-03 18:53:31"
  }
 ]
