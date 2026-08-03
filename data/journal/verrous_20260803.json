@@ -58,30 +58,30 @@
   "verrouillee": true
  },
  "20260803-R3C5": {
-  "horodatage": "2026-08-03 13:29:21",
+  "horodatage": "2026-08-03 13:44:23",
   "rapports": {
    "1": {
-    "rapport": 43.0,
+    "rapport": 40.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 11.0,
+    "rapport": 7.5,
     "non_partant": false
    },
    "3": {
-    "rapport": 31.0,
+    "rapport": 34.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 6.7,
+    "rapport": 6.5,
     "non_partant": false
    },
    "5": {
-    "rapport": 2.3,
+    "rapport": 2.6,
     "non_partant": false
    },
    "6": {
-    "rapport": 33.0,
+    "rapport": 41.0,
     "non_partant": false
    },
    "7": {
@@ -93,9 +93,10 @@
     "non_partant": true
    },
    "9": {
-    "rapport": 36.0,
+    "rapport": 42.0,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }

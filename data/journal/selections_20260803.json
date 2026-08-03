@@ -10,5 +10,17 @@
   "course": "HIPP. ROCHE/YON",
   "heure_depart": "2026-08-03T13:28:00+02:00",
   "horodatage_verrou": "2026-08-03 13:14:18"
+ },
+ {
+  "numero": 5,
+  "cheval": "KELLY DU LUPIN",
+  "prob_robin": 0.68255,
+  "rapport_verrou": 2.6,
+  "value": 1.775,
+  "race_id": "20260803-R3C5",
+  "hippodrome": "CHATELAILLON",
+  "course": "HIPP. L.S.O",
+  "heure_depart": "2026-08-03T14:00:00+02:00",
+  "horodatage_verrou": "2026-08-03 13:44:23"
  }
 ]
