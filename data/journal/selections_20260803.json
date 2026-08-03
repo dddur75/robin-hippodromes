@@ -34,5 +34,17 @@
   "course": "L'EKUME",
   "heure_depart": "2026-08-03T15:10:00+02:00",
   "horodatage_verrou": "2026-08-03 14:59:31"
+ },
+ {
+  "numero": 2,
+  "cheval": "KOUIDITCH D'ABOMEY",
+  "prob_robin": 0.31671,
+  "rapport_verrou": 7.6,
+  "value": 2.407,
+  "race_id": "20260803-R3C8",
+  "hippodrome": "CHATELAILLON",
+  "course": "HYPER U LA ROC.",
+  "heure_depart": "2026-08-03T15:45:00+02:00",
+  "horodatage_verrou": "2026-08-03 15:29:35"
  }
 ]
