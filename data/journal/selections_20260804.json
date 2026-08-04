@@ -10,5 +10,17 @@
   "course": "DU SIERROZ",
   "heure_depart": "2026-08-04T12:30:00+02:00",
   "horodatage_verrou": "2026-08-04 12:19:33"
+ },
+ {
+  "numero": 15,
+  "cheval": "JIM JULRY",
+  "prob_robin": 0.39608,
+  "rapport_verrou": 6.1,
+  "value": 2.416,
+  "race_id": "20260804-R7C9",
+  "hippodrome": "AIX LES BAINS",
+  "course": "BRASSERIE QUAIS",
+  "heure_depart": "2026-08-04T13:00:00+02:00",
+  "horodatage_verrou": "2026-08-04 12:49:38"
  }
 ]
