@@ -707,22 +707,22 @@
   "verrouillee": true
  },
  "20260804-R6C5": {
-  "horodatage": "2026-08-04 20:31:37",
+  "horodatage": "2026-08-04 20:46:40",
   "rapports": {
    "1": {
-    "rapport": 16.0,
+    "rapport": 19.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 71.0,
+    "rapport": 61.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 42.0,
+    "rapport": 58.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 7.8,
+    "rapport": 6.3,
     "non_partant": false
    },
    "5": {
@@ -734,21 +734,22 @@
     "non_partant": false
    },
    "7": {
-    "rapport": 85.0,
+    "rapport": 71.0,
     "non_partant": false
    },
    "8": {
-    "rapport": 55.0,
+    "rapport": 36.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 24.0,
+    "rapport": 27.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 2.9,
+    "rapport": 3.1,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
