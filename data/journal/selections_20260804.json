@@ -34,5 +34,17 @@
   "course": "LES VOILES",
   "heure_depart": "2026-08-04T13:30:00+02:00",
   "horodatage_verrou": "2026-08-04 13:19:45"
+ },
+ {
+  "numero": 2,
+  "cheval": "NIKITA WOOD",
+  "prob_robin": 0.51053,
+  "rapport_verrou": 4.0,
+  "value": 2.042,
+  "race_id": "20260804-R4C2",
+  "hippodrome": "LES SABLES D OLONNE",
+  "course": "GUY FUMAT",
+  "heure_depart": "2026-08-04T14:35:00+02:00",
+  "horodatage_verrou": "2026-08-04 14:19:54"
  }
 ]
