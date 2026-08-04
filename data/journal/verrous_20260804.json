@@ -140,7 +140,7 @@
   "verrouillee": true
  },
  "20260804-R7C10": {
-  "horodatage": "2026-08-04 12:49:39",
+  "horodatage": "2026-08-04 13:04:41",
   "rapports": {
    "1": {
     "rapport": null,
@@ -171,15 +171,15 @@
     "non_partant": false
    },
    "8": {
-    "rapport": 15.0,
+    "rapport": 18.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 1.8,
+    "rapport": 1.9,
     "non_partant": false
    },
    "10": {
-    "rapport": null,
+    "rapport": 18.0,
     "non_partant": false
    },
    "11": {
