@@ -1,9 +1,9 @@
 {
   "statut": "ACTIF",
   "date_debut_pilote": "2026-07-07",
-  "n_selections": 136,
+  "n_selections": 141,
   "jours_panne": 0,
-  "audit_j30_fait": false,
+  "audit_j30_fait": true,
   "backfill": {
     "derniere_date": "2026-07-05",
     "terminee": true
