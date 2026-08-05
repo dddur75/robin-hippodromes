@@ -22,5 +22,17 @@
   "course": "AREAS - ROBERGE",
   "heure_depart": "2026-08-05T14:00:00+02:00",
   "horodatage_verrou": "2026-08-05 13:46:40"
+ },
+ {
+  "numero": 9,
+  "cheval": "MONA LE LOUP",
+  "prob_robin": 0.39199,
+  "rapport_verrou": 9.4,
+  "value": 3.685,
+  "race_id": "20260805-R3C5",
+  "hippodrome": "MAUQUENCHY",
+  "course": "LEVASSEUR REC.",
+  "heure_depart": "2026-08-05T14:35:00+02:00",
+  "horodatage_verrou": "2026-08-05 14:16:45"
  }
 ]
