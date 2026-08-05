@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 4,
+  "cheval": "LUMIERE DAIRPET",
+  "prob_robin": 0.3729,
+  "rapport_verrou": 5.6,
+  "value": 2.088,
+  "race_id": "20260805-R3C3",
+  "hippodrome": "MAUQUENCHY",
+  "course": "DE MAUQUENCHY",
+  "heure_depart": "2026-08-05T13:25:00+02:00",
+  "horodatage_verrou": "2026-08-05 13:16:35"
+ }
+]
