@@ -10,5 +10,17 @@
   "course": "DE MAUQUENCHY",
   "heure_depart": "2026-08-05T13:25:00+02:00",
   "horodatage_verrou": "2026-08-05 13:16:35"
+ },
+ {
+  "numero": 5,
+  "cheval": "NARUTO CASH",
+  "prob_robin": 0.32266,
+  "rapport_verrou": 3.9,
+  "value": 1.258,
+  "race_id": "20260805-R3C4",
+  "hippodrome": "MAUQUENCHY",
+  "course": "AREAS - ROBERGE",
+  "heure_depart": "2026-08-05T14:00:00+02:00",
+  "horodatage_verrou": "2026-08-05 13:46:40"
  }
 ]
