@@ -34,5 +34,17 @@
   "course": "LEVASSEUR REC.",
   "heure_depart": "2026-08-05T14:35:00+02:00",
   "horodatage_verrou": "2026-08-05 14:16:45"
+ },
+ {
+  "numero": 13,
+  "cheval": "MONARQUE",
+  "prob_robin": 0.55387,
+  "rapport_verrou": 2.2,
+  "value": 1.219,
+  "race_id": "20260805-R3C6",
+  "hippodrome": "MAUQUENCHY",
+  "course": "ICI NORMANDIE",
+  "heure_depart": "2026-08-05T15:10:00+02:00",
+  "horodatage_verrou": "2026-08-05 15:01:53"
  }
 ]
