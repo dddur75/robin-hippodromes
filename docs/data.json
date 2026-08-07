@@ -1,8 +1,8 @@
 {
- "maj": "2026-08-06 00:31:51",
+ "maj": "2026-08-07 08:44:45",
  "statut": "ACTIF",
  "verdict": null,
- "jour_pilote": 31,
+ "jour_pilote": 32,
  "hash_protocole": "9120f52ae117",
  "source_ok": true,
  "message": "",
@@ -15,14 +15,14 @@
   "verdict_n_selections": 200,
   "verdict_jours": 90
  },
- "n_courses_mesurees": 523,
+ "n_courses_mesurees": 536,
  "n_selections": 141,
  "solde": 2724.0,
  "roi": 1.2227,
- "delta_brier": -0.00935,
+ "delta_brier": -0.00943,
  "derive_pp": 1.52,
  "temoin_roi": -0.1214,
- "n_brier": 6181,
+ "n_brier": 6342,
  "selections_recentes": [
   {
    "date": "2026-08-05",
