@@ -46,5 +46,17 @@
   "course": "DU PARC",
   "heure_depart": "2026-08-07T12:50:00+02:00",
   "horodatage_verrou": "2026-08-07 12:40:28"
+ },
+ {
+  "numero": 7,
+  "cheval": "LORENZO DU NOYER",
+  "prob_robin": 0.20476,
+  "rapport_verrou": 7.3,
+  "value": 1.495,
+  "race_id": "20260807-R3C6",
+  "hippodrome": "CHATEAUBRIANT",
+  "course": "READY CASH",
+  "heure_depart": "2026-08-07T14:00:00+02:00",
+  "horodatage_verrou": "2026-08-07 13:40:39"
  }
 ]
