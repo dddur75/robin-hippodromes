@@ -10,5 +10,17 @@
   "course": "PIERRE LEFEUVRE",
   "heure_depart": "2026-08-07T11:14:00+02:00",
   "horodatage_verrou": "2026-08-07 10:55:08"
+ },
+ {
+  "numero": 1,
+  "cheval": "NUSHA",
+  "prob_robin": 0.35628,
+  "rapport_verrou": 9.9,
+  "value": 3.527,
+  "race_id": "20260807-R3C2",
+  "hippodrome": "CHATEAUBRIANT",
+  "course": "GANYMEDE",
+  "heure_depart": "2026-08-07T11:46:00+02:00",
+  "horodatage_verrou": "2026-08-07 11:40:16"
  }
 ]
