@@ -340,44 +340,45 @@
   "verrouillee": true
  },
  "20260807-R3C8": {
-  "horodatage": "2026-08-07 14:40:45",
+  "horodatage": "2026-08-07 14:55:47",
   "rapports": {
    "1": {
-    "rapport": 7.3,
+    "rapport": 13.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 17.0,
+    "rapport": 26.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 1.6,
+    "rapport": 1.1,
     "non_partant": false
    },
    "4": {
-    "rapport": 34.0,
+    "rapport": 50.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 9.8,
+    "rapport": 16.0,
     "non_partant": false
    },
    "6": {
-    "rapport": 54.0,
+    "rapport": 107.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 6.3,
+    "rapport": 10.0,
     "non_partant": false
    },
    "8": {
-    "rapport": 28.0,
+    "rapport": 52.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 70.0,
+    "rapport": 148.0,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
