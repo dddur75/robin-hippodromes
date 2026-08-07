@@ -1000,18 +1000,18 @@
   "verrouillee": true
  },
  "20260807-R6C6": {
-  "horodatage": "2026-08-07 21:26:46",
+  "horodatage": "2026-08-07 21:41:49",
   "rapports": {
    "1": {
-    "rapport": 14.0,
+    "rapport": 18.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 14.0,
+    "rapport": 43.0,
     "non_partant": false
    },
    "3": {
-    "rapport": null,
+    "rapport": 52.0,
     "non_partant": false
    },
    "4": {
@@ -1019,7 +1019,7 @@
     "non_partant": false
    },
    "5": {
-    "rapport": null,
+    "rapport": 29.0,
     "non_partant": false
    },
    "6": {
@@ -1027,19 +1027,19 @@
     "non_partant": false
    },
    "7": {
-    "rapport": 9.7,
+    "rapport": 37.0,
     "non_partant": false
    },
    "8": {
-    "rapport": null,
+    "rapport": 18.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 4.8,
+    "rapport": 6.1,
     "non_partant": false
    },
    "10": {
-    "rapport": 14.0,
+    "rapport": 65.0,
     "non_partant": false
    },
    "11": {
@@ -1047,19 +1047,57 @@
     "non_partant": false
    },
    "12": {
-    "rapport": 14.0,
+    "rapport": 2.3,
     "non_partant": false
    },
    "13": {
-    "rapport": 1.9,
+    "rapport": 10.0,
     "non_partant": false
    },
    "14": {
-    "rapport": null,
+    "rapport": 37.0,
     "non_partant": false
    },
    "15": {
-    "rapport": 14.0,
+    "rapport": 4.3,
+    "non_partant": false
+   }
+  },
+  "verrouillee": true
+ },
+ "20260807-R6C7": {
+  "horodatage": "2026-08-07 21:41:50",
+  "rapports": {
+   "1": {
+    "rapport": 6.4,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 6.4,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 12.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 12.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 2.3,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 12.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": null,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 5.1,
     "non_partant": false
    }
   }
