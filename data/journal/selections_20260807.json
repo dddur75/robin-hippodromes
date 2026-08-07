@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 3,
+  "cheval": "JERRY DE BRAYE",
+  "prob_robin": 0.57977,
+  "rapport_verrou": 4.7,
+  "value": 2.725,
+  "race_id": "20260807-R3C1",
+  "hippodrome": "CHATEAUBRIANT",
+  "course": "PIERRE LEFEUVRE",
+  "heure_depart": "2026-08-07T11:14:00+02:00",
+  "horodatage_verrou": "2026-08-07 10:55:08"
+ }
+]
