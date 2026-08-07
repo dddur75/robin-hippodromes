@@ -22,5 +22,17 @@
   "course": "GANYMEDE",
   "heure_depart": "2026-08-07T11:46:00+02:00",
   "horodatage_verrou": "2026-08-07 11:40:16"
+ },
+ {
+  "numero": 3,
+  "cheval": "MISS LADY QUICK",
+  "prob_robin": 0.5179,
+  "rapport_verrou": 3.8,
+  "value": 1.968,
+  "race_id": "20260807-R3C3",
+  "hippodrome": "CHATEAUBRIANT",
+  "course": "VARENNE",
+  "heure_depart": "2026-08-07T12:18:00+02:00",
+  "horodatage_verrou": "2026-08-07 12:10:22"
  }
 ]
