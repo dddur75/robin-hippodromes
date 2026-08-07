@@ -34,5 +34,17 @@
   "course": "VARENNE",
   "heure_depart": "2026-08-07T12:18:00+02:00",
   "horodatage_verrou": "2026-08-07 12:10:22"
+ },
+ {
+  "numero": 4,
+  "cheval": "MIRAGE BOY",
+  "prob_robin": 0.30561,
+  "rapport_verrou": 4.1,
+  "value": 1.253,
+  "race_id": "20260807-R3C4",
+  "hippodrome": "CHATEAUBRIANT",
+  "course": "DU PARC",
+  "heure_depart": "2026-08-07T12:50:00+02:00",
+  "horodatage_verrou": "2026-08-07 12:40:28"
  }
 ]
