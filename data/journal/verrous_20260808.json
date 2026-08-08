@@ -46,22 +46,22 @@
   "verrouillee": true
  },
  "20260808-R3C2": {
-  "horodatage": "2026-08-08 11:21:59",
+  "horodatage": "2026-08-08 11:37:02",
   "rapports": {
    "1": {
-    "rapport": 14.0,
+    "rapport": 13.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 6.0,
+    "rapport": 6.2,
     "non_partant": false
    },
    "3": {
-    "rapport": 41.0,
+    "rapport": 43.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 20.0,
+    "rapport": 19.0,
     "non_partant": false
    },
    "5": {
@@ -73,7 +73,7 @@
     "non_partant": false
    },
    "7": {
-    "rapport": 30.0,
+    "rapport": 27.0,
     "non_partant": false
    },
    "8": {
