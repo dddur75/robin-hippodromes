@@ -22,5 +22,17 @@
   "course": "PORTE DE CLICHY",
   "heure_depart": "2026-08-08T12:02:00+02:00",
   "horodatage_verrou": "2026-08-08 11:52:04"
+ },
+ {
+  "numero": 4,
+  "cheval": "IBIS QUICK",
+  "prob_robin": 0.14425,
+  "rapport_verrou": 8.4,
+  "value": 1.212,
+  "race_id": "20260808-R3C3",
+  "hippodrome": "ENGHIEN",
+  "course": "HOTEL DE VILLE",
+  "heure_depart": "2026-08-08T12:34:00+02:00",
+  "horodatage_verrou": "2026-08-08 12:22:10"
  }
 ]
