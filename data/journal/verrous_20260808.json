@@ -1750,53 +1750,54 @@
   "verrouillee": true
  },
  "20260808-R10C7": {
-  "horodatage": "2026-08-08 22:01:31",
+  "horodatage": "2026-08-08 22:16:34",
   "rapports": {
    "1": {
     "rapport": null,
     "non_partant": false
    },
    "2": {
-    "rapport": 11.0,
+    "rapport": 15.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 15.0,
+    "rapport": 26.0,
     "non_partant": false
    },
    "4": {
-    "rapport": null,
+    "rapport": 7.7,
     "non_partant": false
    },
    "5": {
-    "rapport": 4.2,
+    "rapport": 3.9,
     "non_partant": false
    },
    "6": {
-    "rapport": 15.0,
+    "rapport": 34.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 39.0,
+    "rapport": 21.0,
     "non_partant": false
    },
    "8": {
-    "rapport": null,
+    "rapport": 60.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 6.6,
+    "rapport": 13.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 2.5,
+    "rapport": 3.0,
     "non_partant": false
    },
    "11": {
-    "rapport": 6.6,
+    "rapport": 5.3,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  },
  "20260808-R11C8": {
   "horodatage": "2026-08-08 22:01:31",
