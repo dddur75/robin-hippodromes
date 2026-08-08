@@ -1,13 +1,13 @@
 {
  "20260808-R3C1": {
-  "horodatage": "2026-08-08 10:51:53",
+  "horodatage": "2026-08-08 11:06:56",
   "rapports": {
    "1": {
     "rapport": 17.0,
     "non_partant": true
    },
    "2": {
-    "rapport": 6.3,
+    "rapport": 7.4,
     "non_partant": false
    },
    "3": {
@@ -15,7 +15,7 @@
     "non_partant": false
    },
    "4": {
-    "rapport": 8.5,
+    "rapport": 8.2,
     "non_partant": false
    },
    "5": {
@@ -23,7 +23,7 @@
     "non_partant": false
    },
    "6": {
-    "rapport": 5.2,
+    "rapport": 4.6,
     "non_partant": false
    },
    "7": {
@@ -31,7 +31,7 @@
     "non_partant": false
    },
    "8": {
-    "rapport": 48.0,
+    "rapport": 50.0,
     "non_partant": false
    },
    "9": {
@@ -39,7 +39,7 @@
     "non_partant": false
    },
    "10": {
-    "rapport": 8.8,
+    "rapport": 9.5,
     "non_partant": false
    }
   }
