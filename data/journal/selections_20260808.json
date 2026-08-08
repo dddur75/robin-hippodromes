@@ -46,5 +46,17 @@
   "course": "PORTE DE VITRY",
   "heure_depart": "2026-08-08T13:06:00+02:00",
   "horodatage_verrou": "2026-08-08 12:52:16"
+ },
+ {
+  "numero": 13,
+  "cheval": "NITRO DE RATILLY",
+  "prob_robin": 0.3352,
+  "rapport_verrou": 13.0,
+  "value": 4.358,
+  "race_id": "20260808-R8C2",
+  "hippodrome": "AIX LES BAINS",
+  "course": "DE HAUTECOMBE",
+  "heure_depart": "2026-08-08T14:30:00+02:00",
+  "horodatage_verrou": "2026-08-08 14:22:28"
  }
 ]
