@@ -10,5 +10,17 @@
   "course": "DE PORNIC",
   "heure_depart": "2026-08-08T11:30:00+02:00",
   "horodatage_verrou": "2026-08-08 11:21:58"
+ },
+ {
+  "numero": 8,
+  "cheval": "OLIVIO BELLO",
+  "prob_robin": 0.41406,
+  "rapport_verrou": 11.0,
+  "value": 4.555,
+  "race_id": "20260808-R3C2",
+  "hippodrome": "ENGHIEN",
+  "course": "PORTE DE CLICHY",
+  "heure_depart": "2026-08-08T12:02:00+02:00",
+  "horodatage_verrou": "2026-08-08 11:52:04"
  }
 ]
