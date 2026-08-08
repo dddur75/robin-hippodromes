@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 5,
+  "cheval": "MADE IN CASTELETS",
+  "prob_robin": 0.17633,
+  "rapport_verrou": 10.0,
+  "value": 1.763,
+  "race_id": "20260808-R3C1",
+  "hippodrome": "ENGHIEN",
+  "course": "DE PORNIC",
+  "heure_depart": "2026-08-08T11:30:00+02:00",
+  "horodatage_verrou": "2026-08-08 11:21:58"
+ }
+]
