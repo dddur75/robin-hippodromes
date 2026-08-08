@@ -34,5 +34,17 @@
   "course": "HOTEL DE VILLE",
   "heure_depart": "2026-08-08T12:34:00+02:00",
   "horodatage_verrou": "2026-08-08 12:22:10"
+ },
+ {
+  "numero": 6,
+  "cheval": "NOSTALGIE D'OLMEN",
+  "prob_robin": 0.65045,
+  "rapport_verrou": 4.0,
+  "value": 2.602,
+  "race_id": "20260808-R3C4",
+  "hippodrome": "ENGHIEN",
+  "course": "PORTE DE VITRY",
+  "heure_depart": "2026-08-08T13:06:00+02:00",
+  "horodatage_verrou": "2026-08-08 12:52:16"
  }
 ]
