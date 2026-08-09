@@ -346,5 +346,74 @@
    }
   },
   "verrouillee": true
+ },
+ "20260809-R3C8": {
+  "horodatage": "2026-08-09 14:09:31",
+  "rapports": {
+   "1": {
+    "rapport": 7.8,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 44.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 10.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 8.9,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 7.8,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 40.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 17.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 43.0,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 16.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 23.0,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 64.0,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": 20.0,
+    "non_partant": false
+   },
+   "13": {
+    "rapport": 14.0,
+    "non_partant": false
+   },
+   "14": {
+    "rapport": 46.0,
+    "non_partant": false
+   },
+   "15": {
+    "rapport": 9.7,
+    "non_partant": false
+   },
+   "16": {
+    "rapport": 4.7,
+    "non_partant": false
+   }
+  }
  }
 }
