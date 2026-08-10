@@ -22,5 +22,17 @@
   "course": "D'ARGENTEUIL",
   "heure_depart": "2026-08-10T12:35:00+02:00",
   "horodatage_verrou": "2026-08-10 12:16:38"
+ },
+ {
+  "numero": 5,
+  "cheval": "MALICE DU CHATAULT",
+  "prob_robin": 0.1198,
+  "rapport_verrou": 13.0,
+  "value": 1.557,
+  "race_id": "20260810-R2C4",
+  "hippodrome": "ENGHIEN",
+  "course": "PLAINE MONCEAU",
+  "heure_depart": "2026-08-10T13:07:00+02:00",
+  "horodatage_verrou": "2026-08-10 13:01:46"
  }
 ]
