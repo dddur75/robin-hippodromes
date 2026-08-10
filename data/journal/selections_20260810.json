@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 9,
+  "cheval": "KILLER FOR LOVA",
+  "prob_robin": 0.15685,
+  "rapport_verrou": 10.0,
+  "value": 1.568,
+  "race_id": "20260810-R2C1",
+  "hippodrome": "ENGHIEN",
+  "course": "DE MERICOURT",
+  "heure_depart": "2026-08-10T11:31:00+02:00",
+  "horodatage_verrou": "2026-08-10 11:16:32"
+ }
+]
