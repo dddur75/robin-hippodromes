@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 9,
+  "cheval": "NEGRITA",
+  "prob_robin": 0.36439,
+  "rapport_verrou": 8.9,
+  "value": 3.243,
+  "race_id": "20260811-R2C2",
+  "hippodrome": "SAINT MALO",
+  "course": "KING BLACK",
+  "heure_depart": "2026-08-11T12:24:00+02:00",
+  "horodatage_verrou": "2026-08-11 12:08:15"
+ }
+]
