@@ -10,5 +10,17 @@
   "course": "KING BLACK",
   "heure_depart": "2026-08-11T12:24:00+02:00",
   "horodatage_verrou": "2026-08-11 12:08:15"
+ },
+ {
+  "numero": 6,
+  "cheval": "METALO DU RIF",
+  "prob_robin": 0.44209,
+  "rapport_verrou": 6.2,
+  "value": 2.741,
+  "race_id": "20260811-R2C4",
+  "hippodrome": "SAINT MALO",
+  "course": "COTE D'EMERAUDE",
+  "heure_depart": "2026-08-11T13:28:00+02:00",
+  "horodatage_verrou": "2026-08-11 13:08:25"
  }
 ]
