@@ -22,5 +22,17 @@
   "course": "COTE D'EMERAUDE",
   "heure_depart": "2026-08-11T13:28:00+02:00",
   "horodatage_verrou": "2026-08-11 13:08:25"
+ },
+ {
+  "numero": 1,
+  "cheval": "KELLY DU LUPIN",
+  "prob_robin": 0.59187,
+  "rapport_verrou": 3.4,
+  "value": 2.012,
+  "race_id": "20260811-R2C6",
+  "hippodrome": "SAINT MALO",
+  "course": "LEOP. VERROKEN",
+  "heure_depart": "2026-08-11T14:35:00+02:00",
+  "horodatage_verrou": "2026-08-11 14:23:39"
  }
 ]
