@@ -630,18 +630,18 @@
   "verrouillee": true
  },
  "20260811-R5C5": {
-  "horodatage": "2026-08-11 20:44:38",
+  "horodatage": "2026-08-11 20:59:41",
   "rapports": {
    "1": {
-    "rapport": 27.0,
+    "rapport": 32.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 40.0,
+    "rapport": 46.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 33.0,
+    "rapport": 46.0,
     "non_partant": false
    },
    "4": {
@@ -649,11 +649,11 @@
     "non_partant": false
    },
    "5": {
-    "rapport": 1.7,
+    "rapport": 1.6,
     "non_partant": false
    },
    "6": {
-    "rapport": 19.0,
+    "rapport": 30.0,
     "non_partant": false
    },
    "7": {
@@ -661,31 +661,101 @@
     "non_partant": true
    },
    "8": {
-    "rapport": 7.6,
+    "rapport": 7.2,
     "non_partant": false
    },
    "9": {
-    "rapport": 10.0,
+    "rapport": 12.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 37.0,
+    "rapport": 54.0,
     "non_partant": false
    },
    "11": {
-    "rapport": 34.0,
+    "rapport": 41.0,
     "non_partant": false
    },
    "12": {
-    "rapport": 22.0,
+    "rapport": 28.0,
     "non_partant": false
    },
    "13": {
-    "rapport": 35.0,
+    "rapport": 51.0,
     "non_partant": false
    },
    "14": {
-    "rapport": 44.0,
+    "rapport": 34.0,
+    "non_partant": false
+   }
+  },
+  "verrouillee": true
+ },
+ "20260811-R5C6": {
+  "horodatage": "2026-08-11 20:59:42",
+  "rapports": {
+   "1": {
+    "rapport": 26.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 7.3,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 50.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 10.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 66.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 26.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 40.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 9.5,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 20.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 36.0,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 47.0,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": 91.0,
+    "non_partant": false
+   },
+   "13": {
+    "rapport": 21.0,
+    "non_partant": false
+   },
+   "14": {
+    "rapport": 24.0,
+    "non_partant": false
+   },
+   "15": {
+    "rapport": 2.2,
+    "non_partant": false
+   },
+   "16": {
+    "rapport": 21.0,
     "non_partant": false
    }
   }
