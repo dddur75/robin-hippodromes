@@ -553,26 +553,26 @@
   "verrouillee": true
  },
  "20260812-R4C6": {
-  "horodatage": "2026-08-12 17:29:33",
+  "horodatage": "2026-08-12 17:44:37",
   "rapports": {
    "1": {
-    "rapport": 9.3,
+    "rapport": 10.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 2.7,
+    "rapport": 2.3,
     "non_partant": false
    },
    "3": {
-    "rapport": 4.6,
+    "rapport": 4.4,
     "non_partant": false
    },
    "4": {
-    "rapport": 11.0,
+    "rapport": 15.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 5.9,
+    "rapport": 6.1,
     "non_partant": false
    },
    "6": {
@@ -580,7 +580,7 @@
     "non_partant": false
    },
    "7": {
-    "rapport": 7.3,
+    "rapport": 8.0,
     "non_partant": false
    }
   }
