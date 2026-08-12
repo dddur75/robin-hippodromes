@@ -46,5 +46,17 @@
   "course": "DE L'AYGUADE",
   "heure_depart": "2026-08-12T15:45:00+02:00",
   "horodatage_verrou": "2026-08-12 15:37:51"
+ },
+ {
+  "numero": 6,
+  "cheval": "FASHION MONGER",
+  "prob_robin": 0.3819,
+  "rapport_verrou": 5.0,
+  "value": 1.909,
+  "race_id": "20260812-R1C4",
+  "hippodrome": "ENGHIEN",
+  "course": "PORTE DE PASSY",
+  "heure_depart": "2026-08-12T16:03:00+02:00",
+  "horodatage_verrou": "2026-08-12 15:52:54"
  }
 ]
