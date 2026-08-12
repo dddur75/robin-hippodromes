@@ -1,21 +1,21 @@
 {
  "20260812-R1C1": {
-  "horodatage": "2026-08-12 13:52:27",
+  "horodatage": "2026-08-12 14:07:30",
   "rapports": {
    "1": {
-    "rapport": 4.7,
+    "rapport": 4.6,
     "non_partant": false
    },
    "2": {
-    "rapport": 24.0,
+    "rapport": 23.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 6.9,
+    "rapport": 7.8,
     "non_partant": false
    },
    "4": {
-    "rapport": 7.7,
+    "rapport": 8.2,
     "non_partant": false
    },
    "5": {
@@ -23,29 +23,30 @@
     "non_partant": false
    },
    "6": {
-    "rapport": 13.0,
+    "rapport": 12.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 35.0,
+    "rapport": 37.0,
     "non_partant": false
    },
    "8": {
-    "rapport": 11.0,
+    "rapport": 10.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 43.0,
+    "rapport": 47.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 103.0,
+    "rapport": 104.0,
     "non_partant": false
    },
    "11": {
-    "rapport": 69.0,
+    "rapport": 74.0,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }

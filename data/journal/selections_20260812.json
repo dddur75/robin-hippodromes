@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 3,
+  "cheval": "NEWTON DE L'AVRE",
+  "prob_robin": 0.23914,
+  "rapport_verrou": 7.8,
+  "value": 1.865,
+  "race_id": "20260812-R1C1",
+  "hippodrome": "ENGHIEN",
+  "course": "DE NOUZONVILLE",
+  "heure_depart": "2026-08-12T14:18:00+02:00",
+  "horodatage_verrou": "2026-08-12 14:07:30"
+ }
+]
