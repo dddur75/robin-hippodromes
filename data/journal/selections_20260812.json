@@ -10,5 +10,17 @@
   "course": "DE NOUZONVILLE",
   "heure_depart": "2026-08-12T14:18:00+02:00",
   "horodatage_verrou": "2026-08-12 14:07:30"
+ },
+ {
+  "numero": 10,
+  "cheval": "MAGICIEN D'OZ",
+  "prob_robin": 0.40952,
+  "rapport_verrou": 3.9,
+  "value": 1.597,
+  "race_id": "20260812-R4C1",
+  "hippodrome": "HYERES",
+  "course": "DOM. SIOUVETTE",
+  "heure_depart": "2026-08-12T15:10:00+02:00",
+  "horodatage_verrou": "2026-08-12 14:52:39"
  }
 ]
