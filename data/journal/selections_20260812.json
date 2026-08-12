@@ -22,5 +22,17 @@
   "course": "DOM. SIOUVETTE",
   "heure_depart": "2026-08-12T15:10:00+02:00",
   "horodatage_verrou": "2026-08-12 14:52:39"
+ },
+ {
+  "numero": 5,
+  "cheval": "NEPTUNA",
+  "prob_robin": 0.71416,
+  "rapport_verrou": 2.4,
+  "value": 1.714,
+  "race_id": "20260812-R1C3",
+  "hippodrome": "ENGHIEN",
+  "course": "JOUY EN JOSAS",
+  "heure_depart": "2026-08-12T15:28:00+02:00",
+  "horodatage_verrou": "2026-08-12 15:22:45"
  }
 ]
