@@ -1195,7 +1195,7 @@
   "verrouillee": true
  },
  "20260812-R6C9": {
-  "horodatage": "2026-08-12 21:45:27",
+  "horodatage": "2026-08-12 22:21:17",
   "rapports": {
    "1": {
     "rapport": 2.5,
@@ -1261,6 +1261,7 @@
     "rapport": null,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
