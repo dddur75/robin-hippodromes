@@ -270,10 +270,10 @@
   "verrouillee": true
  },
  "20260813-R6C1": {
-  "horodatage": "2026-08-13 18:15:08",
+  "horodatage": "2026-08-13 18:30:10",
   "rapports": {
    "1": {
-    "rapport": 67.0,
+    "rapport": 60.0,
     "non_partant": false
    },
    "2": {
@@ -281,39 +281,97 @@
     "non_partant": false
    },
    "3": {
-    "rapport": 4.9,
+    "rapport": 5.6,
     "non_partant": false
    },
    "4": {
-    "rapport": 9.3,
+    "rapport": 9.4,
     "non_partant": false
    },
    "5": {
-    "rapport": 5.2,
+    "rapport": 4.4,
     "non_partant": false
    },
    "6": {
-    "rapport": 11.0,
+    "rapport": 13.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 38.0,
+    "rapport": 39.0,
     "non_partant": false
    },
    "8": {
-    "rapport": 42.0,
+    "rapport": 46.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 74.0,
+    "rapport": 65.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 2.7,
+    "rapport": 2.6,
     "non_partant": false
    },
    "11": {
-    "rapport": 9.7,
+    "rapport": 10.0,
+    "non_partant": false
+   }
+  },
+  "verrouillee": true
+ },
+ "20260813-R6C2": {
+  "horodatage": "2026-08-13 18:30:11",
+  "rapports": {
+   "1": {
+    "rapport": 113.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 108.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 10.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 26.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 23.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 23.0,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 2.7,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 5.5,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 79.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 8.5,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 6.3,
+    "non_partant": false
+   },
+   "12": {
+    "rapport": 35.0,
+    "non_partant": false
+   },
+   "13": {
+    "rapport": 12.0,
     "non_partant": false
    }
   }
