@@ -34,5 +34,17 @@
   "course": "D'ELANCOURT",
   "heure_depart": "2026-08-13T12:15:00+02:00",
   "horodatage_verrou": "2026-08-13 11:55:31"
+ },
+ {
+  "numero": 4,
+  "cheval": "MAGIC DE BANVILLE",
+  "prob_robin": 0.20667,
+  "rapport_verrou": 8.8,
+  "value": 1.819,
+  "race_id": "20260813-R3C8",
+  "hippodrome": "ENGHIEN",
+  "course": "PRE-ST-GERVAIS",
+  "heure_depart": "2026-08-13T13:25:00+02:00",
+  "horodatage_verrou": "2026-08-13 13:10:39"
  }
 ]
