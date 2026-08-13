@@ -22,5 +22,17 @@
   "course": "DE PT ST-MARTIN",
   "heure_depart": "2026-08-13T11:40:00+02:00",
   "horodatage_verrou": "2026-08-13 11:25:26"
+ },
+ {
+  "numero": 3,
+  "cheval": "MALINE DU PLESSIS",
+  "prob_robin": 0.47016,
+  "rapport_verrou": 7.9,
+  "value": 3.714,
+  "race_id": "20260813-R3C6",
+  "hippodrome": "ENGHIEN",
+  "course": "D'ELANCOURT",
+  "heure_depart": "2026-08-13T12:15:00+02:00",
+  "horodatage_verrou": "2026-08-13 11:55:31"
  }
 ]
