@@ -516,34 +516,34 @@
   "verrouillee": true
  },
  "20260813-R8C3": {
-  "horodatage": "2026-08-13 19:45:30",
+  "horodatage": "2026-08-13 20:00:33",
   "rapports": {
    "1": {
-    "rapport": 4.0,
+    "rapport": 19.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 14.0,
+    "rapport": 15.0,
     "non_partant": false
    },
    "3": {
-    "rapport": null,
+    "rapport": 6.6,
     "non_partant": false
    },
    "4": {
-    "rapport": null,
+    "rapport": 24.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 5.6,
+    "rapport": 3.5,
     "non_partant": false
    },
    "6": {
-    "rapport": 3.1,
+    "rapport": 6.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 4.7,
+    "rapport": 3.7,
     "non_partant": false
    },
    "8": {
@@ -554,6 +554,7 @@
     "rapport": null,
     "non_partant": true
    }
-  }
+  },
+  "verrouillee": true
  }
 }
