@@ -270,14 +270,14 @@
   "verrouillee": true
  },
  "20260813-R6C1": {
-  "horodatage": "2026-08-13 18:00:04",
+  "horodatage": "2026-08-13 18:15:08",
   "rapports": {
    "1": {
     "rapport": 67.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 25.0,
+    "rapport": 26.0,
     "non_partant": false
    },
    "3": {
@@ -285,11 +285,11 @@
     "non_partant": false
    },
    "4": {
-    "rapport": 9.2,
+    "rapport": 9.3,
     "non_partant": false
    },
    "5": {
-    "rapport": 5.7,
+    "rapport": 5.2,
     "non_partant": false
    },
    "6": {
@@ -297,15 +297,15 @@
     "non_partant": false
    },
    "7": {
-    "rapport": 36.0,
+    "rapport": 38.0,
     "non_partant": false
    },
    "8": {
-    "rapport": 41.0,
+    "rapport": 42.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 71.0,
+    "rapport": 74.0,
     "non_partant": false
    },
    "10": {
@@ -313,7 +313,7 @@
     "non_partant": false
    },
    "11": {
-    "rapport": 9.6,
+    "rapport": 9.7,
     "non_partant": false
    }
   }
