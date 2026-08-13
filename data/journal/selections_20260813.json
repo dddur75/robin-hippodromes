@@ -1,0 +1,14 @@
+[
+ {
+  "numero": 1,
+  "cheval": "L'ELITE DU CHOQUEL",
+  "prob_robin": 0.22401,
+  "rapport_verrou": 14.0,
+  "value": 3.136,
+  "race_id": "20260813-R3C4",
+  "hippodrome": "ENGHIEN",
+  "course": "DE CLIGNANCOURT",
+  "heure_depart": "2026-08-13T11:10:00+02:00",
+  "horodatage_verrou": "2026-08-13 10:55:20"
+ }
+]
