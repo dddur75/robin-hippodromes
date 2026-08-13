@@ -10,5 +10,17 @@
   "course": "DE CLIGNANCOURT",
   "heure_depart": "2026-08-13T11:10:00+02:00",
   "horodatage_verrou": "2026-08-13 10:55:20"
+ },
+ {
+  "numero": 1,
+  "cheval": "NAIADE JAYF",
+  "prob_robin": 0.55715,
+  "rapport_verrou": 3.6,
+  "value": 2.006,
+  "race_id": "20260813-R3C5",
+  "hippodrome": "ENGHIEN",
+  "course": "DE PT ST-MARTIN",
+  "heure_depart": "2026-08-13T11:40:00+02:00",
+  "horodatage_verrou": "2026-08-13 11:25:26"
  }
 ]
