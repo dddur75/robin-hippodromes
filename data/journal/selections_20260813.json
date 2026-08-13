@@ -46,5 +46,17 @@
   "course": "PRE-ST-GERVAIS",
   "heure_depart": "2026-08-13T13:25:00+02:00",
   "horodatage_verrou": "2026-08-13 13:10:39"
+ },
+ {
+  "numero": 5,
+  "cheval": "HAJIME",
+  "prob_robin": 0.33365,
+  "rapport_verrou": 3.8,
+  "value": 1.268,
+  "race_id": "20260813-R9C6",
+  "hippodrome": "DIVONNE LES BAINS",
+  "course": "DE PLAN",
+  "heure_depart": "2026-08-13T17:00:00+02:00",
+  "horodatage_verrou": "2026-08-13 16:44:51"
  }
 ]
