@@ -34,5 +34,17 @@
   "course": "LOUIS JARIEL",
   "heure_depart": "2026-08-14T12:50:00+02:00",
   "horodatage_verrou": "2026-08-14 12:33:52"
+ },
+ {
+  "numero": 6,
+  "cheval": "IDEAL DELADOU",
+  "prob_robin": 0.28029,
+  "rapport_verrou": 9.3,
+  "value": 2.607,
+  "race_id": "20260814-R1C1",
+  "hippodrome": "CABOURG",
+  "course": "DE VILLEDIEU",
+  "heure_depart": "2026-08-14T18:36:00+02:00",
+  "horodatage_verrou": "2026-08-14 18:25:01"
  }
 ]
