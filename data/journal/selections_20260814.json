@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 5,
+  "cheval": "MOSTRA DE BANVILLE",
+  "prob_robin": 0.33579,
+  "rapport_verrou": 9.1,
+  "value": 3.056,
+  "race_id": "20260814-R2C6",
+  "hippodrome": "ENGHIEN",
+  "course": "PAUL LEGUERNEY",
+  "heure_depart": "2026-08-14T11:40:00+02:00",
+  "horodatage_verrou": "2026-08-14 11:33:41"
+ }
+]
