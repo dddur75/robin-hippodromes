@@ -512,5 +512,38 @@
    }
   },
   "verrouillee": true
+ },
+ "20260814-R1C7": {
+  "horodatage": "2026-08-14 21:10:24",
+  "rapports": {
+   "1": {
+    "rapport": 48.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 17.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 7.8,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 3.4,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 5.9,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 8.8,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 2.5,
+    "non_partant": false
+   }
+  }
  }
 }
