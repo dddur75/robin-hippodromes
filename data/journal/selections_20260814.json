@@ -10,5 +10,17 @@
   "course": "PAUL LEGUERNEY",
   "heure_depart": "2026-08-14T11:40:00+02:00",
   "horodatage_verrou": "2026-08-14 11:33:41"
+ },
+ {
+  "numero": 10,
+  "cheval": "MILTON DU NOYER",
+  "prob_robin": 0.47331,
+  "rapport_verrou": 6.8,
+  "value": 3.219,
+  "race_id": "20260814-R2C7",
+  "hippodrome": "ENGHIEN",
+  "course": "PHAETON",
+  "heure_depart": "2026-08-14T12:15:00+02:00",
+  "horodatage_verrou": "2026-08-14 12:03:47"
  }
 ]
