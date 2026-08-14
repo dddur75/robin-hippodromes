@@ -46,5 +46,17 @@
   "course": "DE VILLEDIEU",
   "heure_depart": "2026-08-14T18:36:00+02:00",
   "horodatage_verrou": "2026-08-14 18:25:01"
+ },
+ {
+  "numero": 14,
+  "cheval": "KATIA DE MUZE",
+  "prob_robin": 0.29518,
+  "rapport_verrou": 5.3,
+  "value": 1.564,
+  "race_id": "20260814-R1C2",
+  "hippodrome": "CABOURG",
+  "course": "DE VIRE",
+  "heure_depart": "2026-08-14T19:11:00+02:00",
+  "horodatage_verrou": "2026-08-14 18:55:06"
  }
 ]
