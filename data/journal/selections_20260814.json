@@ -22,5 +22,17 @@
   "course": "PHAETON",
   "heure_depart": "2026-08-14T12:15:00+02:00",
   "horodatage_verrou": "2026-08-14 12:03:47"
+ },
+ {
+  "numero": 3,
+  "cheval": "LANCIER DU GOUTIER",
+  "prob_robin": 0.63158,
+  "rapport_verrou": 3.3,
+  "value": 2.084,
+  "race_id": "20260814-R2C8",
+  "hippodrome": "ENGHIEN",
+  "course": "LOUIS JARIEL",
+  "heure_depart": "2026-08-14T12:50:00+02:00",
+  "horodatage_verrou": "2026-08-14 12:33:52"
  }
 ]
