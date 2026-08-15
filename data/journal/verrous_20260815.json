@@ -952,34 +952,34 @@
   "verrouillee": true
  },
  "20260815-R5C1": {
-  "horodatage": "2026-08-15 18:45:29",
+  "horodatage": "2026-08-15 19:00:32",
   "rapports": {
    "1": {
-    "rapport": 1.5,
+    "rapport": 1.6,
     "non_partant": false
    },
    "2": {
-    "rapport": 71.0,
+    "rapport": 78.0,
     "non_partant": false
    },
    "3": {
-    "rapport": 12.0,
+    "rapport": 10.0,
     "non_partant": false
    },
    "4": {
-    "rapport": 22.0,
+    "rapport": 23.0,
     "non_partant": false
    },
    "5": {
-    "rapport": 4.8,
+    "rapport": 5.3,
     "non_partant": false
    },
    "6": {
-    "rapport": 36.0,
+    "rapport": 30.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 6.0,
+    "rapport": 5.7,
     "non_partant": false
    }
   }
