@@ -34,5 +34,17 @@
   "course": "JEAN LEROY",
   "heure_depart": "2026-08-15T14:15:00+02:00",
   "horodatage_verrou": "2026-08-15 14:01:09"
+ },
+ {
+  "numero": 12,
+  "cheval": "NODSON D'ECHAL",
+  "prob_robin": 0.37501,
+  "rapport_verrou": 15.0,
+  "value": 5.625,
+  "race_id": "20260815-R10C2",
+  "hippodrome": "SAINT MALO",
+  "course": "M. DUCHESNE -A",
+  "heure_depart": "2026-08-15T14:45:00+02:00",
+  "horodatage_verrou": "2026-08-15 14:31:19"
  }
 ]
