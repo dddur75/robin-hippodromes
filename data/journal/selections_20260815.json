@@ -10,5 +10,29 @@
   "course": "JACQUES MARET",
   "heure_depart": "2026-08-15T13:06:00+02:00",
   "horodatage_verrou": "2026-08-15 13:00:55"
+ },
+ {
+  "numero": 6,
+  "cheval": "NINON DE ZIETTE",
+  "prob_robin": 0.26891,
+  "rapport_verrou": 7.0,
+  "value": 1.882,
+  "race_id": "20260815-R3C3",
+  "hippodrome": "MESLAY DU MAINE",
+  "course": "SECHE",
+  "heure_depart": "2026-08-15T14:15:00+02:00",
+  "horodatage_verrou": "2026-08-15 14:01:08"
+ },
+ {
+  "numero": 6,
+  "cheval": "OZO DU RIB",
+  "prob_robin": 0.3758,
+  "rapport_verrou": 8.1,
+  "value": 3.044,
+  "race_id": "20260815-R10C1",
+  "hippodrome": "SAINT MALO",
+  "course": "JEAN LEROY",
+  "heure_depart": "2026-08-15T14:15:00+02:00",
+  "horodatage_verrou": "2026-08-15 14:01:09"
  }
 ]
