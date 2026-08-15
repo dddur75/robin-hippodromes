@@ -46,5 +46,17 @@
   "course": "M. DUCHESNE -A",
   "heure_depart": "2026-08-15T14:45:00+02:00",
   "horodatage_verrou": "2026-08-15 14:31:19"
+ },
+ {
+  "numero": 12,
+  "cheval": "NOVA CANY",
+  "prob_robin": 0.26029,
+  "rapport_verrou": 7.8,
+  "value": 2.03,
+  "race_id": "20260815-R10C3",
+  "hippodrome": "SAINT MALO",
+  "course": "BOULAN. ANGE -B",
+  "heure_depart": "2026-08-15T15:15:00+02:00",
+  "horodatage_verrou": "2026-08-15 15:01:26"
  }
 ]
