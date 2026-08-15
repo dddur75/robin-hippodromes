@@ -728,7 +728,7 @@
   "verrouillee": true
  },
  "20260815-R10C7": {
-  "horodatage": "2026-08-15 16:30:08",
+  "horodatage": "2026-08-15 16:45:11",
   "rapports": {
    "1": {
     "rapport": null,
@@ -784,6 +784,51 @@
    },
    "14": {
     "rapport": null,
+    "non_partant": false
+   }
+  }
+ },
+ "20260815-R3C8": {
+  "horodatage": "2026-08-15 16:45:11",
+  "rapports": {
+   "1": {
+    "rapport": 8.6,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 29.0,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 54.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 103.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 28.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 1.6,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 16.0,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 7.9,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 25.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 7.9,
     "non_partant": false
    }
   }
