@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 7,
+  "cheval": "JOUVENCE D'AMOUR",
+  "prob_robin": 0.21798,
+  "rapport_verrou": 5.8,
+  "value": 1.264,
+  "race_id": "20260815-R3C1",
+  "hippodrome": "MESLAY DU MAINE",
+  "course": "JACQUES MARET",
+  "heure_depart": "2026-08-15T13:06:00+02:00",
+  "horodatage_verrou": "2026-08-15 13:00:55"
+ }
+]
