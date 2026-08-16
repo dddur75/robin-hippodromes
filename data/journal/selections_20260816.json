@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 7,
+  "cheval": "NESTA DE VANDEL",
+  "prob_robin": 0.67902,
+  "rapport_verrou": 3.7,
+  "value": 2.512,
+  "race_id": "20260816-R3C2",
+  "hippodrome": "ARGENTAN",
+  "course": "MT SAINT MICHEL",
+  "heure_depart": "2026-08-16T12:02:00+02:00",
+  "horodatage_verrou": "2026-08-16 11:47:02"
+ }
+]
