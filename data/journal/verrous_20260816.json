@@ -1,0 +1,51 @@
+{
+ "20260816-R3C2": {
+  "horodatage": "2026-08-16 11:31:59",
+  "rapports": {
+   "1": {
+    "rapport": 33.0,
+    "non_partant": false
+   },
+   "2": {
+    "rapport": 4.8,
+    "non_partant": false
+   },
+   "3": {
+    "rapport": 18.0,
+    "non_partant": false
+   },
+   "4": {
+    "rapport": 37.0,
+    "non_partant": false
+   },
+   "5": {
+    "rapport": 15.0,
+    "non_partant": false
+   },
+   "6": {
+    "rapport": 4.2,
+    "non_partant": false
+   },
+   "7": {
+    "rapport": 3.8,
+    "non_partant": false
+   },
+   "8": {
+    "rapport": 12.0,
+    "non_partant": false
+   },
+   "9": {
+    "rapport": 108.0,
+    "non_partant": false
+   },
+   "10": {
+    "rapport": 5.6,
+    "non_partant": false
+   },
+   "11": {
+    "rapport": 44.0,
+    "non_partant": false
+   }
+  }
+ }
+}
