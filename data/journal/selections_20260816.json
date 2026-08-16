@@ -10,5 +10,17 @@
   "course": "MT SAINT MICHEL",
   "heure_depart": "2026-08-16T12:02:00+02:00",
   "horodatage_verrou": "2026-08-16 11:47:02"
+ },
+ {
+  "numero": 5,
+  "cheval": "MAJESTE DE BOMO",
+  "prob_robin": 0.54185,
+  "rapport_verrou": 2.7,
+  "value": 1.463,
+  "race_id": "20260816-R3C3",
+  "hippodrome": "ARGENTAN",
+  "course": "DE BEAUVOIR",
+  "heure_depart": "2026-08-16T12:34:00+02:00",
+  "horodatage_verrou": "2026-08-16 12:17:07"
  }
 ]
