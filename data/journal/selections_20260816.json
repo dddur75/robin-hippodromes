@@ -22,5 +22,17 @@
   "course": "DE BEAUVOIR",
   "heure_depart": "2026-08-16T12:34:00+02:00",
   "horodatage_verrou": "2026-08-16 12:17:07"
+ },
+ {
+  "numero": 4,
+  "cheval": "KRISTINA",
+  "prob_robin": 0.33765,
+  "rapport_verrou": 7.1,
+  "value": 2.397,
+  "race_id": "20260816-R3C5",
+  "hippodrome": "ARGENTAN",
+  "course": "DU JUMELAGE",
+  "heure_depart": "2026-08-16T13:38:00+02:00",
+  "horodatage_verrou": "2026-08-16 13:32:20"
  }
 ]
