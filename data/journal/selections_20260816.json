@@ -34,5 +34,17 @@
   "course": "DU JUMELAGE",
   "heure_depart": "2026-08-16T13:38:00+02:00",
   "horodatage_verrou": "2026-08-16 13:32:20"
+ },
+ {
+  "numero": 7,
+  "cheval": "KALINE JAMINI",
+  "prob_robin": 0.23694,
+  "rapport_verrou": 5.1,
+  "value": 1.208,
+  "race_id": "20260816-R3C6",
+  "hippodrome": "ARGENTAN",
+  "course": "DU COUESNON",
+  "heure_depart": "2026-08-16T14:15:00+02:00",
+  "horodatage_verrou": "2026-08-16 14:02:27"
  }
 ]
