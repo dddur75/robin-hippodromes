@@ -34,5 +34,17 @@
   "course": "PMU LE NORMANDY",
   "heure_depart": "2026-08-17T14:00:00+02:00",
   "horodatage_verrou": "2026-08-17 13:40:36"
+ },
+ {
+  "numero": 4,
+  "cheval": "KELIA DES TOUCHES",
+  "prob_robin": 0.29908,
+  "rapport_verrou": 7.5,
+  "value": 2.243,
+  "race_id": "20260817-R3C6",
+  "hippodrome": "LISIEUX",
+  "course": "DES 3 JOURS CY.",
+  "heure_depart": "2026-08-17T14:35:00+02:00",
+  "horodatage_verrou": "2026-08-17 14:25:44"
  }
 ]
