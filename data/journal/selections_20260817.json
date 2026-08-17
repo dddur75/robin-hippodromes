@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 4,
+  "cheval": "NOTRE ASSCHADEL",
+  "prob_robin": 0.28424,
+  "rapport_verrou": 6.5,
+  "value": 1.848,
+  "race_id": "20260817-R3C2",
+  "hippodrome": "LISIEUX",
+  "course": "ST-PIERRE-EGLI.",
+  "heure_depart": "2026-08-17T12:24:00+02:00",
+  "horodatage_verrou": "2026-08-17 12:10:26"
+ }
+]
