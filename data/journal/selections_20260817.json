@@ -10,5 +10,17 @@
   "course": "ST-PIERRE-EGLI.",
   "heure_depart": "2026-08-17T12:24:00+02:00",
   "horodatage_verrou": "2026-08-17 12:10:26"
+ },
+ {
+  "numero": 7,
+  "cheval": "MATADOR",
+  "prob_robin": 0.44375,
+  "rapport_verrou": 14.0,
+  "value": 6.212,
+  "race_id": "20260817-R3C4",
+  "hippodrome": "LISIEUX",
+  "course": "TENDANCE OUEST",
+  "heure_depart": "2026-08-17T13:28:00+02:00",
+  "horodatage_verrou": "2026-08-17 13:10:31"
  }
 ]
