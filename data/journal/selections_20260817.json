@@ -22,5 +22,17 @@
   "course": "TENDANCE OUEST",
   "heure_depart": "2026-08-17T13:28:00+02:00",
   "horodatage_verrou": "2026-08-17 13:10:31"
+ },
+ {
+  "numero": 7,
+  "cheval": "KAPRICE D'EVAILLES",
+  "prob_robin": 0.34858,
+  "rapport_verrou": 3.6,
+  "value": 1.255,
+  "race_id": "20260817-R3C5",
+  "hippodrome": "LISIEUX",
+  "course": "PMU LE NORMANDY",
+  "heure_depart": "2026-08-17T14:00:00+02:00",
+  "horodatage_verrou": "2026-08-17 13:40:36"
  }
 ]
