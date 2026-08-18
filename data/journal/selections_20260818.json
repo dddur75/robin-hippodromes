@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "numero": 1,
+  "cheval": "NARISSA DE LOU",
+  "prob_robin": 0.22399,
+  "rapport_verrou": 8.3,
+  "value": 1.859,
+  "race_id": "20260818-R2C3",
+  "hippodrome": "DIVONNE LES BAINS",
+  "course": "GUY BOILLEREAU",
+  "heure_depart": "2026-08-18T12:56:00+02:00",
+  "horodatage_verrou": "2026-08-18 12:46:06"
+ }
+]
