@@ -10,5 +10,17 @@
   "course": "GUY BOILLEREAU",
   "heure_depart": "2026-08-18T12:56:00+02:00",
   "horodatage_verrou": "2026-08-18 12:46:06"
+ },
+ {
+  "numero": 2,
+  "cheval": "MARQUIS FORTIS",
+  "prob_robin": 0.23088,
+  "rapport_verrou": 7.1,
+  "value": 1.639,
+  "race_id": "20260818-R2C5",
+  "hippodrome": "DIVONNE LES BAINS",
+  "course": "L. ET G. LIEVRE",
+  "heure_depart": "2026-08-18T14:00:00+02:00",
+  "horodatage_verrou": "2026-08-18 13:46:18"
  }
 ]
