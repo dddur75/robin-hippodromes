@@ -286,18 +286,18 @@
   "verrouillee": true
  },
  "20260818-R2C7": {
-  "horodatage": "2026-08-18 14:31:26",
+  "horodatage": "2026-08-18 14:46:28",
   "rapports": {
    "1": {
-    "rapport": 38.0,
+    "rapport": 33.0,
     "non_partant": false
    },
    "2": {
-    "rapport": 6.2,
+    "rapport": 6.4,
     "non_partant": false
    },
    "3": {
-    "rapport": 19.0,
+    "rapport": 17.0,
     "non_partant": false
    },
    "4": {
@@ -305,27 +305,27 @@
     "non_partant": false
    },
    "5": {
-    "rapport": 29.0,
+    "rapport": 26.0,
     "non_partant": false
    },
    "6": {
-    "rapport": 74.0,
+    "rapport": 71.0,
     "non_partant": false
    },
    "7": {
-    "rapport": 58.0,
+    "rapport": 53.0,
     "non_partant": false
    },
    "8": {
-    "rapport": 25.0,
+    "rapport": 24.0,
     "non_partant": false
    },
    "9": {
-    "rapport": 103.0,
+    "rapport": 85.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 77.0,
+    "rapport": 70.0,
     "non_partant": false
    }
   }
