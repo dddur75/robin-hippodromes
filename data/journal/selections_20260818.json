@@ -22,5 +22,17 @@
   "course": "L. ET G. LIEVRE",
   "heure_depart": "2026-08-18T14:00:00+02:00",
   "horodatage_verrou": "2026-08-18 13:46:18"
+ },
+ {
+  "numero": 4,
+  "cheval": "LASKOVA",
+  "prob_robin": 0.34322,
+  "rapport_verrou": 7.3,
+  "value": 2.506,
+  "race_id": "20260818-R2C6",
+  "hippodrome": "DIVONNE LES BAINS",
+  "course": "DE LA S.E.T.F.",
+  "heure_depart": "2026-08-18T14:35:00+02:00",
+  "horodatage_verrou": "2026-08-18 14:16:23"
  }
 ]
