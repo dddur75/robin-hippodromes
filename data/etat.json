@@ -1,7 +1,7 @@
 {
-  "statut": "ACTIF",
+  "statut": "MORT_NO_SIGNAL",
   "date_debut_pilote": "2026-07-07",
-  "n_selections": 196,
+  "n_selections": 201,
   "jours_panne": 0,
   "audit_j30_fait": true,
   "backfill": {
@@ -12,5 +12,5 @@
     "temperature": 3.52,
     "artefact": "calibration_20260706.json"
   },
-  "verdict": null
+  "verdict": "NO_SIGNAL"
 }
