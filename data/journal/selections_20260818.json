@@ -34,5 +34,17 @@
   "course": "DE LA S.E.T.F.",
   "heure_depart": "2026-08-18T14:35:00+02:00",
   "horodatage_verrou": "2026-08-18 14:16:23"
+ },
+ {
+  "numero": 1,
+  "cheval": "LINO DE FONTAINE",
+  "prob_robin": 0.36876,
+  "rapport_verrou": 5.1,
+  "value": 1.881,
+  "race_id": "20260818-R5C1",
+  "hippodrome": "CABOURG",
+  "course": "DES POURPIERS",
+  "heure_depart": "2026-08-18T19:03:00+02:00",
+  "horodatage_verrou": "2026-08-18 18:47:11"
  }
 ]
