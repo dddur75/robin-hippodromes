@@ -1,9 +1,9 @@
 {
  "20260818-R2C1": {
-  "horodatage": "2026-08-18 11:30:55",
+  "horodatage": "2026-08-18 11:45:57",
   "rapports": {
    "1": {
-    "rapport": 5.3,
+    "rapport": 5.2,
     "non_partant": false
    },
    "2": {
@@ -11,7 +11,7 @@
     "non_partant": false
    },
    "3": {
-    "rapport": 22.0,
+    "rapport": 21.0,
     "non_partant": false
    },
    "4": {
@@ -19,15 +19,15 @@
     "non_partant": false
    },
    "5": {
-    "rapport": 29.0,
+    "rapport": 32.0,
     "non_partant": false
    },
    "6": {
-    "rapport": 3.5,
+    "rapport": 3.9,
     "non_partant": false
    },
    "7": {
-    "rapport": 9.4,
+    "rapport": 9.0,
     "non_partant": false
    },
    "8": {
@@ -35,13 +35,14 @@
     "non_partant": false
    },
    "9": {
-    "rapport": 23.0,
+    "rapport": 24.0,
     "non_partant": false
    },
    "10": {
-    "rapport": 3.3,
+    "rapport": 3.1,
     "non_partant": false
    }
-  }
+  },
+  "verrouillee": true
  }
 }
